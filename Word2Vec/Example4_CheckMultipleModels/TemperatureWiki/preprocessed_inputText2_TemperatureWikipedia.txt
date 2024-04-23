@@ -1,0 +1,122 @@
+temperature physical quantity quantitatively expresses attribute hotness coldness temperature measured thermometer reflects average kinetic energy vibrating colliding atoms making substance
+
+thermometers calibrated various temperature scales historically relied various reference points thermometric substances definition common scales celsius scale unit symbol c formerly called centigrade fahrenheit scale f kelvin scale k latter used predominantly scientific purposes kelvin one seven base units international system units si
+
+absolute zero ie zero kelvin −27315 c lowest point thermodynamic temperature scale experimentally approached closely actually reached recognized third law thermodynamics would impossible extract energy heat body temperature
+
+temperature important fields natural science including physics chemistry earth science astronomy medicine biology ecology material science metallurgy mechanical engineering geography well aspects daily life
+
+many physical processes related temperature given
+
+physical properties materials including phase solid liquid gaseous plasma density solubility vapor pressure electrical conductivity hardness wear resistance thermal conductivity corrosion resistance strength
+rate extent chemical reactions occur amount properties thermal radiation emitted surface object air temperature affects living organisms speed sound gas proportional square root absolute temperature
+
+temperature scales need two values definition point chosen zero degrees magnitudes incremental unit temperature
+
+celsius scale c used common temperature measurements world empirical scale developed historically led zero point 0 °c defined freezing point water 100 c boiling point water atmospheric pressure sea level called centigrade scale 100degree interval since standardization kelvin international system units subsequently redefined terms equivalent fixing points kelvin scale temperature increment one degree celsius increment one kelvin though numerically scales differ exact offset 27315
+
+fahrenheit scale common use united states water freezes 32 f boils 212 f sealevel atmospheric pressure
+
+absolute zero temperature energy removed matter heat fact expressed third law thermodynamics temperature matter contains macroscopic thermal energy still quantummechanical zeropoint energy predicted uncertainty principle although enter definition absolute temperature experimentally absolute zero approached closely never reached lowest temperature attained experiment 38 pk theoretically body temperature absolute zero classical motion particles ceased complete rest classical sense absolute zero defined 0 k exactly equal −27315 c −45967 f
+
+referring boltzmann constant maxwell–boltzmann distribution boltzmann statistical mechanical definition entropy distinct gibbs definition5 independently moving microscopic particles disregarding interparticle potential energy international agreement temperature scale defined said absolute independent characteristics particular thermometric substances thermometer mechanisms apart absolute zero reference temperature known kelvin scale widely used science technology kelvin unit name spelled lowercase k unit temperature international system units si temperature body state thermodynamic equilibrium always positive relative absolute zero
+
+besides internationally agreed kelvin scale also thermodynamic temperature scale invented lord kelvin also numerical zero absolute zero temperature directly relating purely macroscopic thermodynamic concepts including macroscopic entropy though microscopically referable gibbs statistical mechanical definition entropy canonical ensemble takes interparticle potential energy account well independent particle motion account measurements temperatures near absolute zero5 scale reference temperature triple point water numerical value defined measurements using aforementioned internationally agreed kelvin scale
+
+many scientific measurements use kelvin temperature scale unit symbol k named honor physicist first defined absolute scale numerical zero point 0 k absolute zero temperature since may 2019 kelvin defined particle kinetic theory statistical mechanics international system units si magnitude kelvin defined terms boltzmann constant value defined fixed international convention
+
+since may 2019 magnitude kelvin defined relation microscopic phenomena characterized terms statistical mechanics previously since 1954 international system units defined scale unit kelvin thermodynamic temperature using reliably reproducible temperature triple point water second reference point first reference point 0 k absolute zero
+
+historically temperature triple point water defined exactly 27316 k today empirically measured quantity freezing point water sealevel atmospheric pressure occurs close 27315 k 0 c
+
+empirically based temperature scales rely directly measurements simple macroscopic physical properties materials example length column mercury confined glasswalled capillary tube dependent largely temperature basis useful mercuryinglass thermometer scales valid within convenient ranges temperature example boiling point mercury mercuryinglass thermometer impracticable materials expand temperature increase materials water contract temperature increase specific range hardly useful thermometric materials material use thermometer near one phasechange temperatures example boilingpoint
+
+spite limitations generally used practical thermometers empirically based kind especially used calorimetry contributed greatly discovery thermodynamics nevertheless empirical thermometry serious drawbacks judged basis theoretical physics empirically based thermometers beyond base simple direct measurements ordinary physical properties thermometric materials recalibrated use theoretical physical reasoning extend range adequacy
+
+theoretically based temperature scales based directly theoretical arguments especially kinetic theory thermodynamics less ideally realized practically feasible physical devices materials theoretically based temperature scales used provide calibrating standards practical empirically based thermometers
+
+physics internationally agreed conventional temperature scale called kelvin scale calibrated internationally agreed prescribed value boltzmann constant referring motions microscopic particles atoms molecules electrons constituent body whose temperature measured contrast thermodynamic temperature scale invented kelvin presently conventional kelvin temperature defined comparison temperature reference state standard body terms macroscopic thermodynamics
+
+apart absolute zero temperature kelvin temperature body state internal thermodynamic equilibrium defined measurements suitably chosen physical properties precisely known theoretical explanations terms boltzmann constantcitation needed constant refers chosen kinds motion microscopic particles constitution body kinds motion particles move individually without mutual interaction motions typically interrupted interparticle collisions temperature measurement motions chosen collisions noninteractive segments trajectories known accessible accurate measurement purpose interparticle potential energy disregarded
+
+ideal gas theoretically understood bodies kelvin temperature defined proportional average kinetic energy noninteractively moving microscopic particles measured suitable techniques proportionality constant simple multiple boltzmann constant molecules atoms electrons1011 emitted material velocities measured spectrum velocities often nearly obeys theoretical law called maxwell–boltzmann distribution gives wellfounded measurement temperatures law holds12 yet successful experiments kind directly use fermi–dirac distribution thermometry perhaps achieved future
+
+speed sound gas calculated theoretically gass molecular character temperature pressure boltzmann constant gas known molecular character pressure provides relation temperature boltzmann constant quantities known measured precisely thermodynamic variables define state sample water triple point consequently taking value boltzmann constant primarily defined reference exactly defined value measurement speed sound provide precise measurement temperature gas
+
+measurement spectrum electromagnetic radiation ideal threedimensional black body provide accurate temperature measurement frequency maximum spectral radiance blackbody radiation directly proportional temperature black body known wiens displacement law theoretical explanation plancks law bose–einstein law
+
+measurement spectrum noisepower produced electrical resistor also provide accurate temperature measurement resistor two terminals effect onedimensional body boseeinstein law case indicates noisepower directly proportional temperature resistor value resistance noise bandwidth given frequency band noisepower equal contributions every frequency called johnson noise value resistance known temperature found
+
+historically till may 2019 definition kelvin scale invented kelvin based ratio quantities energy processes ideal carnot engine entirely terms macroscopic thermodynamics carnot engine work two temperatures body whose temperature measured reference body temperature triple point water reference temperature triple point defined exactly 27316 k since may 2019 value fixed definition measured microscopic phenomena involving boltzmann constant described microscopic statistical mechanical definition reference temperature
+
+material macroscopically defined temperature scale may based ideal gas pressure exerted fixed volume mass ideal gas directly proportional temperature natural gases show nearly ideal properties suitable temperature range used thermometry important development thermodynamics still practical importance today ideal gas thermometer however theoretically perfect thermodynamics entropy ideal gas absolute zero temperature positive semidefinite quantity puts gas violation third law thermodynamics contrast real materials ideal gas liquefy solidify matter cold alternatively thinking ideal gas law refers limit infinitely high temperature zero pressure conditions guarantee noninteractive motions constituent molecules
+
+magnitude kelvin defined terms kinetic theory derived value boltzmann constant
+
+kinetic theory provides microscopic account temperature bodies material especially gases based macroscopic systems composed many microscopic particles molecules ions various species particles species alike explains macroscopic phenomena classical mechanics microscopic particles equipartition theorem kinetic theory asserts classical degree freedom freely moving particle average kinetic energy kbt2 kb denotes boltzmann constantcitation needed translational motion particle three degrees freedom except low temperatures quantum effects predominate average translational kinetic energy freely moving particle system temperature 3kbt2
+
+molecules oxygen o2 degrees freedom single spherical atoms undergo rotational vibrational motions well translations heating results increase temperature due increase average translational kinetic energy molecules heating also cause equipartitioning energy associated vibrational rotational modes increase thus diatomic gas require energy input increase temperature certain amount ie greater heat capacity monatomic gas
+
+noted speed sound gas calculated gass molecular character temperature pressure boltzmann constant taking value boltzmann constant primarily defined reference exactly defined value measurement speed sound provide precise measurement temperature gas
+
+possible measure average kinetic energy constituent microscopic particles allowed escape bulk system small hole containing wall spectrum velocities measured average calculated necessarily case particles escape measured velocity distribution particles remain bulk system sometimes good sample possible
+
+temperature one principal quantities study thermodynamics formerly magnitude kelvin defined thermodynamic terms nowadays mentioned defined terms kinetic theory
+
+thermodynamic temperature said absolute two reasons one formal character independent properties particular materials reason zero sense absolute indicates absence microscopic classical motion constituent particles matter limiting specific heat zero zero temperature according third law thermodynamics nevertheless thermodynamic temperature fact definite numerical value arbitrarily chosen tradition dependent property particular materials simply less arbitrary relative degrees scales celsius fahrenheit absolute scale one fixed point zero one degree freedom left arbitrary choice rather two relative scales kelvin scale since may 2019 international convention choice made use knowledge modes operation various thermometric devices relying microscopic kinetic theories molecular motion numerical scale settled conventional definition value boltzmann constant relates macroscopic temperature average microscopic kinetic energy particles molecules numerical value arbitrary alternate less widely used absolute temperature scale exists called rankine scale made aligned fahrenheit scale kelvin celsius
+
+thermodynamic definition temperature due kelvin framed terms idealized device called carnot engine imagined run fictive continuous cycle successive processes traverse cycle states working body engine takes quantity heat q1 hot reservoir passes lesser quantity waste heat q2 less 0 cold reservoir net heat energy absorbed working body passed thermodynamic work work reservoir considered output engine cycle imagined run slowly point cycle working body state thermodynamic equilibrium successive processes cycle thus imagined run reversibly entropy production quantity entropy taken hot reservoir working body heated equal passed cold reservoir working body cooled absolute thermodynamic temperatures t1 t2 reservoirs defined
+
+zeroth law thermodynamics allows definition used measure absolute thermodynamic temperature arbitrary body interest making heat reservoir temperature body interest
+
+kelvins original work postulating absolute temperature published 1848 based work carnot formulation first law thermodynamics carnot sound understanding heat specific concept entropy wrote caloric said caloric passed hot reservoir passed cold reservoir kelvin wrote 1848 paper scale absolute sense defined independently properties particular kind matter definitive publication sets definition stated printed 1853 paper read 1851
+
+numerical details formerly settled making one heat reservoirs cell triple point water defined absolute temperature 27316 k nowadays numerical value instead obtained measurement microscopic statistical mechanical international definition
+
+thermodynamic terms temperature intensive variable equal differential coefficient one extensive variable respect another given body thus dimensions ratio two extensive variables thermodynamics two bodies often considered connected contact common wall specific permeability properties specific permeability referred specific intensive variable example diathermic wall permeable heat intensive variable case temperature two bodies connected specifically permeable wall long time settled permanent steady state relevant intensive variables equal twoo bodies diathermal wall statement sometimes called zeroth law thermodynamics
+
+particular body described stating internal energy u extensive variable function entropy also extensive variable state variables v n u u v n temperature equal partial derivative internal energy respect entropy
+
+likewise body described stating entropy function internal energy u state variables v n u v n reciprocal temperature equal partial derivative entropy respect internal energy
+
+definition equation 1 absolute temperature due kelvin refers systems closed transfer matter special emphasis directly experimental procedures presentation thermodynamics gibbs starts abstract level deals systems open transfer matter development thermodynamics equations 2 3 actually alternative definitions temperature
+
+realworld bodies often thermodynamic equilibrium homogeneous study methods classical irreversible thermodynamics body usually spatially temporally divided conceptually cells small size classical thermodynamic equilibrium conditions matter fulfilled good approximation cell homogeneous temperature exists every cell body local thermodynamic equilibrium said prevail throughout body
+
+makes good sense example say extensive variable u extensive variable density per unit volume quantity per unit mass system makes sense speak density temperature per unit volume quantity temperature per unit mass system hand makes sense speak internal energy point local thermodynamic equilibrium prevails makes good sense speak temperature point consequently temperature vary point point medium global thermodynamic equilibrium local thermodynamic equilibrium
+
+thus local thermodynamic equilibrium prevails body temperature regarded spatially varying local property body temperature intensive variable
+
+temperature measure quality state material quality may regarded abstract entity particular temperature scale measures called hotness writers quality hotness refers state material particular locality general apart bodies held steady state thermodynamic equilibrium hotness varies place place necessarily case material particular place state steady nearly homogeneous enough allow welldefined hotness temperature hotness may represented abstractly onedimensional manifold every valid temperature scale onetoone map hotness manifold
+
+two systems thermal contact temperature heat transfers temperature difference exist heat flows spontaneously warmer system colder system thermal equilibrium heat transfer occurs conduction thermal radiation
+
+experimental physicists example galileo newton found indefinitely many empirical temperature scales nevertheless zeroth law thermodynamics says measure quality means body state internal thermodynamic equilibrium every correctly calibrated thermometer whatever kind measures temperature body records one temperature body state internal thermodynamic equilibrium different thermometers record different temperatures depending respectively mechanisms operation thermometers
+
+experimental physics hotness means comparing two given bodies respective separate thermodynamic equilibria two suitably given empirical thermometers numerical scale readings agree hotter two given bodies temperature54 require two thermometers linear relation numerical scale readings require relation numerical readings shall strictly monotonic definite sense greater hotness independently calorimetry thermodynamics properties particular materials wiens displacement law thermal radiation temperature bath thermal radiation proportional universal constant frequency maximum frequency spectrum frequency always positive values tend zero thermal radiation initially defined cavity thermodynamic equilibrium physical facts justify mathematical statement hotness exists ordered onedimensional manifold fundamental character temperature thermometers bodies thermodynamic equilibrium
+
+except system undergoing firstorder phase change melting ice closed system receives heat without change volume without change external force fields acting temperature rises system undergoing phase change slowly departure thermodynamic equilibrium neglected temperature remains constant system supplied latent heat conversely loss heat closed system without phase change without change volume without change external force fields acting decreases temperature
+
+bodies thermodynamic equilibrium states notion temperature requires empirical thermometers must agree two bodies hotter temperature requirement safe bodies steady states though thermodynamic equilibrium well different empirical thermometers disagree hotter least one bodies welldefined absolute thermodynamic temperature nevertheless one given body one suitable empirical thermometer still support notions empirical nonabsolute hotness temperature suitable range processes matter study nonequilibrium thermodynamics
+
+body steadystate notion temperature becomes even less safe body steady state thermodynamic equilibrium also matter study nonequilibrium thermodynamics
+
+axiomatic treatment thermodynamic equilibrium since 1930s become customary refer zeroth law thermodynamics customarily stated minimalist version law postulates bodies thermally connected would thermal equilibrium said temperature definition establish temperature quantity expressed real number scale physically informative version law views empirical temperature chart hotness manifold zeroth law permits definitions many different empirical scales temperature second law thermodynamics selects definition single preferred absolute temperature unique arbitrary scale factor whence called thermodynamic temperature internal energy considered function volume entropy homogeneous system thermodynamic equilibrium thermodynamic absolute temperature appears partial derivative internal energy respect entropy constant volume natural intrinsic origin null point absolute zero entropy system minimum although lowest absolute temperature described model third law thermodynamics postulates absolute zero attained physical system
+
+energy transfer body heat state body changes depending surroundings walls separating body various changes possible body include chemical reactions increase pressure increase temperature phase change kind change specified conditions heat capacity ratio quantity heat transferred magnitude change
+
+example change increase temperature constant volume phase change chemical change temperature body rises pressure increases quantity heat transferred dq divided observed temperature change dt bodys heat capacity constant volume cvdtdq
+
+heat capacity measured welldefined amount substance specific heat measure heat required increase temperature unit quantity one unit temperature example raising temperature water one kelvin equal one degree celsius requires 4186 joules per kilogram jkg
+
+temperature measurement using modern scientific thermometers temperature scales goes back least far early 18th century daniel gabriel fahrenheit adapted thermometer switching mercury scale developed ole christensen rømer fahrenheits scale still use united states nonscientific applications
+
+temperature measured thermometers may calibrated variety temperature scales world except belize myanmar liberia united states celsius scale used temperature measuring purposes scientists measure temperature using celsius scale thermodynamic temperature using kelvin scale celsius scale offset null point 0 k −27315 c absolute zero many engineering fields us notably hightech us federal specifications civil military also use kelvin celsius scales engineering fields us also rely upon rankine scale shifted fahrenheit scale working thermodynamicrelated disciplines combustion
+
+basic unit temperature international system units si kelvin symbol k
+
+everyday applications often convenient use celsius scale 0 c corresponds closely freezing point water 100 c boiling point sea level liquid droplets commonly exist clouds subzero temperatures 0 c better defined melting point ice scale temperature difference 1 degree celsius 1kelvin increment scale offset temperature ice melts 27315 k
+
+international agreement may 2019 kelvin celsius scales defined two fixing points absolute zero triple point vienna standard mean ocean water water specially prepared specified blend hydrogen oxygen isotopes absolute zero defined precisely 0 k −27315 c temperature classical translational motion particles comprising matter ceases complete rest classical model quantummechanically however zeropoint motion remains associated energy zeropoint energy matter ground state contains thermal energy temperatures 27316 k 001 c defined triple point water definition served following purposes fixed magnitude kelvin precisely 1 part 27316 parts difference absolute zero triple point water established one kelvin precisely magnitude one degree celsius scale established difference null points scales 27315 k 0 k −27315 c 27316 k 001 c since 2019 new definition based boltzmann constant scales scarcely changed
+
+united states fahrenheit scale widely used scale freezing point water corresponds 32 f boiling point 212 f rankine scale still used fields chemical engineering us absolute scale based fahrenheit increment

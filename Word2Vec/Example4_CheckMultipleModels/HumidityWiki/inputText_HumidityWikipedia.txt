@@ -1,0 +1,57 @@
+Humidity is the concentration of water vapor present in the air. Water vapor, the gaseous state of water, is generally invisible to the human eye. Humidity indicates the likelihood for precipitation, dew, or fog to be present.
+
+Humidity depends on the temperature and pressure of the system of interest. The same amount of water vapor results in higher relative humidity in cool air than warm air. A related parameter is the dew point. The amount of water vapor needed to achieve saturation increases as the temperature increases. As the temperature of a parcel of air decreases it will eventually reach the saturation point without adding or losing water mass. The amount of water vapor contained within a parcel of air can vary significantly. For example, a parcel of air near saturation may contain 28 g of water per cubic metre of air at 30 C (86 F), but only 8 g of water per cubic metre of air at 8 C (46 F).
+
+Three primary measurements of humidity are widely employed: absolute, relative, and specific. Absolute humidity is expressed as either mass of water vapor per volume of moist air (in grams per cubic meter) or as mass of water vapor per mass of dry air (usually in grams per kilogram). Relative humidity, often expressed as a percentage, indicates a present state of absolute humidity relative to a maximum humidity given the same temperature. Specific humidity is the ratio of water vapor mass to total moist air parcel mass.
+
+Humidity plays an important role for surface life. For animal life dependent on perspiration (sweating) to regulate internal body temperature, high humidity impairs heat exchange efficiency by reducing the rate of moisture evaporation from skin surfaces. This effect can be calculated using a heat index table, or alternatively using a similar humidex.
+
+The notion of air "holding" water vapor or being "saturated" by it is often mentioned in connection with the concept of relative humidity. This, however, is misleading—the amount of water vapor that enters (or can enter) a given space at a given temperature is almost independent of the amount of air (nitrogen, oxygen, etc.) that is present. Indeed, a vacuum has approximately the same equilibrium capacity to hold water vapor as the same volume filled with air; both are given by the equilibrium vapor pressure of water at the given temperature. There is a very small difference described under "Enhancement factor" below, which can be neglected in many calculations unless great accuracy is required.
+
+Absolute humidity is the total mass of water vapor present in a given volume or mass of air. It does not take temperature into consideration. Absolute humidity in the atmosphere ranges from near zero to roughly 30 g (1.1 oz) per cubic metre when the air is saturated at 30 C (86 F).
+
+Absolute humidity is the mass of the water vapor, divided by the volume of the air and water vapor mixture 
+which can be expressed as:
+
+If the volume is not set, the absolute humidity varies with changes in air temperature or pressure. Because of this, it is inappropriate for computations in chemical engineering, such as drying, where temperature variations might be significant. As a result, absolute humidity in chemical engineering may refer to mass of water vapor per unit mass of dry air, also known as the humidity ratio or mass mixing ratio (see "specific humidity" below), which is better suited for heat and mass balance calculations. Mass of water per unit volume as in the equation above is also defined as volumetric humidity. Because of the potential confusion, British Standard BS 1339 suggests avoiding the term "absolute humidity". Units should always be carefully checked. Many humidity charts are given in g/kg or kg/kg, but any mass units may be used.
+The field concerned with the study of physical and thermodynamic properties of gas–vapor mixtures is named psychrometrics.
+
+The relative humidity (RH) or an airwater mixture is defined as the ratio of the partial pressure of water vapor in air to the saturation vapor pressure of water at the same temperature, usually expressed as a percentage:
+
+In other words, relative humidity is the ratio of how much water vapour is in the air to how much water vapour the air could potentially contain at a given temperature. It varies with the temperature of the air: colder air can contain less vapour, and water will tend to condense out of the air more at lower temperatures. So changing the temperature of air can change the relative humidity, even when the absolute humidity remains constant.
+
+The air does not actually "hold" water vapour. The concept of relative humidity is quite separate from any chemical reactions going on between water vapour and other gasses. Chemistry aside, the condensation and evaporation is independent of the composition of the air, and changes with the temperature.
+
+Chilling air increases the relative humidity, and can cause the water vapour to condense (if the relative humidity rises over 100%, the dew point). Likewise, warming air decreases the relative humidity. Warming some air containing a fog may cause that fog to evaporate, as the droplets are prone to total evaporation due to the heat.
+
+Relative humidity only considers the invisible water vapour. Mists, clouds, fogs and aerosols of water do not count towards the measure of relative humidity of the air, although their presence is an indication that a body of air may be close to the dew point.
+
+Relative humidity is normally expressed as a percentage; a higher percentage means that the air–water mixture is more humid. At 100% relative humidity, the air is saturated and is at its dew point. In the absence of a foreign body on which droplets or crystals can nucleate, the relative humidity can exceed 100%, in which case the air is said to be supersaturated. Introduction of some particles or a surface to a body of air above 100% relative humidity will allow condensation or ice to form on those nuclei, thereby removing some of the vapour and lowering the humidity.
+
+Relative humidity is an important metric used in weather forecasts and reports, as it is an indicator of the likelihood of precipitation, dew, or fog. In hot summer weather, a rise in relative humidity increases the apparent temperature to humans (and other animals) by hindering the evaporation of perspiration from the skin. For example, according to the heat index, a relative humidity of 75% at air temperature of 80.0 F (26.7 C)
+
+Relative humidity is also a key metric used to evaluate when it is appropriate to install flooring over a concrete slab.
+
+The term relative humidity is reserved for systems of water vapor in air. The term relative saturation is used to describe the analogous property for systems consisting of a condensable phase other than water in a noncondensable phase other than air.
+
+A device used to measure humidity of air is called a psychrometer or hygrometer. A humidistat is a humiditytriggered switch, often used to control a humidifier or a dehumidifier.
+
+Humidity depends on water vaporization and condensation, which, in turn, mainly depends on temperature. Therefore, when applying more pressure to a gas saturated with water, all components will initially decrease in volume approximately according to the ideal gas law. However, some of the water will condense until returning to almost the same humidity as before, giving the resulting total volume deviating from what the ideal gas law predicted.
+
+Conversely, decreasing temperature would also make some water condense, again making the final volume deviate from predicted by the ideal gas law. Therefore, gas volume may alternatively be expressed as the dry volume, excluding the humidity content. This fraction more accurately follows the ideal gas law. On the contrary the saturated volume is the volume a gas mixture would have if humidity was added to it until saturation (or 100% relative humidity).
+
+Humid air is less dense than dry air because a molecule of water (M = 18 u) is less massive than either a molecule of nitrogen (M ≈ 28) or a molecule of oxygen (M = 32). About 78% of the molecules in dry air are nitrogen (N2). Another 21% of the molecules in dry air are oxygen (O2). The final 1% of dry air is a mixture of other gases.
+
+For any gas, at a given temperature and pressure, the number of molecules present in a particular volume is constant. Therefore, when some number N of water molecules (vapor) is introduced into a volume of dry air, the number of air molecules in that volume must decrease by the same number N for the pressure to remain constant without using a change in temperature. The numbers are exactly equal if we consider the gases as ideal. The addition of water molecules, or any other molecules, to a gas, without removal of an equal number of other molecules, will necessarily require a change in temperature, pressure, or total volume; that is, a change in at least one of these three parameters.
+
+If temperature and pressure remain constant, the volume increases, and the dry air molecules that were displaced will initially move out into the additional volume, after which the mixture will eventually become uniform through diffusion. Hence the mass per unit volume of the gas—its density—decreases. Isaac Newton discovered this phenomenon and wrote about it in his book
+
+The relative humidity of an air–water system is dependent not only on the temperature but also on the absolute pressure of the system of interest. This dependence is demonstrated by considering the air–water system shown below. The system is closed (i.e., no matter enters or leaves the system).
+
+If the system at State A is isobarically heated (heating with no change in system pressure), then the relative humidity of the system decreases because the equilibrium vapor pressure of water increases with increasing temperature. This is shown in State B.
+
+If the system at State A is isothermally compressed (compressed with no change in system temperature), then the relative humidity of the system increases because the partial pressure of water in the system increases with the volume reduction.  Above 202.64 kPa, the RH would exceed 100% and water may begin to condense.
+
+If the pressure of State A was changed by simply adding more dry air, without changing the volume, the relative humidity would not change.
+
+Therefore, a change in relative humidity can be explained by a change in system temperature, a change in the volume of the system, or change in both of these system properties.

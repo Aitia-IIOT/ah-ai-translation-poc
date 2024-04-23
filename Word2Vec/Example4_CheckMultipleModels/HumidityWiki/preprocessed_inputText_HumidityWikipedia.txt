@@ -1,0 +1,57 @@
+humidity concentration water vapor present air water vapor gaseous state water generally invisible human eye humidity indicates likelihood precipitation dew fog present
+
+humidity depends temperature pressure system interest amount water vapor results higher relative humidity cool air warm air related parameter dew point amount water vapor needed achieve saturation increases temperature increases temperature parcel air decreases eventually reach saturation point without adding losing water mass amount water vapor contained within parcel air vary significantly example parcel air near saturation may contain 28 g water per cubic metre air 30 c 86 f 8 g water per cubic metre air 8 c 46 f
+
+three primary measurements humidity widely employed absolute relative specific absolute humidity expressed either mass water vapor per volume moist air grams per cubic meter mass water vapor per mass dry air usually grams per kilogram relative humidity often expressed percentage indicates present state absolute humidity relative maximum humidity given temperature specific humidity ratio water vapor mass total moist air parcel mass
+
+humidity plays important role surface life animal life dependent perspiration sweating regulate internal body temperature high humidity impairs heat exchange efficiency reducing rate moisture evaporation skin surfaces effect calculated using heat index table alternatively using similar humidex
+
+notion air holding water vapor saturated often mentioned connection concept relative humidity however misleading—the amount water vapor enters enter given space given temperature almost independent amount air nitrogen oxygen etc present indeed vacuum approximately equilibrium capacity hold water vapor volume filled air given equilibrium vapor pressure water given temperature small difference described enhancement factor neglected many calculations unless great accuracy required
+
+absolute humidity total mass water vapor present given volume mass air take temperature consideration absolute humidity atmosphere ranges near zero roughly 30 g 11 oz per cubic metre air saturated 30 c 86 f
+
+absolute humidity mass water vapor divided volume air water vapor mixture
+expressed
+
+volume set absolute humidity varies changes air temperature pressure inappropriate computations chemical engineering drying temperature variations might significant result absolute humidity chemical engineering may refer mass water vapor per unit mass dry air also known humidity ratio mass mixing ratio see specific humidity better suited heat mass balance calculations mass water per unit volume equation also defined volumetric humidity potential confusion british standard bs 1339 suggests avoiding term absolute humidity units always carefully checked many humidity charts given gkg kgkg mass units may used
+field concerned study physical thermodynamic properties gas–vapor mixtures named psychrometrics
+
+relative humidity rh airwater mixture defined ratio partial pressure water vapor air saturation vapor pressure water temperature usually expressed percentage
+
+words relative humidity ratio much water vapour air much water vapour air could potentially contain given temperature varies temperature air colder air contain less vapour water tend condense air lower temperatures changing temperature air change relative humidity even absolute humidity remains constant
+
+air actually hold water vapour concept relative humidity quite separate chemical reactions going water vapour gasses chemistry aside condensation evaporation independent composition air changes temperature
+
+chilling air increases relative humidity cause water vapour condense relative humidity rises 100 dew point likewise warming air decreases relative humidity warming air containing fog may cause fog evaporate droplets prone total evaporation due heat
+
+relative humidity considers invisible water vapour mists clouds fogs aerosols water count towards measure relative humidity air although presence indication body air may close dew point
+
+relative humidity normally expressed percentage higher percentage means air–water mixture humid 100 relative humidity air saturated dew point absence foreign body droplets crystals nucleate relative humidity exceed 100 case air said supersaturated introduction particles surface body air 100 relative humidity allow condensation ice form nuclei thereby removing vapour lowering humidity
+
+relative humidity important metric used weather forecasts reports indicator likelihood precipitation dew fog hot summer weather rise relative humidity increases apparent temperature humans animals hindering evaporation perspiration skin example according heat index relative humidity 75 air temperature 800 f 267 c
+
+relative humidity also key metric used evaluate appropriate install flooring concrete slab
+
+term relative humidity reserved systems water vapor air term relative saturation used describe analogous property systems consisting condensable phase water noncondensable phase air
+
+device used measure humidity air called psychrometer hygrometer humidistat humiditytriggered switch often used control humidifier dehumidifier
+
+humidity depends water vaporization condensation turn mainly depends temperature therefore applying pressure gas saturated water components initially decrease volume approximately according ideal gas law however water condense returning almost humidity giving resulting total volume deviating ideal gas law predicted
+
+conversely decreasing temperature would also make water condense making final volume deviate predicted ideal gas law therefore gas volume may alternatively expressed dry volume excluding humidity content fraction accurately follows ideal gas law contrary saturated volume volume gas mixture would humidity added saturation 100 relative humidity
+
+humid air less dense dry air molecule water 18 u less massive either molecule nitrogen ≈ 28 molecule oxygen 32 78 molecules dry air nitrogen n2 another 21 molecules dry air oxygen o2 final 1 dry air mixture gases
+
+gas given temperature pressure number molecules present particular volume constant therefore number n water molecules vapor introduced volume dry air number air molecules volume must decrease number n pressure remain constant without using change temperature numbers exactly equal consider gases ideal addition water molecules molecules gas without removal equal number molecules necessarily require change temperature pressure total volume change least one three parameters
+
+temperature pressure remain constant volume increases dry air molecules displaced initially move additional volume mixture eventually become uniform diffusion hence mass per unit volume gas—its density—decreases isaac newton discovered phenomenon wrote book
+
+relative humidity air–water system dependent temperature also absolute pressure system interest dependence demonstrated considering air–water system shown system closed ie matter enters leaves system
+
+system state isobarically heated heating change system pressure relative humidity system decreases equilibrium vapor pressure water increases increasing temperature shown state b
+
+system state isothermally compressed compressed change system temperature relative humidity system increases partial pressure water system increases volume reduction 20264 kpa rh would exceed 100 water may begin condense
+
+pressure state changed simply adding dry air without changing volume relative humidity would change
+
+therefore change relative humidity explained change system temperature change volume system change system properties
