@@ -1,0 +1,8 @@
+{
+"Result" : "Success",
+"ID" : 12
+"MinAccuracy" : 0.1
+"Labels" : [
+	"temperature"
+	]
+}
