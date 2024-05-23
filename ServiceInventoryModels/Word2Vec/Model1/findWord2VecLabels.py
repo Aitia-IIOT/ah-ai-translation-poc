@@ -9,8 +9,6 @@ word_vectors_hum = Word2Vec.load(model_path_hum).wv
 model_path_temp = 'PretrainedModels/word2vec_TemperatureWiki.model'
 word_vectors_temp = Word2Vec.load(model_path_temp).wv
 
-predefined_list = ["temperature", "humidity"]
-
 labels = list()
 
 def findLabelWord2Vec(word, preDefinedWord, word2vec, threshold):
@@ -97,7 +95,7 @@ def main():
         print("Error: Wrong input file name format (Expected: name.input)")
         sys.exit(1)
     
-    output_file_path = input_file_path.replace('.input', '.output')
+    output_file_path_tmp = input_file_path.replace('.input', '.output_tmp')
     
     try:
         with open(input_file_path, 'r') as input_file:
@@ -108,17 +106,17 @@ def main():
         sys.exit(1)
 
     try:
-        with open(output_file_path, 'w') as output_file:
+        with open(output_file_path_tmp, 'w') as output_file:
             if(len(uniqeLabels) == 0):
                 output_file.write("{\n")
-                output_file.write("\"Result\" : \"Error\",\n")
-                output_file.write("\"Cause\" : \"Could not find label\"\n")
+                output_file.write("\"$Result\" : \"Error\",\n")
+                output_file.write("\"$Cause\" : \"Could not find label\"\n")
                 output_file.write("}\n")
             else:
                 output_file.write("{\n")
-                output_file.write("\"Result\" : \"Success\",\n")
-                output_file.write(f"\"ID\" : {input_id}\n")
-                output_file.write(f"\"MinAccuracy\" : {accThreshold}\n")
+                output_file.write("\"$Result\" : \"Success\",\n")
+                output_file.write(f"\"$ID\" : \"{input_id}\",\n")
+                output_file.write(f"\"$MinAccuracy\" : {accThreshold},\n")
                 output_file.write("\"Labels\" : [\n")
                 for w in uniqeLabels:
                     if( uniqeLabels.index(w) == len(uniqeLabels) - 1):
@@ -127,10 +125,16 @@ def main():
                         output_file.write(f"\t\"{w}\",\n")
                 output_file.write("\t]\n")
                 output_file.write("}\n")
-
     except Exception as e:
         print(f"Could not open output file: {e}")
         sys.exit(1)
-
+        
+    try:
+        output_file_path = output_file_path_tmp.replace('.output_tmp', '.output')
+        os.rename(output_file_path_tmp, output_file_path)
+    except Exception as e:
+        print(f"Could not rename tmp file: {e}")
+        sys.exit(1)
+        
 if __name__ == "__main__":
     main()
