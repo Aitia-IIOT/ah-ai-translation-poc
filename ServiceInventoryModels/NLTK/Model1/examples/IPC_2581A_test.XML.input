@@ -1,0 +1,9 @@
+
+  <Outline>
+    <Polygon>
+      <PolyBegin x="10" y="20" />
+      <PolyStepCurve x="1" y="1" centerX="1" centerY="1" clockwise="true" />
+      <PolyStepCurve x="-13.123" y="-2" centerX="-4" centerY="56" clockwise="false" />
+    </Polygon>
+  </Outline>
+ 

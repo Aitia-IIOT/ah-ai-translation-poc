@@ -17,7 +17,7 @@ def findLabelWord2Vec(word, preDefinedWord, word2vec, threshold):
             similarity = word2vec.similarity(word, preDefinedWord)
             #print("\n")
             #print(f"{word} vs {preDefinedWord} = {similarity}")
-            if(similarity >= threshold):
+            if(similarity >= float(threshold)):
                 #print("\n")
                 #print(f"[Label]: {word} vs {preDefinedWord} = {similarity}")
                 labels.append(preDefinedWord)
@@ -99,7 +99,7 @@ def main():
     
     try:
         with open(input_file_path, 'r') as input_file:
-            uniqeLabels = findLabels(input_file_path, 0.1)
+            uniqeLabels = findLabels(input_file_path, accThreshold)
         
     except Exception as e:
         print(f"Could not open input file: {e}")

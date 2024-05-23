@@ -1,0 +1,8 @@
+{
+"$Result" : "Success",
+"$ID" : "1234",
+"$MinAccuracy" : 0.99,
+"Labels" : [
+	"Model_IPC2581"
+	]
+}
