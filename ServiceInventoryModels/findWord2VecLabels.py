@@ -3,10 +3,10 @@ import os
 
 from gensim.models import Word2Vec
 
-model_path_hum = 'PretrainedModels/word2vec_HumidityWiki.model'
+model_path_hum = 'Word2Vec/Model1/PretrainedModels/word2vec_HumidityWiki.model'
 word_vectors_hum = Word2Vec.load(model_path_hum).wv
 
-model_path_temp = 'PretrainedModels/word2vec_TemperatureWiki.model'
+model_path_temp = 'Word2Vec/Model1/PretrainedModels/word2vec_TemperatureWiki.model'
 word_vectors_temp = Word2Vec.load(model_path_temp).wv
 
 labels = list()
