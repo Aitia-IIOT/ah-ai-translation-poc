@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Latching Relay TYPE TL 2PDT 26,5V 1A TO-5</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>09 RELAYS</Family>
+    <Subfamily>02 LATCHING</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>REL (FR)</Manufacturer>
+    <EIN>E09001001.F01</EIN>
+    <Symbol>09-REL-ER422G</Symbol>
+    <Package>
+      <Footprint>EEE-09-REL-TO-5+PAD-GND-R</Footprint>
+      <GeometricPackage>TO-5</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0931S0000001</Code Eng COM>
+    <Code Old COM>E0931S0000001SPC</Code Old COM>
+    <Component Number>ESCC36020020126V</Component Number>
+    <Commercial Part Number>TL26F70</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

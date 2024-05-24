@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Microcircuit, Logic Families, HCC4013BKT, FP-16, Dual, D-type Flip-Flop, SnPb</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>08 MICROCIRCUITS</Family>
+    <Subfamily>80 LOGIC FAMILIES</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>ST MICRO (FR)</Manufacturer>
+    <EIN>E08001007.F01</EIN>
+    <Symbol>08-MIC-HCC4013BKT</Symbol>
+    <Package>
+      <Footprint>EEE-08-MIC-CDFP2-F14</Footprint>
+      <GeometricPackage>FP-16</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0827S0000003</Code Eng COM>
+    <Code Old COM>E0827S0000003STB</Code Old COM>
+    <Component Number>920302302B</Component Number>
+    <Commercial Part Number>HCC4013BKT</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

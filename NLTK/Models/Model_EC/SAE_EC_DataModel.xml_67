@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>07 INDUCTORS</EPPL Family>
+    <EPPL Group>03 CHIP</EPPL Group>
+    <Quality type>E</Quality type>
+    <Description>Inductor, Chip, MPCI-CASE-A, 10nH, 10%, 0.75A</Description>
+    <SPN>E07001010.E01</SPN>
+    <Code Eng COM>E0724SA000010</Code Eng COM>
+    <Code Old COM>E0724SA000010EXE</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>MPCI10000010TS10</Component Number>
+    <Commercial Part Number>MSCI10000010TS10</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package>MPCI-CASE-A</Engineering Package>
+    <Package>MPCI-CASE-A</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 3201</Generic specification>
+    <Detail specification>ESCC 3201/008 ISS 6</Detail specification>
+    <Quality Level>EM</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>EXXELIA (FR)</Manufacturer>
+    <PPL EBOM>Preferred</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E0724SA------EX-</Link files>
+    <Library Ref>07-IND-INDUCTOR</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value>10nH</Value>
+    <Tol>10%</Tol>
+    <TCR></TCR>
+    <Volt>0</Volt>
+    <Footprint1>EEE-07-IND-MPCI10K</Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

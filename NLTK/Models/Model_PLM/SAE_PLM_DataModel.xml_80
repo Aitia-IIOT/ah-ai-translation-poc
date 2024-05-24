@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Relay, Latching, 28V DC, 15A, 4PDT, Solder Hook (HFM)</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>09 RELAYS</Family>
+    <Subfamily>02 LATCHING</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>REL (FR)</Manufacturer>
+    <EIN>E09001002.F01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>SOLDER HOOK (HFM)</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0931S0000002</Code Eng COM>
+    <Code Old COM>E0931S0000002SPC</Code Old COM>
+    <Component Number>ESCC36020041928V</Component Number>
+    <Commercial Part Number>EL415 4PDT 28V 15A CAN</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

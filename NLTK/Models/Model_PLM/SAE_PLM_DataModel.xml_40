@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Filter, Feedthrough, PI-Type, Case 2, 200V, 2.4nF, Screw-in</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState></MaturityState>
+    <Family>05 FILTERS</Family>
+    <Subfamily>01 FEEDTHROUGH</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>EUROFARAD (FR)</Manufacturer>
+    <EIN>E05001008.F01</EIN>
+    <Symbol>05-FIL-FEEDTHROUGH</Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>CASE 2</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0522S0000002</Code Eng COM>
+    <Code Old COM>E0522S0000002EUB</Code Old COM>
+    <Component Number>300801402B</Component Number>
+    <Commercial Part Number>SFP040 1010 IR 200</Commercial Part Number>
+    <Value>2.4nF</Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt>200V</Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

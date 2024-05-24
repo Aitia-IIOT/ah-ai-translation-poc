@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Inductor, Miscellaneous, SESI_V03, 2.7uH, 20%, 8.2A, Power, Moulded</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>07 INDUCTORS</Family>
+    <Subfamily>99 MISCELLANEOUS</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>EXXELIA (FR)</Manufacturer>
+    <EIN>E07001003.F01</EIN>
+    <Symbol>07-IND-SESI15WR</Symbol>
+    <Package>
+      <Footprint>EEE-07-IND-SESI-15WR</Footprint>
+      <GeometricPackage>SESI_V03</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0724S152L7M0</Code Eng COM>
+    <Code Old COM>E0724S152L7M0EXC</Code Old COM>
+    <Component Number>3201009032L7M</Component Number>
+    <Commercial Part Number>SESI 15 2K7 1WR</Commercial Part Number>
+    <Value>2.7uH</Value>
+    <Tol>20%</Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

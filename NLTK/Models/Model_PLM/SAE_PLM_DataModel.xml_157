@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>100 MHz OCXO (RK406NS)</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>40 HYBRIDS</Family>
+    <Subfamily>03 CRYSTAL OSCILLATORS</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>Rakon (NZ)</Manufacturer>
+    <EIN>E40001001.F01</EIN>
+    <Symbol>40-HYB-OCXO-RK406NS</Symbol>
+    <Package>
+      <Footprint>EEE-40-HYB-RK406NS</Footprint>
+      <GeometricPackage></GeometricPackage>
+    </Package>
+    <Code Eng COM>E4003C0000001</Code Eng COM>
+    <Code Old COM>E4003C0000001RKE</Code Old COM>
+    <Component Number>RK406NS</Component Number>
+    <Commercial Part Number>RK406NS</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

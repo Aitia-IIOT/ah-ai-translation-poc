@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Diode, Microwave Varactor (Gaas), MA46H120, ODS-1203, Hyper Abrupt junction, 0.3-0.4pF</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState></MaturityState>
+    <Family>04 DIODES</Family>
+    <Subfamily>11 MICROWAVE VARACTOR (GAAS)</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>RF2 (GB)</Manufacturer>
+    <EIN>E04001007.F01</EIN>
+    <Symbol>04-DIO-VARACTOR</Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>ODS-1203</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0419M0191001</Code Eng COM>
+    <Code Old COM>E0419M0191001RFB</Code Old COM>
+    <Component Number>MDV-28801-01B</Component Number>
+    <Commercial Part Number>MA46H120</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

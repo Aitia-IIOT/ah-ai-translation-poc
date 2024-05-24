@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Resistor, Metal Film, SMP-PW2010, 47mOhm, 0.5%, 50ppm/�C</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>10 RESISTORS</Family>
+    <Subfamily>08 METAL FILM</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>Isabellenh�tte (DE)</Manufacturer>
+    <EIN>E10001004.F01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>SMP-PW2010</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1034S01R047D</Code Eng COM>
+    <Code Old COM>E1034S01R047DIHS</Code Old COM>
+    <Component Number>400102701R047D</Component Number>
+    <Commercial Part Number>SMP-R047-0.5-PW</Commercial Part Number>
+    <Value>0.047R</Value>
+    <Tol>0.5%</Tol>
+    <TCR>50</TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

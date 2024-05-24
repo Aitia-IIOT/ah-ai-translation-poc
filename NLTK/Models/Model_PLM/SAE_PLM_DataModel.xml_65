@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Inductor, Miscellaneous, SESI_V05, 1uH, 30%, 6A, Power, Moulded</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>07 INDUCTORS</Family>
+    <Subfamily>99 MISCELLANEOUS</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>EXXELIA (FR)</Manufacturer>
+    <EIN>E07001009.F01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>SESI_V05</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0724S9151L0N</Code Eng COM>
+    <Code Old COM>E0724S9151L0NEXC</Code Old COM>
+    <Component Number>3201009051L0N</Component Number>
+    <Commercial Part Number>SESI 9.1 1K0 2WR</Commercial Part Number>
+    <Value>1uH</Value>
+    <Tol>30%</Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

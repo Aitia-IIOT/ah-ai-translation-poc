@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Resistor, SMP-PW 1R �1% �50ppm/�C Chip 2010</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>10 RESISTORS</Family>
+    <Subfamily>09 CHIP (ALL)</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer></Manufacturer>
+    <EIN>E10001002.F01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>R2010</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1034S011R00F</Code Eng COM>
+    <Code Old COM>E1034S011R00FIHS</Code Old COM>
+    <Component Number>4001027011R00F</Component Number>
+    <Commercial Part Number>4001027011R00F</Commercial Part Number>
+    <Value>1</Value>
+    <Tol>1%</Tol>
+    <TCR>50</TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

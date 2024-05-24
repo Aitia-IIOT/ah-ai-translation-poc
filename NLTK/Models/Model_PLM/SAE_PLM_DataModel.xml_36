@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Filter, Miscellaneous, SAW, SSM-3840, 212-223 MHz</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState></MaturityState>
+    <Family>05 FILTERS</Family>
+    <Subfamily>99 MISCELLANEOUS</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>NORSPACE KONSBERG (KNS) (NO)</Manufacturer>
+    <EIN>E05001006.F01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage></GeometricPackage>
+    </Package>
+    <Code Eng COM>E0522M1570101</Code Eng COM>
+    <Code Old COM>E0522M1570101KNB</Code Old COM>
+    <Component Number>SSM-3840</Component Number>
+    <Commercial Part Number>SSM-3840</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

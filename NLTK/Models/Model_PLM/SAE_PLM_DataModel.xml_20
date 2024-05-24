@@ -1,0 +1,29 @@
+  <row>
+    <Type>Physical Part</Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Connector, Microminiature, MDM, 9P, FR114 (with AWG 28 wire), Filtered, 508mm wire</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState>In Work</MaturityState>
+    <Family>02 CONNECTORS</Family>
+    <Subfamily>07 MICROMINIATURE</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>C&amp;K (FR)</Manufacturer>
+    <EIN>E02001010.F01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>MICRO-D</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0209S0000000</Code Eng COM>
+    <Code Old COM>E0209S0000000CKB</Code Old COM>
+    <Component Number>3401029001B09PFR114</Component Number>
+    <Commercial Part Number>MDM9PH038AWG28FR172</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

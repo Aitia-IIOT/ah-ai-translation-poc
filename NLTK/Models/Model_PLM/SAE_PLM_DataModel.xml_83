@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Latching Relay ground shield trimmed leads 5V 2PDT RF</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>09 RELAYS</Family>
+    <Subfamily>02 LATCHING</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>TELEDYNE (US)</Manufacturer>
+    <EIN>E09001004.F01</EIN>
+    <Symbol>09-REL-ER422</Symbol>
+    <Package>
+      <Footprint>EEE-09-REL-TO-5</Footprint>
+      <GeometricPackage>TO-5/GROUND SHIELD</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0966S0000002</Code Eng COM>
+    <Code Old COM>E0966S0000002TLS</Code Old COM>
+    <Component Number>MRL-0224-02-422G-0520</Component Number>
+    <Commercial Part Number>ER422G-0520</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

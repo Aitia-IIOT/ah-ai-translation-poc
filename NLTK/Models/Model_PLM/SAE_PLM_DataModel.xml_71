@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Microcircuit, MMIC, DIE, Lange Coupler, 1.2-3.6GHz</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>08 MICROCIRCUITS</Family>
+    <Subfamily>95 MICROWAVE MONOLITIC INTEGRATED CIRCUITS (MMIC)</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>UNITED MONOLITHIC SEMICONDUCTOR (FR)</Manufacturer>
+    <EIN>E08001002.E01</EIN>
+    <Symbol>08-MIC-E08000002</Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>DIE</GeometricPackage>
+    </Package>
+    <Code Eng COM>E08000002</Code Eng COM>
+    <Code Old COM>E08000002</Code Old COM>
+    <Component Number></Component Number>
+    <Commercial Part Number></Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

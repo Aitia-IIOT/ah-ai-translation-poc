@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>High Power Bi-Directional Coupler, 10dB Coupling, 800-2500MHz 50Ohm </Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>30 RF PASSIVE COMPONENTS</Family>
+    <Subfamily>99 MISCELLANEOUS</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>MINICIRCUITS (US)</Manufacturer>
+    <EIN>E30001001.E01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>SM1L</GeometricPackage>
+    </Package>
+    <Code Eng COM>E3025M2741001</Code Eng COM>
+    <Code Old COM>E3025M2741001MIE</Code Old COM>
+    <Component Number>E3025M2741001MIE</Component Number>
+    <Commercial Part Number>BDCA-10-25</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

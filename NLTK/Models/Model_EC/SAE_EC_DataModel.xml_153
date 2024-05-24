@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>30 RF PASSIVE COMPONENTS</EPPL Family>
+    <EPPL Group>07 ISOLATOR/CIRCULATOR</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>Isolator WR75-Coax. Fc: 14.125 GHz. BW: 0.5 GHz</Description>
+    <SPN>E30001004.F01</SPN>
+    <Code Eng COM>E3052M0553004</Code Eng COM>
+    <Code Old COM>E3052M0553004TKB</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>MRI-027303-04B</Component Number>
+    <Commercial Part Number>AJD10301</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package>N/A</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 3202</Generic specification>
+    <Detail specification>RQS/OSP/ISOL-0273 ISS 3</Detail specification>
+    <Quality Level>AS PER SPEC.</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>TRAK MICROWAVE (GB)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files></Link files>
+    <Library Ref></Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Diode, Tunnel, M1X1555, H27, Germanium, 0.6pF</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState></MaturityState>
+    <Family>04 DIODES</Family>
+    <Subfamily>09 TUNNEL</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>MACOM (US)</Manufacturer>
+    <EIN>E04001006.F01</EIN>
+    <Symbol>04-DIO-TUNNEL</Symbol>
+    <Package>
+      <Footprint>EEE-04-DIO-H27</Footprint>
+      <GeometricPackage>H27</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0419M0142001</Code Eng COM>
+    <Code Old COM>E0419M0142001MAB</Code Old COM>
+    <Component Number>MDT-13201-01B</Component Number>
+    <Commercial Part Number>M1X1555</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

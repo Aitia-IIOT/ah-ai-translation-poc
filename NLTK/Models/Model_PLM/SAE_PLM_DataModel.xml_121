@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Databus cable AWG26 120Ohms</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>13 WIRES AND CABLES</Family>
+    <Subfamily>01 LOW FREQUENCY</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>AXON CABLE SAS (FR)</Manufacturer>
+    <EIN>E13001001.F01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage></GeometricPackage>
+    </Package>
+    <Code Eng COM>E1301S0000001</Code Eng COM>
+    <Code Old COM>E1301S0000001AXB</Code Old COM>
+    <Component Number>ESCC 390200224</Component Number>
+    <Commercial Part Number>ESCC 390200224</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Harness Semiflexible minibend LR-11</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>13 WIRES AND CABLES</Family>
+    <Subfamily>02 COAXIAL</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>HUBER + SUHNER (ASTROLAB) (US)</Manufacturer>
+    <EIN>E13001006.F01</EIN>
+    <Symbol>13-WIRE_CABLE-COAXIAL</Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>SMA</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1305M149111D</Code Eng COM>
+    <Code Old COM>E1305M149111DHSS</Code Old COM>
+    <Component Number>E1305M149111DHSS</Component Number>
+    <Commercial Part Number>MINIBEND LR-11</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

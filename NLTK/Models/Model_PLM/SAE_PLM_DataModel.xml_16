@@ -1,0 +1,29 @@
+  <row>
+    <Type>Physical Part</Type>
+    <Name>PRD10001025</Name>
+    <Revision>1.0</Revision>
+    <Title></Title>
+    <Description>Rectangular PCB pin connector narrow profile micro-D, 51 contacts</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState>In Work</MaturityState>
+    <Family>02 CONNECTORS</Family>
+    <Subfamily>02 RECTANGULAR</Subfamily>
+    <Quality>C</Quality>
+    <Manufacturer>AXON (FR)</Manufacturer>
+    <EIN>E02001006.C01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>MICRO-D</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0202C0001024</Code Eng COM>
+    <Code Old COM>E0202C0001024AXM</Code Old COM>
+    <Component Number>MDA251PCBRW5G4</Component Number>
+    <Commercial Part Number>MDA251PCBRW5G4</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date>5/8/2030</Creation Date>
+    <Modification Date></Modification Date>
+  </row>

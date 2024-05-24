@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Microcircuit, Linear Other Functions, ST1845RKG, FP-8, PWM</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>08 MICROCIRCUITS</Family>
+    <Subfamily>69 LINEAR OTHER FUNCTIONS</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>ST MICRO (FR)</Manufacturer>
+    <EIN>E08001004.F01</EIN>
+    <Symbol>08-MIC-ST1845RKG</Symbol>
+    <Package>
+      <Footprint>EEE-08-MIC-FLAT-8-V03</Footprint>
+      <GeometricPackage>FP-8</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0827M0991001</Code Eng COM>
+    <Code Old COM>E0827M0991001STS</Code Old COM>
+    <Component Number>ST1845RKG</Component Number>
+    <Commercial Part Number>ST1845RKG</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

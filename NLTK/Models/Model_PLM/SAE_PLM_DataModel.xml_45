@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Filter, Miscellaneous, SAW, SQF-5470, J-6, 69.7755MHz WB (type 2) </Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>05 FILTERS</Family>
+    <Subfamily>99 MISCELLANEOUS</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>NORSPACE KONSBERG (KNS) (NO)</Manufacturer>
+    <EIN>E05001010.E01</EIN>
+    <Symbol>05-FIL-SQF-XXXX</Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>J-6</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0522S0000004</Code Eng COM>
+    <Code Old COM>E0522S0000004KNE</Code Old COM>
+    <Component Number>ESCC350200213SQF5470</Component Number>
+    <Commercial Part Number>SQF-5470</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

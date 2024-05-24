@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Resistor, Metal Film, SMP-PW2010, 0.01R, 0.5%, 50ppm/�C</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>10 RESISTORS</Family>
+    <Subfamily>08 METAL FILM</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>Isabellenh�tte (DE)</Manufacturer>
+    <EIN>E10001003.F01</EIN>
+    <Symbol>10-RES-RESISTOR</Symbol>
+    <Package>
+      <Footprint>EEE-10-RES-RM2010</Footprint>
+      <GeometricPackage>SMP-PW2010</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1034S01R010</Code Eng COM>
+    <Code Old COM>E1034S01R010DIHS</Code Old COM>
+    <Component Number>400102701R010D</Component Number>
+    <Commercial Part Number>SMP-R010-0.5-PW</Commercial Part Number>
+    <Value>0.01</Value>
+    <Tol>0.5%</Tol>
+    <TCR>50</TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

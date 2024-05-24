@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Thermistor 10KOhm G10K4D453 (-60C TO +160C) ESCC 4006/14</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>11 THERMISTORS</Family>
+    <Subfamily>03 TEMPERATURE SENSOR</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>Measurement Specialities (IR)</Manufacturer>
+    <EIN>E11001004.E01</EIN>
+    <Symbol>11-THER-THERMISTOR</Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>WIRED</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1140S0000003</Code Eng COM>
+    <Code Old COM>E1140S0000003MSP</Code Old COM>
+    <Component Number>400601409P</Component Number>
+    <Commercial Part Number>G10K4D453</Commercial Part Number>
+    <Value>10 K</Value>
+    <Tol></Tol>
+    <TCR>0</TCR>
+    <Volt>0</Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

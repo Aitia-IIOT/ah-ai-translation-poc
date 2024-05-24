@@ -1,0 +1,29 @@
+  <row>
+    <Type>Physical Part</Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Diode, Rectifier, STPS1045C2SG, SMD-0.5, 45V</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState></MaturityState>
+    <Family>04 DIODES</Family>
+    <Subfamily>02 RECTIFIER</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>ST MICRO (FR)</Manufacturer>
+    <EIN>E04001004.F01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>SMD-0.5</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0418S0000054</Code Eng COM>
+    <Code Old COM>E0418S0000054STB</Code Old COM>
+    <Component Number>510601702</Component Number>
+    <Commercial Part Number>STPS1045C2SG</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt>45V</Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

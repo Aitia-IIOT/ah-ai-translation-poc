@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Transistor, Microwave Low Noise (GaAs), EC2612-99F, DIE, 4V, DC-40GHz</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>12 TRANSISTORS</Family>
+    <Subfamily>16 MICROWAVE LOW NOISE (GAAS)</Subfamily>
+    <Quality>C</Quality>
+    <Manufacturer>UNITED MONOLITHIC SEMICONDUCTOR (FR)</Manufacturer>
+    <EIN>E12001002.C01</EIN>
+    <Symbol>12-TRT-RF-FET-DIE</Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>DIE</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1216M0000043</Code Eng COM>
+    <Code Old COM>E1216C0000043UMC</Code Old COM>
+    <Component Number>EC2612-99F/00</Component Number>
+    <Commercial Part Number>EC2612-99F</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt>4V</Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

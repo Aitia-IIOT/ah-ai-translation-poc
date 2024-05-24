@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>High Power SPDT switch TNC connectors 200W at band 415 - 455</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>16 SWITCHES</Family>
+    <Subfamily>03 RF-SWITCH</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>DOW-KEY MICROWAVE CORPORATION (US)</Manufacturer>
+    <EIN>E16001002.F02</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage></GeometricPackage>
+    </Package>
+    <Code Eng COM>E1667M1651001</Code Eng COM>
+    <Code Old COM>E1667M1652001DKS</Code Old COM>
+    <Component Number>E1667M1651001DKS</Component Number>
+    <Commercial Part Number>406HJ-730332-25</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

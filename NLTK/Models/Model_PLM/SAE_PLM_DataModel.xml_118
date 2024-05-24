@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Transistor, High Power, NPN (&gt; 2Watts), 2N5154RSRHRGW, SMD-0.5, 80V, Emitter on pin 2, Gold</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>12 TRANSISTORS</Family>
+    <Subfamily>03 HIGH POWER, NPN (&gt; 2WATTS)</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>ST MICRO (FR)</Manufacturer>
+    <EIN>E12001007.F01</EIN>
+    <Symbol>12-TRT-HIGHP-NPN_VAR07</Symbol>
+    <Package>
+      <Footprint>EEE-12-TRT-SMD05WLPO_VAR2</Footprint>
+      <GeometricPackage>SMD-0.5</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1218S0000050</Code Eng COM>
+    <Code Old COM>E1218S0000050STS</Code Old COM>
+    <Component Number>520301007R</Component Number>
+    <Commercial Part Number>2N5154RSRHRGW</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt>80V</Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

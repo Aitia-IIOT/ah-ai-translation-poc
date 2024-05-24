@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>30 RF PASSIVE COMPONENTS</EPPL Family>
+    <EPPL Group>99 MISCELLANEOUS</EPPL Group>
+    <Quality type>E</Quality type>
+    <Description>High Power Bi-Directional Coupler, 10dB Coupling, 800-2500MHz 50Ohm </Description>
+    <SPN>E30001001.E01</SPN>
+    <Code Eng COM>E3025M2741001</Code Eng COM>
+    <Code Old COM>E3025M2741001MIE</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>E3025M2741001MIE</Component Number>
+    <Commercial Part Number>BDCA-10-25</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package>SM1L</Package>
+    <Finish></Finish>
+    <Generic specification>MIL-STD-981</Generic specification>
+    <Detail specification>TBI</Detail specification>
+    <Quality Level>EM</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>MINICIRCUITS (US)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E3025M2741001MI-</Link files>
+    <Library Ref></Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

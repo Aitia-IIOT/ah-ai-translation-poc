@@ -1,0 +1,29 @@
+  <row>
+    <Type>Physical Part</Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Diode, Rectifier, 1N5822U, LCC2B, 40V</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState>In Work</MaturityState>
+    <Family>04 DIODES</Family>
+    <Subfamily>02 RECTIFIER</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>ST MICRO (FR)</Manufacturer>
+    <EIN>E04001002.E01</EIN>
+    <Symbol>04-DIO-GENERAL</Symbol>
+    <Package>
+      <Footprint>EEE-04-DIO-D-5B</Footprint>
+      <GeometricPackage>LCC2B</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0418S0000052</Code Eng COM>
+    <Code Old COM>E0418S0000052STE</Code Old COM>
+    <Component Number>1N5822UB1</Component Number>
+    <Commercial Part Number>1N5822U</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

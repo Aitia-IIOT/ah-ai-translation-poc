@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Diode, Microwave Schottky (Gaas), MA4E1319-1, CASE-1199, Barrier, 0.03-0.06pF</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState></MaturityState>
+    <Family>04 DIODES</Family>
+    <Subfamily>15 MICROWAVE SCHOTTKY (GAAS)</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>RF2 (GB)</Manufacturer>
+    <EIN>E04001008.F01</EIN>
+    <Symbol>04-DIO-MA4E1319-1</Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>CASE-1199</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0419M0201001</Code Eng COM>
+    <Code Old COM>E0419M0201001RFB</Code Old COM>
+    <Component Number>MDS-28901-01B</Component Number>
+    <Commercial Part Number>MA4E1319-1</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

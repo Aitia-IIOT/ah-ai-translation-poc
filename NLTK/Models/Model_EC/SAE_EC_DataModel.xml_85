@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>09 RELAYS</EPPL Family>
+    <EPPL Group>02 LATCHING</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>Latching Relay 12V DC</Description>
+    <SPN>E09001005.F01</SPN>
+    <Code Eng COM>E0966S0000003</Code Eng COM>
+    <Code Old COM>E0966S0000003TLS</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>MRL-003401-01S</Component Number>
+    <Commercial Part Number>ER422-12-2/WG</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package>TO-5</Package>
+    <Finish></Finish>
+    <Generic specification>TR-HIREL-1</Generic specification>
+    <Detail specification>RQS/APR/0034-01</Detail specification>
+    <Quality Level>AS PER SPEC.</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>TELEDYNE (US)</Manufacturer>
+    <PPL EBOM>Preferred</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files></Link files>
+    <Library Ref>09-REL-ER422G</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1>EEE-09-REL-TO-5+PAD-GND-L</Footprint1>
+    <Footprint2>EEE-09-REL-TO-5+PAD-GND-R</Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

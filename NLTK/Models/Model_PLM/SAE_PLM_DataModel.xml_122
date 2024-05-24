@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Shielded jacketed twisted triples AWG24</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>13 WIRES AND CABLES</Family>
+    <Subfamily>01 LOW FREQUENCY</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>AXON CABLE SAS (FR)</Manufacturer>
+    <EIN>E13001002.F01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage></GeometricPackage>
+    </Package>
+    <Code Eng COM>E1301S0000002</Code Eng COM>
+    <Code Old COM>E1301S0000002AXB</Code Old COM>
+    <Component Number>ESCC 390101264</Component Number>
+    <Commercial Part Number>ESCC 390101264</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

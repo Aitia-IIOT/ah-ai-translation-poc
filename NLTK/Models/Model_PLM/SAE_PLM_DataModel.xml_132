@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Wide Band RF 1:16 Transformers WRFT series</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>14 TRANSFORMER</Family>
+    <Subfamily>02 SIGNAL</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>EXXELIA (FR)</Manufacturer>
+    <EIN>E14001001.F02</EIN>
+    <Symbol>14-TRF-WRFT41-16R</Symbol>
+    <Package>
+      <Footprint>EEE-14-TRF-WRFT4X-1S</Footprint>
+      <GeometricPackage>SMD</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1424M0000001</Code Eng COM>
+    <Code Old COM>E1424M0000001EXC</Code Old COM>
+    <Component Number>MS06565-02C</Component Number>
+    <Commercial Part Number>WRFT41 16R 1S</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

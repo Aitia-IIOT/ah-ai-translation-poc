@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Microcircuit, MMIC, SGM6903GPC-S, GPC, Amplifier, HPA, 40W, 1.1-1.7GHz, GaN</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>08 MICROCIRCUITS</Family>
+    <Subfamily>95 MICROWAVE MONOLITIC INTEGRATED CIRCUITS (MMIC)</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>SUMITOMO (JP)</Manufacturer>
+    <EIN>E08001003.F01</EIN>
+    <Symbol>08-MIC-SGM6903GPC</Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>GPC</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0820M2191001</Code Eng COM>
+    <Code Old COM>E0820M2191001SUS</Code Old COM>
+    <Component Number>E0820M2191001SUS</Component Number>
+    <Commercial Part Number>SGM6903GPC-S</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

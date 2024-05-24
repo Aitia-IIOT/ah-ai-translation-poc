@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Filter, Feedthrough, PI-Type, Case 4, 250V, 750pF, Screw-in</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState></MaturityState>
+    <Family>05 FILTERS</Family>
+    <Subfamily>01 FEEDTHROUGH</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>EUROFARAD (FR)</Manufacturer>
+    <EIN>E05001007.E01</EIN>
+    <Symbol>05-FIL-FEEDTHROUGH</Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>CASE 4</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0522S0000001</Code Eng COM>
+    <Code Old COM>E0522S0000001EUE</Code Old COM>
+    <Component Number>300801408B</Component Number>
+    <Commercial Part Number>SFP040 1103 IR 250</Commercial Part Number>
+    <Value>750pF</Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt>250V</Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

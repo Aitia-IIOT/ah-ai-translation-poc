@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Transistor, FET N Channel, BUY25CS12K-11 (ES), TO-257AA, 250V</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>12 TRANSISTORS</Family>
+    <Subfamily>05 FET N CHANNEL</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>INFINEON (DE)</Manufacturer>
+    <EIN>E12001004.F01</EIN>
+    <Symbol>12-TRT-FET-N_PINS_CONF2-CASE</Symbol>
+    <Package>
+      <Footprint>EEE-04-DIO-TO-257AA</Footprint>
+      <GeometricPackage>TO-257AA</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1218S0000044</Code Eng COM>
+    <Code Old COM>E1218S0000044INS</Code Old COM>
+    <Component Number>520503002R</Component Number>
+    <Commercial Part Number>BUY25CS12K-11 (ES)</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt>250V</Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

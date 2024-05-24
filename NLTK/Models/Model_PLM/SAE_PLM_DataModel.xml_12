@@ -1,0 +1,29 @@
+  <row>
+    <Type>Physical Part</Type>
+    <Name>PRD10001021</Name>
+    <Revision>1.0</Revision>
+    <Title></Title>
+    <Description>Connector, High density PCB, MHD, 52 contacts, male plug  90� termination  Ni+Au plating </Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState>In Work</MaturityState>
+    <Family>02 CONNECTORS</Family>
+    <Subfamily>02 RECTANGULAR</Subfamily>
+    <Quality>C</Quality>
+    <Manufacturer>Smiths Interconnect (CN)</Manufacturer>
+    <EIN>E02001002.C01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>MHD</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0202C0001020</Code Eng COM>
+    <Code Old COM>E0202C0001020SCM</Code Old COM>
+    <Component Number>MHD0521710110</Component Number>
+    <Commercial Part Number>MHD0521710110</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date>5/8/2028</Creation Date>
+    <Modification Date></Modification Date>
+  </row>

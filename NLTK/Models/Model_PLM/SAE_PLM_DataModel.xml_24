@@ -1,0 +1,29 @@
+  <row>
+    <Type>Physical Part</Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Piezo-electric, Crystal Resonator, 3rd OT SC, HC35, 50 MHz </Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState>In Work</MaturityState>
+    <Family>03 PIEZO-ELECTRIC DEVICES</Family>
+    <Subfamily>01 CRYSTAL RESONATOR</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>VECTRON INTERNATIONAL (US)</Manufacturer>
+    <EIN>E03001009.E01</EIN>
+    <Symbol>EEE-03-OSC-XR-R311-3JY-AAJX-50M000000</Symbol>
+    <Package>
+      <Footprint>EEE-03-OSC-H35</Footprint>
+      <GeometricPackage>HC35</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0371M1660001</Code Eng COM>
+    <Code Old COM>E0371M1660001VEE</Code Old COM>
+    <Component Number>311205825-50M000000</Component Number>
+    <Commercial Part Number>311205825-50M000000</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

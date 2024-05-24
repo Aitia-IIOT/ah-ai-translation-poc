@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>12 TRANSISTORS</EPPL Family>
+    <EPPL Group>03 HIGH POWER, NPN (&gt; 2WATTS)</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>Transistor, High Power, NPN (&gt; 2Watts), 2N5154RSRHRGW, SMD-0.5, 80V, Emitter on pin 2, Gold</Description>
+    <SPN>E12001007.F01</SPN>
+    <Code Eng COM>E1218S0000050</Code Eng COM>
+    <Code Old COM>E1218S0000050STS</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>520301007R</Component Number>
+    <Commercial Part Number>2N5154RSRHRGW</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package>SMD-0.5</Engineering Package>
+    <Package>SMD-0.5</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 5000</Generic specification>
+    <Detail specification>ESCC 5203/010</Detail specification>
+    <Quality Level>ESCC</Quality Level>
+    <Quality status>ESCC QPL</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>ST MICRO (FR)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files></Link files>
+    <Library Ref>12-TRT-HIGHP-NPN_VAR07</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt>80V</Volt>
+    <Footprint1>EEE-12-TRT-SMD05WLPO_VAR2</Footprint1>
+    <Footprint2>EEE-12-TRT-SMD05_VAR2</Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

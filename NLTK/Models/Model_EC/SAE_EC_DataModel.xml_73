@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>08 MICROCIRCUITS</EPPL Family>
+    <EPPL Group>95 MICROWAVE MONOLITIC INTEGRATED CIRCUITS (MMIC)</EPPL Group>
+    <Quality type>E</Quality type>
+    <Description>Microcircuit, MMIC, ES/SGM6903GPC, GPC, Amplifier, HPA, 40W, 1.1-1.7GHz, GaN</Description>
+    <SPN>E08001003.E01</SPN>
+    <Code Eng COM>E0820M2191001</Code Eng COM>
+    <Code Old COM>E0820M2191001SUE</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>ES/SGM6903GPC</Component Number>
+    <Commercial Part Number>ES/SGM6903GPC</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package>GPC</Package>
+    <Finish></Finish>
+    <Generic specification>MIL-PRF-19500</Generic specification>
+    <Detail specification>TBD</Detail specification>
+    <Quality Level>EQ JANS</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>SUMITOMO (JP)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E0820M2191001SU-</Link files>
+    <Library Ref>08-MIC-SGM6903GPC</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

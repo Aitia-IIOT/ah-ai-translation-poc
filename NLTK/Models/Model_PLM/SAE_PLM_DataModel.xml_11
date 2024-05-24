@@ -1,0 +1,29 @@
+  <row>
+    <Type>Physical Part</Type>
+    <Name>PRD10001020</Name>
+    <Revision>1.0</Revision>
+    <Title></Title>
+    <Description>Connector, Printed Circuit Board, CSD/CMD, 174P, 90� PCB, 3.55mm tail</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState>In Work</MaturityState>
+    <Family>02 CONNECTORS</Family>
+    <Subfamily>03 PRINTED CIRCUIT BOARD</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer></Manufacturer>
+    <EIN>E02001001.F01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>CSD</GeometricPackage>
+    </Package>
+    <Code Eng COM>E02000001</Code Eng COM>
+    <Code Old COM>E02000001</Code Old COM>
+    <Component Number>CMD174PMBY00H</Component Number>
+    <Commercial Part Number></Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date>1/17/2028</Creation Date>
+    <Modification Date></Modification Date>
+  </row>

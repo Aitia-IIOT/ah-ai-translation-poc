@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Latching Relay 12V DC</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>09 RELAYS</Family>
+    <Subfamily>02 LATCHING</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>TELEDYNE (US)</Manufacturer>
+    <EIN>E09001005.F01</EIN>
+    <Symbol>09-REL-ER422G</Symbol>
+    <Package>
+      <Footprint>EEE-09-REL-TO-5+PAD-GND-L</Footprint>
+      <GeometricPackage>TO-5</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0966S0000003</Code Eng COM>
+    <Code Old COM>E0966S0000003TLS</Code Old COM>
+    <Component Number>MRL-003401-01S</Component Number>
+    <Commercial Part Number>ER422-12-2/WG</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

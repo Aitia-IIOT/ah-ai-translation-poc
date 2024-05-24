@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Inductor, Miscellaneous, SESI_V03, 33uH, 20%, 2.3A, Power, Moulded</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>07 INDUCTORS</Family>
+    <Subfamily>99 MISCELLANEOUS</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>EXXELIA (FR)</Manufacturer>
+    <EIN>E07001004.E01</EIN>
+    <Symbol>07-IND-SESI15WR</Symbol>
+    <Package>
+      <Footprint>EEE-07-IND-SESI-15WR</Footprint>
+      <GeometricPackage>SESI_V03</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0724S15330M0</Code Eng COM>
+    <Code Old COM>E0724S15330M0EXE</Code Old COM>
+    <Component Number>SESI 15 33K 1WR</Component Number>
+    <Commercial Part Number>SESI 15 33K 1WR</Commercial Part Number>
+    <Value>33uH</Value>
+    <Tol>20%</Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

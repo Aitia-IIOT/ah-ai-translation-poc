@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Dual Optocoupler 66270</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>18 OPTO ELECTRONICS</Family>
+    <Subfamily>01 OPTOCOUPLER</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>MICROPAC INDUSTRIES, INC (US)</Manufacturer>
+    <EIN>E18001001.F01</EIN>
+    <Symbol>18-OPT-66270</Symbol>
+    <Package>
+      <Footprint>EEE-18-OPT-CDFP-G10</Footprint>
+      <GeometricPackage>GW10P</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1801M0000001</Code Eng COM>
+    <Code Old COM>E1801M0000001MPS</Code Old COM>
+    <Component Number>66270-311</Component Number>
+    <Commercial Part Number>66270</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

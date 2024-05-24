@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>MHO-006201 (MHIC LO2&amp;LO3) Procurement Specification</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>40 HYBRIDS</Family>
+    <Subfamily>02 THIN FILM</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer></Manufacturer>
+    <EIN>E40001002.E01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>AS PER SPEC</GeometricPackage>
+    </Package>
+    <Code Eng COM>E4047M1121001</Code Eng COM>
+    <Code Old COM>E4047M1121001TAC</Code Old COM>
+    <Component Number></Component Number>
+    <Commercial Part Number></Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

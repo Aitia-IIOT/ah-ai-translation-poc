@@ -1,0 +1,29 @@
+  <row>
+    <Type>Physical Part</Type>
+    <Name>PRD10001027</Name>
+    <Revision>1.0</Revision>
+    <Title></Title>
+    <Description>Rectangular PCB socket connector narrow profile micro-D, 9 contacts</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState>In Work</MaturityState>
+    <Family>02 CONNECTORS</Family>
+    <Subfamily>02 RECTANGULAR</Subfamily>
+    <Quality>C</Quality>
+    <Manufacturer>AXON (FR)</Manufacturer>
+    <EIN>E02001008.C01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>MICRO-D</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0202C0001026</Code Eng COM>
+    <Code Old COM>E0202C0001026AXM</Code Old COM>
+    <Component Number>MDA209SCBRW5G4</Component Number>
+    <Commercial Part Number>MDA209SCBRW5G4</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

@@ -1,0 +1,29 @@
+  <row>
+    <Type>Physical Part</Type>
+    <Name>PRD10001014</Name>
+    <Revision>1.1</Revision>
+    <Title></Title>
+    <Description>Capacitor, Ceramic Chip, CC-I, C0603CF, 0.4pF, 0.05pF, 250V</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState>In Work</MaturityState>
+    <Family>01 CAPACITORS</Family>
+    <Subfamily>02 CERAMIC CHIP</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>DILABS (US)</Manufacturer>
+    <EIN>E01001028.E01</EIN>
+    <Symbol>01-CAP-CERAMIC</Symbol>
+    <Package>
+      <Footprint>EEE-01-CAP-0603</Footprint>
+      <GeometricPackage>C0603CF</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0102M1341A04</Code Eng COM>
+    <Code Old COM>E0102M1341A04DLE</Code Old COM>
+    <Component Number>E0102M1341A04DLE</Component Number>
+    <Commercial Part Number>C06CF0R4A-9UN-X0T</Commercial Part Number>
+    <Value>0.4pF</Value>
+    <Tol>0.05pF</Tol>
+    <TCR></TCR>
+    <Volt>250V</Volt>
+    <Creation Date>1/17/2025</Creation Date>
+    <Modification Date></Modification Date>
+  </row>

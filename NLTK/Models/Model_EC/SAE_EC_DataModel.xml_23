@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>03 PIEZO-ELECTRIC DEVICES</EPPL Family>
+    <EPPL Group>01 CRYSTAL RESONATOR</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>Piezo-electric, Crystal Resonator, 3rd OT SC, HC35, 50 MHz </Description>
+    <SPN>E03001009.F01</SPN>
+    <Code Eng COM>E0371M1660001</Code Eng COM>
+    <Code Old COM>E0371M1660001VES</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>311205825-50M000000</Component Number>
+    <Commercial Part Number>311205825-50M000000</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package>HC35</Engineering Package>
+    <Package>HC35</Package>
+    <Finish></Finish>
+    <Generic specification>MIL-PRF-3098</Generic specification>
+    <Detail specification>RQS-APR-0XXX (TBI)</Detail specification>
+    <Quality Level>EQ MIL</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>VECTRON INTERNATIONAL (US)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E0371M1660001VE-</Link files>
+    <Library Ref>EEE-03-OSC-XR-R311-3JY-AAJX-50M000000</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1>EEE-03-OSC-H35</Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

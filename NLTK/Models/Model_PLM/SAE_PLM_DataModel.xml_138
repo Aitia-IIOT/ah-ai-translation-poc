@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Custom RM Core Transformers Var.21</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>14 TRANSFORMER</Family>
+    <Subfamily>01 POWER</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>FLUX (DK)</Manufacturer>
+    <EIN>E14001003.E01</EIN>
+    <Symbol>14-TRF-14220222-1</Symbol>
+    <Package>
+      <Footprint>EEE-14-TRF-RM-08_VAR5</Footprint>
+      <GeometricPackage>RM 8</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1424M0423021</Code Eng COM>
+    <Code Old COM>E1424M0423021FXE</Code Old COM>
+    <Component Number>14220222-1-P</Component Number>
+    <Commercial Part Number>14220222-*-*</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

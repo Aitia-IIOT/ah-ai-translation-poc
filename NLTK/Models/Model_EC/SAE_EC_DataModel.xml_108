@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>12 TRANSISTORS</EPPL Family>
+    <EPPL Group>16 MICROWAVE LOW NOISE (GAAS)</EPPL Group>
+    <Quality type>E</Quality type>
+    <Description>Transistor, Microwave Low Noise (GaAs), EC2612-99F, DIE, 4V, DC-40GHz</Description>
+    <SPN>E12001002.E01</SPN>
+    <Code Eng COM>E1216M0000043</Code Eng COM>
+    <Code Old COM>E1216M0000043UME</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>E1216M0000043UME</Component Number>
+    <Commercial Part Number>EC2612-99F</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package>DIE</Engineering Package>
+    <Package>DIE</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 5010</Generic specification>
+    <Detail specification></Detail specification>
+    <Quality Level>EM</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>UNITED MONOLITHIC SEMICONDUCTOR (FR)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E1216M0000043UM-</Link files>
+    <Library Ref>12-TRT-RF-FET-DIE</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt>4V</Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Single wires AWG26</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>13 WIRES AND CABLES</Family>
+    <Subfamily>01 LOW FREQUENCY</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>AXON CABLE SAS (FR)</Manufacturer>
+    <EIN>E13001003.F01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage></GeometricPackage>
+    </Package>
+    <Code Eng COM>E1301S0000003</Code Eng COM>
+    <Code Old COM>E1301S0000003AXB</Code Old COM>
+    <Component Number>ESCC 390101302</Component Number>
+    <Commercial Part Number>ESCC 390101302</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

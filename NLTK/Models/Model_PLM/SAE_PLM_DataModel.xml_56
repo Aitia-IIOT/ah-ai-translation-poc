@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>1.05A 125V SMD MGA-S Fuse</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>06 FUSES</Family>
+    <Subfamily>01 ALL</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>SCHURTER (CH)</Manufacturer>
+    <EIN>E06001005.E01</EIN>
+    <Symbol>06-FUS-MGA-S</Symbol>
+    <Package>
+      <Footprint>EEE-06-FUS-MGA-S</Footprint>
+      <GeometricPackage>SMD</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0623S0000005</Code Eng COM>
+    <Code Old COM>E0623S0000005SHE</Code Old COM>
+    <Component Number>34100316</Component Number>
+    <Commercial Part Number>34100316</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Isolator WR34-WR34. Fc: 29.25 GHz. BW: 3.5GHz</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>30 RF PASSIVE COMPONENTS</Family>
+    <Subfamily>07 ISOLATOR/CIRCULATOR</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>TRAK MICROWAVE (GB)</Manufacturer>
+    <EIN>E30001003.E01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>N/A</GeometricPackage>
+    </Package>
+    <Code Eng COM>E3052M0541001</Code Eng COM>
+    <Code Old COM>E3052M0541001TKE</Code Old COM>
+    <Component Number>30071E0-007101-01P</Component Number>
+    <Commercial Part Number>21HD323</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

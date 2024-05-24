@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>RF Cable Assembly, MINI 141 K - 13,0</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>50 CABLE ASSEMBLY</Family>
+    <Subfamily>01 RF CABLE ASSEMBLIES</Subfamily>
+    <Quality>E</Quality>
+    <Manufacturer>HUBER + SUHNER (ASTROLAB) (US)</Manufacturer>
+    <EIN>E50001004.E01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage></GeometricPackage>
+    </Package>
+    <Code Eng COM>E5070M167113D</Code Eng COM>
+    <Code Old COM>E5070M167113DHSE</Code Old COM>
+    <Component Number>MINI141 K-13,0</Component Number>
+    <Commercial Part Number>MINI141 K-13,0</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

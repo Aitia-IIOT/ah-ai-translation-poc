@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Transistor, FET N Channel, BUY15CS23J-01(ES), SMD-0.5, 150V</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>12 TRANSISTORS</Family>
+    <Subfamily>05 FET N CHANNEL</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>INFINEON (DE)</Manufacturer>
+    <EIN>E12001006.F01</EIN>
+    <Symbol>12-TRT-FET-N_PINS_CONF3</Symbol>
+    <Package>
+      <Footprint>EEE-12-TRT-SMD05</Footprint>
+      <GeometricPackage>SMD-0.5</GeometricPackage>
+    </Package>
+    <Code Eng COM>E1218S0000049</Code Eng COM>
+    <Code Old COM>E1218S0000049INS</Code Old COM>
+    <Component Number>520503101R</Component Number>
+    <Commercial Part Number>BUY15CS23J-01(ES)</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt>150V</Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

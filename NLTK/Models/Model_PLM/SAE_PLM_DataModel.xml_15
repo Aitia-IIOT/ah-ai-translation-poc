@@ -1,0 +1,29 @@
+  <row>
+    <Type>Physical Part</Type>
+    <Name>PRD10001024</Name>
+    <Revision>1.0</Revision>
+    <Title></Title>
+    <Description>Connector, High density PCB, MHD, 100 contacts, female receptacle straight termination  Ni+Au platin</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState>In Work</MaturityState>
+    <Family>02 CONNECTORS</Family>
+    <Subfamily>02 RECTANGULAR</Subfamily>
+    <Quality>C</Quality>
+    <Manufacturer>Smiths Interconnect (CN)</Manufacturer>
+    <EIN>E02001005.C01</EIN>
+    <Symbol></Symbol>
+    <Package>
+      <Footprint></Footprint>
+      <GeometricPackage>MHD</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0202C0001023</Code Eng COM>
+    <Code Old COM>E0202C0001023SCM</Code Old COM>
+    <Component Number>MHD1002630121</Component Number>
+    <Commercial Part Number>MHD1002630121</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date>1/17/2030</Creation Date>
+    <Modification Date></Modification Date>
+  </row>

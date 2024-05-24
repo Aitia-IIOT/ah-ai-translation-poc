@@ -1,0 +1,29 @@
+  <row>
+    <Type>Physical Part</Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description> 1 x 15 A - 200 V fast recovery rectifier</Description>
+    <Owner>millarramendi</Owner>
+    <MaturityState></MaturityState>
+    <Family>04 DIODES</Family>
+    <Subfamily>02 RECTIFIER</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>ST MICRO (FR)</Manufacturer>
+    <EIN>E04001005.F01</EIN>
+    <Symbol>04-DIO-DUAL_DIODE_OP_3</Symbol>
+    <Package>
+      <Footprint>EEE-04-DIO-SMD05_2</Footprint>
+      <GeometricPackage>SMD.5</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0418S0000055</Code Eng COM>
+    <Code Old COM>E0418S0000055STB</Code Old COM>
+    <Component Number>510302905</Component Number>
+    <Commercial Part Number>BYW81HR-200S</Commercial Part Number>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>

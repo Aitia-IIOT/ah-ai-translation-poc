@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>50 CABLE ASSEMBLY</EPPL Family>
+    <EPPL Group>01 RF CABLE ASSEMBLIES</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>RF Cable Assembly, MINI 141 K - 13,0</Description>
+    <SPN>E50001004.F01</SPN>
+    <Code Eng COM>E5070M167113D</Code Eng COM>
+    <Code Old COM>E5070M167113DHSS</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>E5070M167113DHSS</Component Number>
+    <Commercial Part Number>MINI141 K-13,0</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package></Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 3408</Generic specification>
+    <Detail specification>RQS/CABM141/180247</Detail specification>
+    <Quality Level>EQ ECSS</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>HUBER + SUHNER (ASTROLAB) (US)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E5070M167113DHS-</Link files>
+    <Library Ref></Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

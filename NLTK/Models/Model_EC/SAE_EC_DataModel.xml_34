@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>04 DIODES</EPPL Family>
+    <EPPL Group>11 MICROWAVE VARACTOR (GAAS)</EPPL Group>
+    <Quality type>E</Quality type>
+    <Description>Diode, Microwave Varactor (Gaas), MA46H120, ODS-1203, Hyper Abrupt junction, 0.3-0.4pF</Description>
+    <SPN>E04001007.E01</SPN>
+    <Code Eng COM>E0419M0191001</Code Eng COM>
+    <Code Old COM>E0419M0191001RFE</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>MDV-28801-01E</Component Number>
+    <Commercial Part Number>MA46H120</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package>ODS-1203</Engineering Package>
+    <Package>ODS-1203</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 5010</Generic specification>
+    <Detail specification>RQS-OSP-DIOD-0288 ISS 1</Detail specification>
+    <Quality Level>AS PER SPEC.</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>RF2 (GB)</Manufacturer>
+    <PPL EBOM>Preferred</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files></Link files>
+    <Library Ref>04-DIO-VARACTOR</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

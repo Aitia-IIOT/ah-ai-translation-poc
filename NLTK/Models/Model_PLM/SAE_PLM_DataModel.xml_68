@@ -1,0 +1,29 @@
+  <row>
+    <Type></Type>
+    <Name></Name>
+    <Revision></Revision>
+    <Title></Title>
+    <Description>Inductor, Chip, MPCI-CASE-A, 12nH, 10%, 0.75A</Description>
+    <Owner></Owner>
+    <MaturityState></MaturityState>
+    <Family>07 INDUCTORS</Family>
+    <Subfamily>03 CHIP</Subfamily>
+    <Quality>F</Quality>
+    <Manufacturer>EXXELIA (FR)</Manufacturer>
+    <EIN>E07001011.F01</EIN>
+    <Symbol>07-IND-INDUCTOR</Symbol>
+    <Package>
+      <Footprint>EEE-07-IND-MPCI10K</Footprint>
+      <GeometricPackage>MPCI-CASE-A</GeometricPackage>
+    </Package>
+    <Code Eng COM>E0724SA000012</Code Eng COM>
+    <Code Old COM>E0724SA000012EXC</Code Old COM>
+    <Component Number>320100802CL012K</Component Number>
+    <Commercial Part Number>MSCI10000012TS10</Commercial Part Number>
+    <Value>12nH</Value>
+    <Tol>10%</Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Creation Date></Creation Date>
+    <Modification Date></Modification Date>
+  </row>
