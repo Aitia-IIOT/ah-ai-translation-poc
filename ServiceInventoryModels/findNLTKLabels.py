@@ -75,7 +75,8 @@ def main():
         with open(output_file_path_tmp, 'w') as output_file:
             if(len(uniqeLabels) == 0):
                 output_file.write("{\n")
-                output_file.write("\"$Result\" : \"Error\",\n")
+                output_file.write("\"$Result\" : \"Success\",\n")
+                output_file.write(f"\"$ID\" : \"{input_id}\",\n")
                 output_file.write("\"$Cause\" : \"Could not find label\"\n")
                 output_file.write("}\n")
             else:
@@ -83,7 +84,7 @@ def main():
                 output_file.write("\"$Result\" : \"Success\",\n")
                 output_file.write(f"\"$ID\" : \"{input_id}\",\n")
                 output_file.write(f"\"$MinAccuracy\" : {accThreshold},\n")
-                output_file.write("\"Labels\" : [\n")
+                output_file.write("\"Label\" : [\n")
                 for w in uniqeLabels:
                     if( uniqeLabels.index(w) == len(uniqeLabels) - 1):
                         output_file.write(f"\t\"{w}\"\n")
