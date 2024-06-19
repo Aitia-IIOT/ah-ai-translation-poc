@@ -1,0 +1,48 @@
+root: 
+	row: 
+		EPPL_Family: 01 CAPACITORS
+		EPPL_Group: 02 CERAMIC CHIP
+		Quality_type: F
+		Description: Capacitor, Ceramic Chip, CC-I, C0603CF, 0.3pF, 0.05pF, 250V
+		SPN: E01001027.F01
+		Code_Eng_COM: E0102M1341A03
+		Code_Old_COM: E0102M1341A03DLF
+		Code_Old_SEM: 
+			ASA: 
+		Code_Old_SENET: 
+		Code_generic: No
+		Component_Number: E0102M1341A03DLF
+		Commercial_Part_Number: C06CF0R3A-9UN-C0TC0T
+		Generic_Part_Type: 
+		Engineering_Package: C0603
+		Package: C0603CF
+		Finish: 
+		Generic_specification: MIL-PRF-55681
+		Detail_specification: RQS/APR-0077 ISS.1
+		Quality_Level: AS PER SPEC.
+		Quality_status: NONE
+		ESD_Sensitivity_level: 
+		Moisture_sensitivity_level: 
+		Comment: 
+		Weight: 
+		Manufacturer: DILABS (US)
+		PPL_EBOM: Preferred
+		PPL_MBOM: Preferred
+		Link_files: E\E0102M1341---DL-
+		Library_Ref: 01-CAP-CERAMIC
+		Sim_Model_Name: 
+		Sim_File: 
+		Sim_Kind: 
+		Sim_SubKind: 
+		Sim_Netlist: 
+		Sim_Spice_Prefix: 
+		Sim_Port_Map: 
+		Assembly_qual_status: 
+		Value: 0.3pF
+		Tol: 0.05pF
+		TCR: 
+		Volt: 250V
+		Footprint1: EEE-01-CAP-0603
+		Footprint2: 
+		Footprint3: 
+		Application: COM-SPACE-SMT

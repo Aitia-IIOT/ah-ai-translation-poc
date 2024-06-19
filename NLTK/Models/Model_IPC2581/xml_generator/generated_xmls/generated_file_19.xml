@@ -1,0 +1,229 @@
+<Root xmlns="http://webstds.ipc.org/2581">
+    <Approval datetime="2020-06-27T10:50:44" personRef="person19"/>
+    <Arc startX="-26.029096785922732" startY="-74.8033084645142" endX="86.64101250764563" endY="52.43949126781337"
+         centerX="-63.694793934753214" centerY="47.929677281203084" clockwise="true">
+        <LineDesc lineEnd="NONE" lineWidth="0" lineProperty="SOLID"/>
+    </Arc>
+    <AssemblyDrawing>
+        <Outline>
+            <Polygon>
+                <PolyBegin x="79.0432290146999" y="-25.142964544507308"/>
+                <PolyStepCurve x="79.0432290146999" y="-25.142964544507308" centerX="-17.156916977875667"
+                               centerY="44.55354267815474" clockwise="false"/>
+                <PolyStepSegment x="79.0432290146999" y="-25.142964544507308"/>
+                <Xform xOffset="1" yOffset="1" rotation="0" mirror="false" faceUp="false" scale="1"/>
+                <LineDesc lineEnd="NONE" lineWidth="0" lineProperty="SOLID"/>
+                <FillDesc fillProperty="HOLLOW" lineWidth="0" pitch1="0" pitch2="0" angle1="0.00" angle2="0.00">
+                    <Color r="0" g="0" b="0"/>
+                </FillDesc>
+            </Polygon>
+            <LineDesc lineEnd="ROUND" lineWidth="1.7976931348623157E+308" lineProperty="DOTTED"/>
+        </Outline>
+        <Marking markingUsage="REFDES">
+            <Location x="-19.268335895462798" y="-78.52515825477637"/>
+        </Marking>
+        <Marking markingUsage="PARTNAME">
+            <Location x="-32.027811395146614" y="5.866757447855122"/>
+        </Marking>
+        <Marking markingUsage="TARGET">
+            <Location x="83.45676451327697" y="-51.5936681777947"/>
+        </Marking>
+    </AssemblyDrawing>
+    <AvlHeader title="AVL Title" source="Source" author="Gamma" datetime="2020-06-27T10:50:44"
+               version="6.49882553275142" comment=" " modRef="ModRef"/>
+    <AvlItem OEMDesignNumber="OEM19"/>
+    <AvlVmpn evplVendor="Vendor19" evplMpn="MPN19" qualified="true" chosen="true"/>
+    <AvlMpn name="Gamma" rank="4.7394603603240135" cost="55.95944051966334" moistureSensitivity="Medium"
+            availability="true" other=" "/>
+    <BendArea name="BendArea19" sequenceNumber="19" comment=" "/>
+    <BomHeader assembly="Assembly19" revision="RevA" affecting="true"/>
+    <BomItem OEMDesignNumberRef="OEMDesignNumber19" quantity="10" category="CategoryA" internalPartNumber="IPN19"
+             description="Example Description"/>
+    <RefDes name="RefDes19" packageRef="Package19" populate="true" layerRef="Layer1" modelRef="Model19"/>
+    <MatDes name="MatDes19" layerRef="Layer1"/>
+    <DocDes name="DocDes19" layerRef="Layer1"/>
+    <ToolDes name="ToolDes19" layerRef="Layer1"/>
+    <FindDes number="19" layerRef="Layer1" modelRef="ModelA"/>
+    <BomRef name="BomRef19"/>
+    <Bom name="Bom19">
+        <BomHeader assembly="Assembly19" revision="RevA" affecting="true"/>
+        <BomItem OEMDesignNumberRef="OEMDesignNumber19" quantity="10" category="CategoryA" internalPartNumber="IPN19"
+                 description="Example Description"/>
+    </Bom>
+    <BoundingBox lowerLeftX="-73.53078240799398" lowerLeftY="82.69157288637967" upperRightX="-87.65686896618827"
+                 upperRightY="44.09866850658025"/>
+    <Butterfly shape="circle" diameter="36.19250488899893" side="11.27594568526643">
+        <LineDescGroup/>
+        <FillDescGroup/>
+    </Butterfly>
+    <CachedFirmware hexEncodedBinary="ABC123DEF456"/>
+    <CadData>
+        <Layer/>
+        <Stackup/>
+        <Step/>
+        <Step/>
+        <Step/>
+        <Step/>
+    </CadData>
+    <CadHeader units="mm">
+        <Spec/>
+        <ChangeRec datetime="2020-06-27T10:50:44" personRef="person19" application="App" change="Change"/>
+        <ChangeRec datetime="2020-06-27T10:50:44" personRef="person19" application="App" change="Change"/>
+    </CadHeader>
+    <Certification certificationStatus="Certified" certificationCategory="Category2"/>
+    <Characteristics category="Category">
+        <Ranged/>
+    </Characteristics>
+    <Circle diameter="60.538686589501644">
+        <FillDescGroup/>
+    </Circle>
+    <CircularBend innerSide="Left" innerRadius="32.31321037082412">
+        <BendLine/>
+    </CircularBend>
+    <Color r="126" g="162" b="20"/>
+    <ColorRef id="ColorRef19"/>
+    <ColorTerm name="ColorName19"/>
+    <Component part="Part19" layerRef="Layer1" mountType="Surface" refDes="RefDes19" matDes="MatDes19"
+               packageRef="Package19" modelRef="Model19" weight="5.07013600549839" height="0.35176143029457596"
+               standoff="2.716635477096422">
+        <NonstandardAttribute/>
+        <NonstandardAttribute/>
+        <NonstandardAttribute/>
+        <Location/>
+    </Component>
+    <Content roleRef="Role1">
+        <FunctionMode/>
+        <StepRef/>
+        <StepRef/>
+        <LayerRef/>
+        <AvlRef/>
+        <DictionaryColor/>
+        <DictionaryFont/>
+        <DictionaryStandard/>
+        <DictionaryFirmware/>
+    </Content>
+    <Contour>
+        <Polygon/>
+    </Contour>
+    <Criteria name="Criteria19" measurementMode="Mode1" comment="This is a comment">
+        <Property/>
+        <DfxMeasurement/>
+        <DfxMeasurement/>
+    </Criteria>
+    <Cutout/>
+    <Dfx name="Dfx19" category="Category1">
+        <DfxQuery/>
+    </Dfx>
+    <DfxDetails>
+        <FeatureDescription/>
+        <FeatureDescription/>
+        <Marker/>
+        <EmbeddedRef/>
+        <ExternalRef/>
+        <ExternalRef/>
+    </DfxDetails>
+    <DfxMeasurement id="Measurement19" severity="High">
+        <Property/>
+        <MeasurementPoint/>
+        <DfxDetails>
+            <FeatureDescription/>
+            <FeatureDescription/>
+            <Marker/>
+            <EmbeddedRef/>
+            <ExternalRef/>
+            <ExternalRef/>
+        </DfxDetails>
+    </DfxMeasurement>
+    <DfxQuery name="Query19" query="Query text 19">
+        <DfxResponse/>
+        <DfxResponse/>
+    </DfxQuery>
+    <DfxResponse response="Accepted" dfxMeasurementRef="MeasurementRef19"/>
+    <Diamond width="6.79921245550486" height="2.5897196586530313">
+        <LineDescGroup/>
+    </Diamond>
+    <DictionaryColor>
+        <EntryColor/>
+        <EntryColor/>
+        <EntryColor/>
+        <EntryColor/>
+    </DictionaryColor>
+    <DictionaryFirmware>
+        <EntryFirmware/>
+        <EntryFirmware/>
+        <EntryFirmware/>
+        <EntryFirmware/>
+    </DictionaryFirmware>
+    <DictionaryFont units="mm">
+        <EntryFont/>
+        <EntryFont/>
+        <EntryFont/>
+        <EntryFont/>
+    </DictionaryFont>
+    <DictionaryLineDesc units="mm">
+        <EntryLineDesc/>
+        <EntryLineDesc/>
+        <EntryLineDesc/>
+        <EntryLineDesc/>
+    </DictionaryLineDesc>
+    <DictionaryFillDesc units="mm">
+        <EntryFillDesc/>
+        <EntryFillDesc/>
+    </DictionaryFillDesc>
+    <DictionaryStandard units="mm">
+        <EntryStandard/>
+        <EntryStandard/>
+    </DictionaryStandard>
+    <DictionaryUser units="mm">
+        <EntryUser/>
+        <EntryUser/>
+    </DictionaryUser>
+    <Donut shape="circle" outerDiameter="7.539009643517492" innerDiameter="3.232651484232649"/>
+    <Ecad name="EcadName19">
+        <CadHeader/>
+    </Ecad>
+    <EdgeCoupled structure="microstrip">
+        <LineWidth/>
+        <LineGap/>
+    </EdgeCoupled>
+    <Ellipse width="4.204769666671969" height="8.099452574028716">
+        <LineDescGroup/>
+        <FillDescGroup/>
+    </Ellipse>
+    <EmbeddedRef name="EmbeddedRefName19" embeddedType="image">
+        <EmbeddedData text="binarydata"/>
+    </EmbeddedRef>
+    <Enterprise id="EnterpriseID19" code="EnterpriseCode19" codeType="internal" address1="1234 Main St" city="SomeCity"
+                country="US" phone="123-456-7890" url="http://example.com"/>
+    <EntryColor id="ColorID19">
+        <Color/>
+    </EntryColor>
+    <EntryFirmware id="FirmwareID19">
+        <CachedFirmware/>
+    </EntryFirmware>
+    <EntryFont id="FontID19">
+        <FontDef/>
+    </EntryFont>
+    <EntryLineDesc id="LineDescID19">
+        <LineDesc/>
+    </EntryLineDesc>
+    <EntryFillDesc id="FillDescID19">
+        <FillDesc/>
+    </EntryFillDesc>
+    <EntryStandard id="StandardID19">
+        <StandardPrimitive/>
+    </EntryStandard>
+    <EntryUser id="UserID19">
+        <UserPrimitive/>
+    </EntryUser>
+    <Enumerated definitionSource="ExampleSource" enumeratedCharacteristicName="ExampleName"
+                enumeratedCharacteristicValue="ExampleValue"/>
+    <ExternalRef text="http://example.com/resource19"/>
+    <Extrusion startHeight="9.429644128016703" height="4.929649271800557">
+        <Feature/>
+        <Location/>
+    </Extrusion>
+    <FeatureDescription layerRef="LayerRef19" packageRef="PackageRef19" padstackDefRef="PadstackDefRef19"
+                        netRef="NetRef19" stackupRef="StackupRef19" featureObject="ObjectType"
+                        comment="This is a comment."/>
+</Root>

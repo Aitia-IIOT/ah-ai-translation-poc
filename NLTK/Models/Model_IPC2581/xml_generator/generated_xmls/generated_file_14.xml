@@ -1,0 +1,216 @@
+<Root xmlns="http://webstds.ipc.org/2581">
+    <Approval datetime="2015-02-19T00:53:08" personRef="person14"/>
+    <Arc startX="-62.50730185812963" startY="-1.1862698620597456" endX="-19.503485160116995" endY="13.452052943848301"
+         centerX="92.70160158324444" centerY="-83.31554577441253" clockwise="true">
+        <LineDesc lineEnd="NONE" lineWidth="0" lineProperty="SOLID"/>
+    </Arc>
+    <AssemblyDrawing>
+        <Outline>
+            <Polygon>
+                <PolyBegin x="-58.25876405655881" y="18.357481445245227"/>
+                <PolyStepCurve x="-58.25876405655881" y="18.357481445245227" centerX="51.484448689675304"
+                               centerY="47.1658418403228" clockwise="true"/>
+                <PolyStepSegment x="-58.25876405655881" y="18.357481445245227"/>
+                <Xform xOffset="1" yOffset="1" rotation="0" mirror="false" faceUp="false" scale="1"/>
+                <LineDesc lineEnd="NONE" lineWidth="0" lineProperty="SOLID"/>
+                <FillDesc fillProperty="HOLLOW" lineWidth="0" pitch1="0" pitch2="0" angle1="0.00" angle2="0.00">
+                    <Color r="0" g="0" b="0"/>
+                </FillDesc>
+            </Polygon>
+            <LineDesc lineEnd="ROUND" lineWidth="1.7976931348623157E+308" lineProperty="DOTTED"/>
+        </Outline>
+        <Marking markingUsage="REFDES">
+            <Location x="-17.038901655322533" y="-81.79044058671742"/>
+        </Marking>
+        <Marking markingUsage="PARTNAME">
+            <Location x="-50.312365653291224" y="-75.20523260707965"/>
+        </Marking>
+        <Marking markingUsage="TARGET">
+            <Location x="-49.908048216820845" y="49.21081464614812"/>
+        </Marking>
+    </AssemblyDrawing>
+    <AvlHeader title="AVL Title" source="Source" author="Beta" datetime="2015-02-19T00:53:08"
+               version="9.802694109683243" comment=" " modRef="ModRef"/>
+    <AvlItem OEMDesignNumber="OEM14"/>
+    <AvlVmpn evplVendor="Vendor14" evplMpn="MPN14" qualified="true" chosen="true"/>
+    <AvlMpn name="Beta" rank="1.9134940311151407" cost="7.8275077603255365" moistureSensitivity="High"
+            availability="true" other=" "/>
+    <BendArea name="BendArea14" sequenceNumber="14" comment=" "/>
+    <BomHeader assembly="Assembly14" revision="RevA" affecting="true"/>
+    <BomItem OEMDesignNumberRef="OEMDesignNumber14" quantity="10" category="CategoryA" internalPartNumber="IPN14"
+             description="Example Description"/>
+    <RefDes name="RefDes14" packageRef="Package14" populate="true" layerRef="Layer1" modelRef="Model14"/>
+    <MatDes name="MatDes14" layerRef="Layer1"/>
+    <DocDes name="DocDes14" layerRef="Layer1"/>
+    <ToolDes name="ToolDes14" layerRef="Layer1"/>
+    <FindDes number="14" layerRef="Layer1" modelRef="ModelA"/>
+    <BomRef name="BomRef14"/>
+    <Bom name="Bom14">
+        <BomHeader assembly="Assembly14" revision="RevA" affecting="true"/>
+        <BomItem OEMDesignNumberRef="OEMDesignNumber14" quantity="10" category="CategoryA" internalPartNumber="IPN14"
+                 description="Example Description"/>
+    </Bom>
+    <BoundingBox lowerLeftX="-23.828016817067123" lowerLeftY="36.76786988832259" upperRightX="-34.5152745496823"
+                 upperRightY="33.733410994662876"/>
+    <Butterfly shape="circle" diameter="72.44286811665754" side="0.2597252570080255">
+        <LineDescGroup/>
+        <FillDescGroup/>
+    </Butterfly>
+    <CachedFirmware hexEncodedBinary="ABC123DEF456"/>
+    <CadData>
+        <Layer/>
+        <Layer/>
+        <Stackup/>
+        <Stackup/>
+        <Step/>
+        <Step/>
+        <Step/>
+    </CadData>
+    <CadHeader units="mm">
+        <Spec/>
+        <ChangeRec datetime="2015-02-19T00:53:08" personRef="person14" application="App" change="Change"/>
+        <ChangeRec datetime="2015-02-19T00:53:08" personRef="person14" application="App" change="Change"/>
+    </CadHeader>
+    <Certification certificationStatus="Certified" certificationCategory="Category2"/>
+    <Characteristics category="Category">
+        <Ranged/>
+        <Ranged/>
+        <Ranged/>
+        <Textual/>
+        <Textual/>
+        <Textual/>
+    </Characteristics>
+    <Circle diameter="24.289310410736576"/>
+    <CircularBend innerSide="Left" innerRadius="10.23662072959988" innerAngle="259.36738980732883">
+        <BendLine/>
+    </CircularBend>
+    <Color r="149" g="254" b="159"/>
+    <ColorRef id="ColorRef14"/>
+    <ColorTerm name="ColorName14" comment="This is a comment"/>
+    <Component part="Part14" layerRef="Layer1" mountType="Surface" refDes="RefDes14" matDes="MatDes14"
+               packageRef="Package14" modelRef="Model14" weight="0.19881119044524165" height="0.5571835101553091"
+               standoff="4.166536769143824">
+        <Xform/>
+        <Location/>
+    </Component>
+    <Content roleRef="Role1">
+        <FunctionMode/>
+        <StepRef/>
+        <StepRef/>
+        <LayerRef/>
+        <DictionaryColor/>
+        <DictionaryLineDesc/>
+        <DictionaryFillDesc/>
+        <DictionaryFont/>
+        <DictionaryStandard/>
+        <DictionaryFirmware/>
+    </Content>
+    <Contour>
+        <Polygon/>
+    </Contour>
+    <Criteria name="Criteria14" measurementMode="Mode1">
+        <Property/>
+        <DfxMeasurement/>
+    </Criteria>
+    <Cutout/>
+    <Dfx name="Dfx14" category="Category1">
+        <DfxQuery/>
+    </Dfx>
+    <DfxDetails>
+        <FeatureDescription/>
+        <FeatureDescription/>
+        <FeatureDescription/>
+        <Marker/>
+        <ExternalRef/>
+        <ExternalRef/>
+    </DfxDetails>
+    <DfxMeasurement id="Measurement14">
+        <Property/>
+        <MeasurementPoint/>
+        <MeasurementPoint/>
+        <MeasurementPoint/>
+        <MeasurementPoint/>
+        <MeasurementPoint/>
+    </DfxMeasurement>
+    <DfxQuery name="Query14" query="Query text 14">
+        <DfxResponse/>
+    </DfxQuery>
+    <DfxResponse response="Accepted" dfxMeasurementRef="MeasurementRef14"/>
+    <Diamond width="2.7942804106919468" height="5.963218425718104">
+        <FillDescGroup/>
+    </Diamond>
+    <DictionaryColor>
+        <EntryColor/>
+        <EntryColor/>
+        <EntryColor/>
+        <EntryColor/>
+    </DictionaryColor>
+    <DictionaryFirmware>
+        <EntryFirmware/>
+        <EntryFirmware/>
+    </DictionaryFirmware>
+    <DictionaryFont units="mm">
+        <EntryFont/>
+        <EntryFont/>
+        <EntryFont/>
+    </DictionaryFont>
+    <DictionaryLineDesc units="mm">
+        <EntryLineDesc/>
+        <EntryLineDesc/>
+    </DictionaryLineDesc>
+    <DictionaryFillDesc units="mm">
+        <EntryFillDesc/>
+        <EntryFillDesc/>
+        <EntryFillDesc/>
+        <EntryFillDesc/>
+    </DictionaryFillDesc>
+    <DictionaryStandard units="mm"/>
+    <DictionaryUser units="mm">
+        <EntryUser/>
+    </DictionaryUser>
+    <Donut shape="circle" outerDiameter="3.051240003185184" innerDiameter="0.3727088746544769"/>
+    <Ecad name="EcadName14">
+        <CadHeader/>
+    </Ecad>
+    <EdgeCoupled structure="microstrip">
+        <LineWidth/>
+        <LineGap/>
+    </EdgeCoupled>
+    <Ellipse width="9.352932948908443" height="9.113011732601406"/>
+    <EmbeddedRef name="EmbeddedRefName14" embeddedType="image">
+        <EmbeddedData text="binarydata"/>
+    </EmbeddedRef>
+    <Enterprise id="EnterpriseID14" code="EnterpriseCode14" codeType="internal" address1="1234 Main St"
+                postalCode="12345"/>
+    <EntryColor id="ColorID14">
+        <Color/>
+    </EntryColor>
+    <EntryFirmware id="FirmwareID14">
+        <CachedFirmware/>
+    </EntryFirmware>
+    <EntryFont id="FontID14">
+        <FontDef/>
+    </EntryFont>
+    <EntryLineDesc id="LineDescID14">
+        <LineDesc/>
+    </EntryLineDesc>
+    <EntryFillDesc id="FillDescID14">
+        <FillDesc/>
+    </EntryFillDesc>
+    <EntryStandard id="StandardID14">
+        <StandardPrimitive/>
+    </EntryStandard>
+    <EntryUser id="UserID14">
+        <UserPrimitive/>
+    </EntryUser>
+    <Enumerated definitionSource="ExampleSource" enumeratedCharacteristicName="ExampleName"
+                enumeratedCharacteristicValue="ExampleValue"/>
+    <ExternalRef text="http://example.com/resource14"/>
+    <Extrusion startHeight="8.416176911965518" height="2.796472089237012">
+        <Feature/>
+        <Location/>
+    </Extrusion>
+    <FeatureDescription pinRef="PinRef14" componentRef="ComponentRef14" specRef="SpecRef14"
+                        padstackDefRef="PadstackDefRef14" stackupRef="StackupRef14" featureObject="ObjectType"
+                        comment="This is a comment."/>
+</Root>
