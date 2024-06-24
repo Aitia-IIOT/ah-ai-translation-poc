@@ -1,0 +1,47 @@
+IPC-2581C (Institute for Printed Circuits)    <-->      EC/ECAD (Engineering Change/Electronic Computer-Aided Design)
+
+Conductor.type                                          EPPL_Family: 01 CAPACITORS
+Conductor.material                                      EPPL_Group: 02 CERAMIC CHIP
+Conductor.foilType                                      Quality_type: F
+BomItem.description/Conductor.comment                   Description: Capacitor, Ceramic Chip, CC-I, C0603CF, 0.3pF, 0.05pF, 250V
+BomItem.internalPartNumber                              SPN: E01001027.F01
+?                                                       Code_Eng_COM: E0102M1341A03
+?                                                       Code_Old_COM: E0102M1341A03DLF
+-                                                       Code_Old_SEM:
+-                                                           ASA:
+-                                                       Code_Old_SENET:
+- (BomItem-hez kéne elvileg kapcsolódnia)               Code_generic: No
+BomItem.OEMDesignNumberRef ?                            Component_Number: E0102M1341A03DLF
+-                                                       Commercial_Part_Number: C06CF0R3A-9UN-C0TC0T
+-                                                       Generic_Part_Type:
+Component.packageRef                                    Engineering_Package: C0603
+Component.packageRef                                    Package: C0603CF
+Component.refDes                                        Generic_specification: MIL-PRF-55681
+Component.refDes                                        Detail_specification: RQS/APR-0077 ISS.1
+-                                                       Quality_Level: AS PER SPEC.
+-                                                       Quality_status: NONE
+-                                                       ESD_Sensitivity_level:
+AvlMpn.moistureSensitivity                              Moisture_sensitivity_level:
+AvlHeader.comment,BomItem.comments                      Comment:
+Component.weight                                        Weight:
+AvlVendor.enterpriseRef                                 Manufacturer: DILABS (US)
+Product.criteria ?                                      PPL_EBOM: Preferred
+Product.criteria ?                                      PPL_MBOM: Preferred
+- (DocDes-részhez kellene <LinkFiles> rész)             Link_files: E\E0102M1341---DL-
+?                                                       Library_Ref: 01-CAP-CERAMIC
+BomItem.Tuning                                          Sim_Model_Name:
+BomItem.Tuning                                          Sim_File:
+BomItem.Tuning                                          Sim_Kind:
+BomItem.Tuning                                          Sim_SubKind:
+BomItem.Tuning                                          Sim_Netlist:
+BomItem.Tuning                                          Sim_Spice_Prefix:
+BomItem.Tuning                                          Sim_Port_Map:
+BomHeader.assembly                                      Assembly_qual_status:
+Characteristics.measuredCharacteristicsValue            Value: 0.3pF
+Characteristics.engineeringPositiveTolerance            Tol: 0.05pF
+-                                                       TCR:
+Characteristics.rangedCharacteristicUpperValue ?        Volt: 250V
+- (BomItem-en belül kéne lennie)                        Footprint1: EEE-01-CAP-0603
+-                                                       Footprint2:
+-                                                       Footprint3:
+ChangeRec.application                                   Application: COM-SPACE-SMT
