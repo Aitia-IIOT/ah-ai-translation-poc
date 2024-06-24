@@ -1,0 +1,251 @@
+<Root xmlns="http://webstds.ipc.org/2581">
+    <Approval datetime="1981-05-05T03:24:06" personRef="person30"/>
+    <Arc startX="55.710721562128356" startY="95.51257291698076" endX="-81.82230185827146" endY="-95.23865969369001"
+         centerX="13.541548448257728" centerY="44.72731845087992" clockwise="true">
+        <LineDesc lineEnd="NONE" lineWidth="0" lineProperty="SOLID"/>
+    </Arc>
+    <AssemblyDrawing>
+        <Outline>
+            <Polygon>
+                <PolyBegin x="83.64281307799871" y="-52.538559776057085"/>
+                <PolyStepCurve x="83.64281307799871" y="-52.538559776057085" centerX="60.416418912329476"
+                               centerY="61.0328243389599" clockwise="true"/>
+                <PolyStepSegment x="83.64281307799871" y="-52.538559776057085"/>
+                <Xform xOffset="1" yOffset="1" rotation="0" mirror="false" faceUp="false" scale="1"/>
+                <LineDesc lineEnd="NONE" lineWidth="0" lineProperty="SOLID"/>
+                <FillDesc fillProperty="HOLLOW" lineWidth="0" pitch1="0" pitch2="0" angle1="0.00" angle2="0.00">
+                    <Color r="0" g="0" b="0"/>
+                </FillDesc>
+            </Polygon>
+            <LineDesc lineEnd="ROUND" lineWidth="1.7976931348623157E+308" lineProperty="DOTTED"/>
+        </Outline>
+        <Marking markingUsage="REFDES">
+            <Location x="0.7113809640370619" y="-49.68191063471896"/>
+        </Marking>
+        <Marking markingUsage="PARTNAME">
+            <Location x="-74.99665595648035" y="-60.945940395110945"/>
+        </Marking>
+        <Marking markingUsage="TARGET">
+            <Location x="95.47090330204017" y="-37.68226679077984"/>
+        </Marking>
+    </AssemblyDrawing>
+    <AvlHeader title="AVL Title" source="Source" author="Alpha" datetime="1981-05-05T03:24:06"
+               version="8.926618872202452" comment=" " modRef="ModRef"/>
+    <AvlItem OEMDesignNumber="OEM30"/>
+    <AvlVmpn evplVendor="Vendor30" evplMpn="MPN30" qualified="true" chosen="true"/>
+    <AvlMpn name="Alpha" rank="3.1077646191736887" cost="67.5252788430015" moistureSensitivity="High"
+            availability="true" other=" "/>
+    <BendArea name="BendArea30" sequenceNumber="30" comment=" "/>
+    <BomHeader assembly="Assembly30" revision="RevA" affecting="true"/>
+    <BomItem OEMDesignNumberRef="OEMDesignNumber30" quantity="10" category="CategoryA" internalPartNumber="IPN30"
+             description="Example Description"/>
+    <RefDes name="RefDes30" packageRef="Package30" populate="true" layerRef="Layer1" modelRef="Model30"/>
+    <MatDes name="MatDes30" layerRef="Layer1"/>
+    <DocDes name="DocDes30" layerRef="Layer1"/>
+    <ToolDes name="ToolDes30" layerRef="Layer1"/>
+    <FindDes number="30" layerRef="Layer1" modelRef="ModelA"/>
+    <BomRef name="BomRef30"/>
+    <Bom name="Bom30">
+        <BomHeader assembly="Assembly30" revision="RevA" affecting="true"/>
+        <BomItem OEMDesignNumberRef="OEMDesignNumber30" quantity="10" category="CategoryA" internalPartNumber="IPN30"
+                 description="Example Description"/>
+    </Bom>
+    <BoundingBox lowerLeftX="-26.832255362208628" lowerLeftY="-44.00037116421203" upperRightX="-28.873133540078584"
+                 upperRightY="18.2230110838632"/>
+    <Butterfly shape="circle" diameter="54.415484880241735" side="74.93004089236209">
+        <LineDescGroup/>
+        <FillDescGroup/>
+    </Butterfly>
+    <CachedFirmware hexEncodedBinary="ABC123DEF456"/>
+    <CadData>
+        <Layer/>
+        <Layer/>
+        <Layer/>
+        <Stackup/>
+        <Stackup/>
+        <Step/>
+        <Step/>
+        <Step/>
+        <Step/>
+    </CadData>
+    <CadHeader units="mm">
+        <Spec/>
+        <Spec/>
+        <Spec/>
+    </CadHeader>
+    <Certification certificationStatus="Certified" certificationCategory="Category2"/>
+    <Characteristics category="Category">
+        <Ranged/>
+        <Enumerated/>
+        <Enumerated/>
+        <Enumerated/>
+    </Characteristics>
+    <Circle diameter="55.59332605335516">
+        <LineDescGroup/>
+        <FillDescGroup/>
+    </Circle>
+    <CircularBend innerSide="Left" innerRadius="44.96853502635557" innerAngle="183.80685781356263">
+        <BendLine/>
+    </CircularBend>
+    <Color r="163" g="141" b="208"/>
+    <ColorRef id="ColorRef30"/>
+    <ColorTerm name="ColorName30" comment="This is a comment"/>
+    <Component part="Part30" layerRef="Layer1" mountType="Surface" refDes="RefDes30" matDes="MatDes30"
+               packageRef="Package30" modelRef="Model30" weight="5.237932815452661" height="9.150128341129488"
+               standoff="1.6899116779364343">
+        <NonstandardAttribute/>
+        <Location/>
+        <SpecRef/>
+    </Component>
+    <Content roleRef="Role1">
+        <FunctionMode/>
+        <StepRef/>
+        <LayerRef/>
+        <LayerRef/>
+        <BomRef/>
+        <AvlRef/>
+        <DictionaryColor/>
+        <DictionaryFont/>
+        <DictionaryFirmware/>
+    </Content>
+    <Contour>
+        <Polygon/>
+        <Cutout/>
+    </Contour>
+    <Criteria name="Criteria30" measurementMode="Mode1" comment="This is a comment">
+        <Property/>
+        <DfxMeasurement/>
+        <DfxMeasurement/>
+    </Criteria>
+    <Cutout/>
+    <Dfx name="Dfx30" category="Category1">
+        <Criteria name="Criteria30" measurementMode="Mode1" comment="This is a comment">
+            <Property/>
+            <DfxMeasurement/>
+            <DfxMeasurement/>
+        </Criteria>
+    </Dfx>
+    <DfxDetails>
+        <FeatureDescription/>
+        <FeatureDescription/>
+        <FeatureDescription/>
+        <Marker/>
+        <EmbeddedRef/>
+        <EmbeddedRef/>
+        <EmbeddedRef/>
+    </DfxDetails>
+    <DfxMeasurement id="Measurement30">
+        <Property/>
+        <MeasurementPoint/>
+        <MeasurementPoint/>
+        <MeasurementPoint/>
+        <DfxDetails>
+            <FeatureDescription/>
+            <FeatureDescription/>
+            <FeatureDescription/>
+            <Marker/>
+            <EmbeddedRef/>
+            <EmbeddedRef/>
+            <EmbeddedRef/>
+        </DfxDetails>
+    </DfxMeasurement>
+    <DfxQuery name="Query30" query="Query text 30">
+        <DfxResponse/>
+        <DfxResponse/>
+        <DfxResponse/>
+    </DfxQuery>
+    <DfxResponse response="Accepted" dfxMeasurementRef="MeasurementRef30">
+        <DfxDetails>
+            <FeatureDescription/>
+            <FeatureDescription/>
+            <FeatureDescription/>
+            <Marker/>
+            <EmbeddedRef/>
+            <EmbeddedRef/>
+            <EmbeddedRef/>
+        </DfxDetails>
+    </DfxResponse>
+    <Diamond width="7.068037683837045" height="9.573445183188753">
+        <LineDescGroup/>
+    </Diamond>
+    <DictionaryColor>
+        <EntryColor/>
+        <EntryColor/>
+    </DictionaryColor>
+    <DictionaryFirmware>
+        <EntryFirmware/>
+        <EntryFirmware/>
+        <EntryFirmware/>
+        <EntryFirmware/>
+        <EntryFirmware/>
+    </DictionaryFirmware>
+    <DictionaryFont units="mm">
+        <EntryFont/>
+        <EntryFont/>
+    </DictionaryFont>
+    <DictionaryLineDesc units="mm">
+        <EntryLineDesc/>
+        <EntryLineDesc/>
+        <EntryLineDesc/>
+    </DictionaryLineDesc>
+    <DictionaryFillDesc units="mm">
+        <EntryFillDesc/>
+        <EntryFillDesc/>
+        <EntryFillDesc/>
+        <EntryFillDesc/>
+        <EntryFillDesc/>
+    </DictionaryFillDesc>
+    <DictionaryStandard units="mm">
+        <EntryStandard/>
+        <EntryStandard/>
+    </DictionaryStandard>
+    <DictionaryUser units="mm"/>
+    <Donut shape="circle" outerDiameter="1.3860431474430173" innerDiameter="4.7446328017501145">
+        <LineDescGroup/>
+    </Donut>
+    <Ecad name="EcadName30">
+        <CadHeader/>
+    </Ecad>
+    <EdgeCoupled structure="microstrip">
+        <LineWidth/>
+        <LineGap/>
+    </EdgeCoupled>
+    <Ellipse width="3.32729941854685" height="9.899002543426986">
+        <LineDescGroup/>
+    </Ellipse>
+    <EmbeddedRef name="EmbeddedRefName30" embeddedType="image">
+        <EmbeddedData text="binarydata"/>
+    </EmbeddedRef>
+    <Enterprise id="EnterpriseID30" code="EnterpriseCode30" name="EnterpriseName30" city="SomeCity" country="US"
+                postalCode="12345" phone="123-456-7890" fax="098-765-4321"/>
+    <EntryColor id="ColorID30">
+        <Color/>
+    </EntryColor>
+    <EntryFirmware id="FirmwareID30">
+        <CachedFirmware/>
+    </EntryFirmware>
+    <EntryFont id="FontID30">
+        <FontDef/>
+    </EntryFont>
+    <EntryLineDesc id="LineDescID30">
+        <LineDesc/>
+    </EntryLineDesc>
+    <EntryFillDesc id="FillDescID30">
+        <FillDesc/>
+    </EntryFillDesc>
+    <EntryStandard id="StandardID30">
+        <StandardPrimitive/>
+    </EntryStandard>
+    <EntryUser id="UserID30">
+        <UserPrimitive/>
+    </EntryUser>
+    <Enumerated definitionSource="ExampleSource" enumeratedCharacteristicName="ExampleName"
+                enumeratedCharacteristicValue="ExampleValue"/>
+    <ExternalRef text="http://example.com/resource30"/>
+    <Extrusion startHeight="5.095858485608391" height="7.6459385840072915">
+        <Feature/>
+        <Location/>
+    </Extrusion>
+    <FeatureDescription layerRef="LayerRef30" pinRef="PinRef30" componentRef="ComponentRef30"
+                        firmwareRef="FirmwareRef30" netRef="NetRef30"/>
+</Root>
