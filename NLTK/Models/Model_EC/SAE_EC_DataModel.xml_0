@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <row>
-    <EPPL_Family>01 CAPACITORS</EPPL_Family>
-    <EPPL_Group>02 CERAMIC CHIP</EPPL_Group>
-    <Quality_type>F</Quality_type>
+    <EPPL Family>01 CAPACITORS</EPPL Family>
+    <EPPL Group>02 CERAMIC CHIP</EPPL Group>
+    <Quality type>F</Quality type>
     <Description>Capacitor, Ceramic Chip, CC-I, C0603CF, 0.3pF, 0.05pF, 250V</Description>
     <SPN>E01001027.F01</SPN>
-    <Code_Eng_COM>E0102M1341A03</Code_Eng_COM>
-    <Code_Old_COM>E0102M1341A03DLF</Code_Old_COM>
-    <Code_Old_SEM>
+    <Code Eng COM>E0102M1341A03</Code Eng COM>
+    <Code Old COM>E0102M1341A03DLF</Code Old COM>
+    <Code Old SEM>
       <ASA></ASA>
-    </Code_Old_SEM>
-    <Code_Old_SENET></Code_Old_SENET>
-    <Code_generic>No</Code_generic>
-    <Component_Number>E0102M1341A03DLF</Component_Number>
-    <Commercial_Part_Number>C06CF0R3A-9UN-C0TC0T</Commercial_Part_Number>
-    <Generic_Part_Type></Generic_Part_Type>
-    <Engineering_Package>C0603</Engineering_Package>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>E0102M1341A03DLF</Component Number>
+    <Commercial Part Number>C06CF0R3A-9UN-C0TC0T</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package>C0603</Engineering Package>
     <Package>C0603CF</Package>
     <Finish></Finish>
-    <Generic_specification>MIL-PRF-55681</Generic_specification>
-    <Detail_specification>RQS/APR-0077 ISS.1</Detail_specification>
-    <Quality_Level>AS PER SPEC.</Quality_Level>
-    <Quality_status>NONE</Quality_status>
-    <ESD_Sensitivity_level></ESD_Sensitivity_level>
-    <Moisture_sensitivity_level></Moisture_sensitivity_level>
+    <Generic specification>MIL-PRF-55681</Generic specification>
+    <Detail specification>RQS/APR-0077 ISS.1</Detail specification>
+    <Quality Level>AS PER SPEC.</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
     <Comment></Comment>
     <Weight></Weight>
     <Manufacturer>DILABS (US)</Manufacturer>
-    <PPL_EBOM>Preferred</PPL_EBOM>
-    <PPL_MBOM>Preferred</PPL_MBOM>
-    <Link_files>E\E0102M1341---DL-</Link_files>
-    <Library_Ref>01-CAP-CERAMIC</Library_Ref>
-    <Sim_Model_Name></Sim_Model_Name>
-    <Sim_File></Sim_File>
-    <Sim_Kind></Sim_Kind>
-    <Sim_SubKind></Sim_SubKind>
-    <Sim_Netlist></Sim_Netlist>
-    <Sim_Spice_Prefix></Sim_Spice_Prefix>
-    <Sim_Port_Map></Sim_Port_Map>
-    <Assembly_qual_status></Assembly_qual_status>
+    <PPL EBOM>Preferred</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E0102M1341---DL-</Link files>
+    <Library Ref>01-CAP-CERAMIC</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice_Prefix></Sim Spice Prefix>
+    <Sim Port_Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
     <Value>0.3pF</Value>
     <Tol>0.05pF</Tol>
     <TCR></TCR>
