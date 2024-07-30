@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="NTC Gold Chip Thermistor 5kOhm" internalPartNumber="E11001001.E01" OEMDesignNumberRef="E1140M1810001MSE" />
+  <AvlItem OEMDesingNumber="5K3CG517" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="Measurement Specialities (IR)" />
+  <RefDes layerRef="11 THERMISTORS" name="11-THER-THERMISTOR" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

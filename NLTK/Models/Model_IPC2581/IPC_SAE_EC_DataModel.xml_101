@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Thermistor 15KOhm G15K4D489 (-60C TO +160C) ESCC 4006/14" internalPartNumber="E11001003.E01" OEMDesignNumberRef="400601408P" />
+  <AvlItem OEMDesingNumber="G15K4D489" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="Measurement Specialities (IR)" />
+  <RefDes layerRef="11 THERMISTORS" name="11-THER-THERMISTOR" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="15 K" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="0" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Transistor, FET N Channel, BUY25CS12K-11 (ES), TO-257AA, 250V" internalPartNumber="E12001004.F01" OEMDesignNumberRef="520503002R" />
+  <AvlItem OEMDesingNumber="BUY25CS12K-11 (ES)" />
+  <Component packageRef="TO-257AA" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="INFINEON (DE)" />
+  <RefDes layerRef="12 TRANSISTORS" name="12-TRT-FET-N_PINS_CONF2-CASE" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="250V" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

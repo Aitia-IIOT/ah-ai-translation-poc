@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Inductor, Miscellaneous, SESI_V05, 1uH, 30%, 6A, Power, Moulded" internalPartNumber="E07001009.F01" OEMDesignNumberRef="3201009051L0N" />
+  <AvlItem OEMDesingNumber="SESI 9.1 1K0 2WR" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="EXXELIA (FR)" />
+  <RefDes layerRef="07 INDUCTORS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="1uH" engineeringPositiveTolerance="30%" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Microcircuit, Linear Other Functions, ST1845K1, FP-8, PWM" internalPartNumber="E08001004.E01" OEMDesignNumberRef="ST1845K1" />
+  <AvlItem OEMDesingNumber="ST1845K1" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="ST MICRO (FR)" />
+  <RefDes layerRef="08 MICROCIRCUITS" name="08-MIC-ST1845K1" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

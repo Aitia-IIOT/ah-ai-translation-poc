@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Transistor, FET N Channel, BUY15CS23J-01, SMD-0.5, 150V" internalPartNumber="E12001006.E01" OEMDesignNumberRef="BUY15CS23J-01(P)" />
+  <AvlItem OEMDesingNumber="BUY15CS23J-01" />
+  <Component packageRef="SMD-0.5" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="INFINEON (DE)" />
+  <RefDes layerRef="12 TRANSISTORS" name="12-TRT-FET-N_PINS_CONF3" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="150V" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

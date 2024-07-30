@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Isolator WR75-Coax. Fc: 14.125 GHz. BW: 0.5 GHz" internalPartNumber="E30001004.E01" OEMDesignNumberRef="MRI-027303-04E" />
+  <AvlItem OEMDesingNumber="AJD10301" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="TRAK MICROWAVE (GB)" />
+  <RefDes layerRef="30 RF PASSIVE COMPONENTS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

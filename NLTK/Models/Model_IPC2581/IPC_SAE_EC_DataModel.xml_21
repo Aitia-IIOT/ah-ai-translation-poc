@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Connector, Microminiature, MDM, 9P, FR114 (with AWG 28 wire), Filtered, 508mm wire" internalPartNumber="E02001010.E01" OEMDesignNumberRef="MDM-9PH038E-A174-FR022" />
+  <AvlItem OEMDesingNumber="MDM-9PH038E-A174-FR022" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="C&amp;K (FR)" />
+  <RefDes layerRef="02 CONNECTORS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

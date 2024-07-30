@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Wide Band RF 1:16 Transformers WRFT series" internalPartNumber="E14001001.E01" OEMDesignNumberRef="MS06565-02B" />
+  <AvlItem OEMDesingNumber="WRFT41 16R 1S" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="EXXELIA (FR)" />
+  <RefDes layerRef="14 TRANSFORMER" name="14-TRF-WRFT41-16R" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="-" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

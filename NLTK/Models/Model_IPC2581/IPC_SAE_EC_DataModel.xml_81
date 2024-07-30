@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Latching Relay 26V DC" internalPartNumber="E09001003.F01" OEMDesignNumberRef="422-26-2/WG" />
+  <AvlItem OEMDesingNumber="ER422-26-2/WG" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="TELEDYNE (US)" />
+  <RefDes layerRef="09 RELAYS" name="09-REL-ER422G" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

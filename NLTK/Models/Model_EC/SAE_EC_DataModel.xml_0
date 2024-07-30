@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
   <row>
     <EPPL Family>01 CAPACITORS</EPPL Family>
     <EPPL Group>02 CERAMIC CHIP</EPPL Group>
@@ -49,4 +48,3 @@
     <Footprint3></Footprint3>
     <Application>COM-SPACE-SMT</Application>
   </row>
-</root>

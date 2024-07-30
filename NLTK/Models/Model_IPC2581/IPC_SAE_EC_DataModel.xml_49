@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="0.175A 125V SMD MGA-S Fuse" internalPartNumber="E06001002.F01" OEMDesignNumberRef="400800102" />
+  <AvlItem OEMDesingNumber="34.100.311" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="SCHURTER (CH)" />
+  <RefDes layerRef="06 FUSES" name="06-FUS-MGA-S" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

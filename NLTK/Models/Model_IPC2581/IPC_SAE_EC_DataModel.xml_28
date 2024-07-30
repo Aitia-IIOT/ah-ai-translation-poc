@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Diode, Rectifier, STPS1045C2SG, SMD-0.5, 45V" internalPartNumber="E04001004.F01" OEMDesignNumberRef="510601702" />
+  <AvlItem OEMDesingNumber="STPS1045C2SG" />
+  <Component packageRef="SMD-0.5" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="ST MICRO (FR)" />
+  <RefDes layerRef="04 DIODES" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="45V" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

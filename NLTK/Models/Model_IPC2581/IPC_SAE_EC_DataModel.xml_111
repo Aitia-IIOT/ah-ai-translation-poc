@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Transistor, FET N Channel, BUY65CS08J-01(P), SMD-0.5, 650V" internalPartNumber="E12001003.E01" OEMDesignNumberRef="BUY65CS08J-01(P)" />
+  <AvlItem OEMDesingNumber="BUY65CS08J-01(P)" />
+  <Component packageRef="SMD-0.5" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="INFINEON (DE)" />
+  <RefDes layerRef="12 TRANSISTORS" name="12-TRT-FET-N" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="650V" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

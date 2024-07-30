@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Resistor, SMP-PW R100 �1% �50ppm/�C Chip 2010" internalPartNumber="E10001007.F01" OEMDesignNumberRef="400102701R100F" />
+  <AvlItem OEMDesingNumber="400102701R100F" />
+  <Component packageRef="R2010" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="" />
+  <RefDes layerRef="10 RESISTORS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="100" engineeringPositiveTolerance="1%" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

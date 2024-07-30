@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Diode, Microwave Schottky (Gaas), MA4E1319-1, CASE-1199, Barrier, 0.03-0.06pF" internalPartNumber="E04001008.F01" OEMDesignNumberRef="MDS-28901-01B" />
+  <AvlItem OEMDesingNumber="MA4E1319-1" />
+  <Component packageRef="CASE-1199" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="RF2 (GB)" />
+  <RefDes layerRef="04 DIODES" name="04-DIO-MA4E1319-1" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

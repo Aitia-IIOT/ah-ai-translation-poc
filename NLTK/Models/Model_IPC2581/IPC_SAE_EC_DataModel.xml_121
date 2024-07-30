@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Databus cable AWG26 120Ohms" internalPartNumber="E13001001.F01" OEMDesignNumberRef="ESCC 390200224" />
+  <AvlItem OEMDesingNumber="ESCC 390200224" />
+ <Component packageRef="" refDes="" weight="" />
+ <AvlMpn moistureSensitivity="" />
+ <AvlHeader comment="" />
+ <AvlVendor enterpriseRef="AXON CABLE SAS (FR)" />
+ <RefDes layerRef="13 WIRES AND CABLES" name="" />
+ <Tuning value="" value="" value="" value="" value="" value="" value="" />
+ <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+ <Package type="" />
+ <ChangeRec application="COM-SPACE-SMT" />
+</row>

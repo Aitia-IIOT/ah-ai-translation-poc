@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Microcircuit, Logic Families, HCC4013BKT, FP-16, Dual, D-type Flip-Flop, SnPb" internalPartNumber="E08001007.F01" OEMDesignNumberRef="920302302B" />
+  <AvlItem OEMDesingNumber="HCC4013BKT" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="ST MICRO (FR)" />
+  <RefDes layerRef="08 MICROCIRCUITS" name="08-MIC-HCC4013BKT" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

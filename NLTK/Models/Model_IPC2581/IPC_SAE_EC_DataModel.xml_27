@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Diode, Rectifier, 1N5822U, LCC2B, 40V" internalPartNumber="E04001003.F01" OEMDesignNumberRef="510602002" />
+  <AvlItem OEMDesingNumber="1N5822U" />
+  <Component packageRef="D-5B_LCC2B" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="ST MICRO (FR)" />
+  <RefDes layerRef="04 DIODES" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

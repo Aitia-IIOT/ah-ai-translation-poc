@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Diode, Microwave Varactor (Gaas), MA46H120, ODS-1203, Hyper Abrupt junction, 0.3-0.4pF" internalPartNumber="E04001007.F01" OEMDesignNumberRef="MDV-28801-01B" />
+  <AvlItem OEMDesingNumber="MA46H120" />
+  <Component packageRef="ODS-1203" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="RF2 (GB)" />
+  <RefDes layerRef="04 DIODES" name="04-DIO-VARACTOR" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

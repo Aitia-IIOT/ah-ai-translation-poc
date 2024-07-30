@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Microcircuit, Logic Families, HCC4503BKT, FP-16, Hex Non-inverting Buffer, SnPb" internalPartNumber="E08001005.F01" OEMDesignNumberRef="940103002B" />
+  <AvlItem OEMDesingNumber="HCC4503BKT" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="ST MICRO (FR)" />
+  <RefDes layerRef="08 MICROCIRCUITS" name="08-MIC-HCC4503BKT" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

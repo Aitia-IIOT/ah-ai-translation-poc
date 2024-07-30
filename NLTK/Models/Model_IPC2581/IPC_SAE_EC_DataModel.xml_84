@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Latching Relay ground shield trimmed leads 5V 2PDT RF" internalPartNumber="E09001004.E01" OEMDesignNumberRef="422G-0520" />
+  <AvlItem OEMDesingNumber="ER422G-0520" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="TELEDYNE (US)" />
+  <RefDes layerRef="09 RELAYS" name="09-REL-ER422" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

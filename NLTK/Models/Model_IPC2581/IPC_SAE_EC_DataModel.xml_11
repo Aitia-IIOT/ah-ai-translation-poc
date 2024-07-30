@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Connector, Printed Circuit Board, CSD/CMD, 174P, 90� PCB, 3.55mm tail" internalPartNumber="E02001001.F01" OEMDesignNumberRef="CMD174PMBY00H" />
+  <AvlItem OEMDesingNumber="" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="" />
+  <RefDes layerRef="02 CONNECTORS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

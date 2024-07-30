@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Transistor, Microwave Low Noise (GaAs), EC2612-99F, DIE, 4V, DC-40GHz" internalPartNumber="E12001002.F01" OEMDesignNumberRef="E1216M0000043UMS" />
+  <AvlItem OEMDesingNumber="EC2612-99F" />
+  <Component packageRef="DIE" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="UNITED MONOLITHIC SEMICONDUCTOR (FR)" />
+  <RefDes layerRef="12 TRANSISTORS" name="12-TRT-RF-FET-DIE" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="4V" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

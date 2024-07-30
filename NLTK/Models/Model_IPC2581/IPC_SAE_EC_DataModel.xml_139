@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Custom RM Core Transformers Var.21" internalPartNumber="E14001003.C01" OEMDesignNumberRef="14220222-1-X" />
+  <AvlItem OEMDesingNumber="14220222-*-*" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="FLUX (DK)" />
+  <RefDes layerRef="14 TRANSFORMER" name="14-TRF-14220222-1" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

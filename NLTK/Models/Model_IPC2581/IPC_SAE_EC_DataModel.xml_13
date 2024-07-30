@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Connector, High density PCB, MHD, 52 contacts, female receptacle  straight termination  Ni+Au platin" internalPartNumber="E02001003.C01" OEMDesignNumberRef="MHD0522630121" />
+  <AvlItem OEMDesingNumber="MHD0522630121" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="Smiths Interconnect (CN)" />
+  <RefDes layerRef="02 CONNECTORS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

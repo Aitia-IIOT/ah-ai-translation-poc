@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Dual Optocoupler 66270" internalPartNumber="E18001001.E01" OEMDesignNumberRef="66270-011" />
+  <AvlItem OEMDesingNumber="66270" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="MICROPAC INDUSTRIES, INC (US)" />
+  <RefDes layerRef="18 OPTO ELECTRONICS" name="18-OPT-66270" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="10" engineeringPositiveTolerance="1 %" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

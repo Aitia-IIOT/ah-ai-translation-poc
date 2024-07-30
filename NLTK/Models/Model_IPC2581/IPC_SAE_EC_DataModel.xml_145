@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="WR42 C-Switch 20W at 21-23GHz" internalPartNumber="E16001003.F01" OEMDesignNumberRef="33HJ-7342C30-XFM" />
+  <AvlItem OEMDesingNumber="33HJ-7342C30-XFM" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="DOW-KEY MICROWAVE CORPORATION (US)" />
+  <RefDes layerRef="16 SWITCHES" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

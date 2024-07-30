@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Transistor, High Power, NPN (&gt; 2Watts), 2N5154RSRHRGW, SMD-0.5, 80V, Emitter on pin 2, Gold" internalPartNumber="E12001007.F01" OEMDesignNumberRef="520301007R" />
+  <AvlItem OEMDesingNumber="2N5154RSRHRGW" />
+  <Component packageRef="SMD-0.5" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="ST MICRO (FR)" />
+  <RefDes layerRef="12 TRANSISTORS" name="12-TRT-HIGHP-NPN_VAR07" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="80V" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

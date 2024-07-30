@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Conexionado de AFE ? BBP Secondary bias interface (N)" internalPartNumber="E12001001.F01" OEMDesignNumberRef="E1204M191000RAB" />
+  <AvlItem OEMDesingNumber="DWG-MNF-GICBR-191000-01" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="RADIALL (FR)" />
+  <RefDes layerRef="13 WIRES AND CABLES" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>
