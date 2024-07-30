@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Thermistor 10KOhm G10K4D453 (-60C TO +160C) ESCC 4006/14" internalPartNumber="E11001004.F01" OEMDesignNumberRef="400601409B" />
+  <AvlItem OEMDesingNumber="G10K4D453" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="Measurement Specialities (IR)" />
+  <RefDes layerRef="11 THERMISTORS" name="11-THER-THERMISTOR" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="10k" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="0" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

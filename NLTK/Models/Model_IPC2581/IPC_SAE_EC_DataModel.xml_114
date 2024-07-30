@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Transistor, FET N Channel, BUY25CS12J-01(ES), Chip, 250V" internalPartNumber="E12001005.F01" OEMDesignNumberRef="520503001R" />
+  <AvlItem OEMDesingNumber="BUY25CS12J-01(ES)" />
+  <Component packageRef="SMD-0.5" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="INFINEON (DE)" />
+  <RefDes layerRef="12 TRANSISTORS" name="12-TRT-FET-N_PINS_CONF3" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="250V" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

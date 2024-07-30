@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Isolator WR34-WR34. Fc: 24.950 GHz. BW: 0.5 GHz" internalPartNumber="E30001002.E01" OEMDesignNumberRef="30071E0-003001-01E" />
+  <AvlItem OEMDesingNumber="SKC12596" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="TRAK MICROWAVE (GB)" />
+  <RefDes layerRef="30 RF PASSIVE COMPONENTS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

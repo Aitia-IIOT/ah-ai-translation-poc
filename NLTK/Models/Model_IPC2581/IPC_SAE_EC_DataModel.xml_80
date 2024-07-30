@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Relay, Latching, 28V DC, 15A, 4PDT, Solder Hook (HFM)" internalPartNumber="E09001002.F01" OEMDesignNumberRef="ESCC36020041928V" />
+  <AvlItem OEMDesingNumber="EL415 4PDT 28V 15A CAN" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="REL (FR)" />
+  <RefDes layerRef="09 RELAYS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

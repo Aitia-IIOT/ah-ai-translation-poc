@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Filter, Miscellaneous, SAW, SSM-3840, 212-223 MHz" internalPartNumber="E05001006.E01" OEMDesignNumberRef="SSM-3840" />
+  <AvlItem OEMDesingNumber="SSM-3840" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="NORSPACE KONSBERG (KNS) (NO)" />
+  <RefDes layerRef="05 FILTERS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

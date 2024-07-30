@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Inductor, Chip, MPCI-CASE-A, 12nH, 10%, 0.75A" internalPartNumber="E07001011.E01" OEMDesignNumberRef="MPCI10000012TS10" />
+  <AvlItem OEMDesingNumber="MSCI10000012TS10" />
+  <Component packageRef="MPCI-CASE-A" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="EXXELIA (FR)" />
+  <RefDes layerRef="07 INDUCTORS" name="07-IND-INDUCTOR" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="12nH" engineeringPositiveTolerance="10%" rangedCharacteristicsUpperValue="0" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

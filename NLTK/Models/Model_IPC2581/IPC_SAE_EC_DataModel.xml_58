@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Hi-Rel Inductor, Cores, TOROIDAL-05, 15uH, 10%, 4A" internalPartNumber="E07001001.C01" OEMDesignNumberRef="12141114-1 -M" />
+  <AvlItem OEMDesingNumber="12141114-*-*" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="" />
+  <RefDes layerRef="07 INDUCTORS" name="07-IND-INDUCTOR" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

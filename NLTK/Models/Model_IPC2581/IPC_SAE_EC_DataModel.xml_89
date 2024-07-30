@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Resistor, Metal Film, SMP-PW2010, 47mOhm, 0.5%, 50ppm/�C" internalPartNumber="E10001004.F01" OEMDesignNumberRef="400102701R047D" />
+  <AvlItem OEMDesingNumber="SMP-R047-0.5-PW" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="Isabellenh�tte (DE)" />
+  <RefDes layerRef="10 RESISTORS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="0.047R" engineeringPositiveTolerance="0.5%" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Microcircuit, Logic Families, HCC4503BKG, FP-16, Hex Non-inverting Buffer, Gold" internalPartNumber="E08001006.F01" OEMDesignNumberRef="940103001B" />
+  <AvlItem OEMDesingNumber="HCC4503BKG" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="ST MICRO (FR)" />
+  <RefDes layerRef="08 MICROCIRCUITS" name="08-MIC-HCC4503BKG" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

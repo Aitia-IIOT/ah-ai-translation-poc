@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Latching Relay 12V DC" internalPartNumber="E09001005.F01" OEMDesignNumberRef="MRL-003401-01S" />
+  <AvlItem OEMDesingNumber="ER422-12-2/WG" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="TELEDYNE (US)" />
+  <RefDes layerRef="09 RELAYS" name="09-REL-ER422G" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Diode, Tunnel, M1X1555, H27, Germanium, 0.6pF" internalPartNumber="E04001006.F01" OEMDesignNumberRef="MDT-13201-01B" />
+  <AvlItem OEMDesingNumber="M1X1555" />
+  <Component packageRef="H27" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="MACOM (US)" />
+  <RefDes layerRef="04 DIODES" name="04-DIO-TUNNEL" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

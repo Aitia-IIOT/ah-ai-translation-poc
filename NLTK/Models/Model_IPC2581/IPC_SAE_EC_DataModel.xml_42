@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Filter, Miscellaneous, SAW, SQF-5460, J-6, 69.8505MHz NB (type 1)" internalPartNumber="E05001009.F01" OEMDesignNumberRef="ESCC350200213SQF5460" />
+  <AvlItem OEMDesingNumber="SQF-5460" />
+  <Component packageRef="J-6" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="NORSPACE KONSBERG (KNS) (NO)" />
+  <RefDes layerRef="05 FILTERS" name="05-FIL-SQF-XXXX" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

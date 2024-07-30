@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Capacitor, Ceramic Chip, CC-I, C0603CF, 0.3pF, 0.05pF, 250V" internalPartNumber="E01001027.F01" OEMDesignNumberRef="E0102M1341A03DLF" />
+  <AvlItem OEMDesingNumber="C06CF0R3A-9UN-C0TC0T" />
+  <Component packageRef="C0603" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="DILABS (US)" />
+  <RefDes layerRef="01 CAPACITORS" name="01-CAP-CERAMIC" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="0.3pF" engineeringPositiveTolerance="0.05pF" rangedCharacteristicsUpperValue="250V" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

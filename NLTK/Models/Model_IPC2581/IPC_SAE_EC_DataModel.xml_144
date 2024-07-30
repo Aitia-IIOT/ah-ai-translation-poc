@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="High Power SPDT switch TNC connectors 200W at band 415 - 455" internalPartNumber="E16001002.F02" OEMDesignNumberRef="E1667M1651001DKS" />
+  <AvlItem OEMDesingNumber="406HJ-730332-25" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="DOW-KEY MICROWAVE CORPORATION (US)" />
+  <RefDes layerRef="16 SWITCHES" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

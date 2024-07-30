@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Harness Semiflexible minibend LR-8" internalPartNumber="E13001005.F01" OEMDesignNumberRef="E1305M149108DHSS" />
+  <AvlItem OEMDesingNumber="MINIBEND LR-8" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="HUBER + SUHNER (ASTROLAB) (US)" />
+  <RefDes layerRef="13 WIRES AND CABLES" name="13-WIRE_CABLE-COAXIAL" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Inductor, Miscellaneous, SESI_V03, 2.7 uH, 20%, 8.2A, Power, Moulded" internalPartNumber="E07001003.E01" OEMDesignNumberRef="SESI 15 2K7 1WR" />
+  <AvlItem OEMDesingNumber="SESI 15 2K7 1WR" />
+  <Component packageRef="SESI_V03" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="EXXELIA (FR)" />
+  <RefDes layerRef="07 INDUCTORS" name="07-IND-SESI15WR" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="2.7 uH" engineeringPositiveTolerance="20%" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Filter, Feedthrough, PI-Type, Case 4, 250V, 750pF, Screw-in" internalPartNumber="E05001007.E01" OEMDesignNumberRef="300801408B" />
+  <AvlItem OEMDesingNumber="SFP040 1103 IR 250" />
+  <Component packageRef="Case 4" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="EUROFARAD (FR)" />
+  <RefDes layerRef="05 FILTERS" name="05-FIL-FEEDTHROUGH" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="750pF" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="250V" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

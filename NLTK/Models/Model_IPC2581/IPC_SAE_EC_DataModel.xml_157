@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="100 MHz OCXO (RK406NS)" internalPartNumber="E40001001.F01" OEMDesignNumberRef="RK406NS" />
+  <AvlItem OEMDesingNumber="RK406NS" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="Rakon (NZ)" />
+  <RefDes layerRef="40 HYBRIDS" name="40-HYB-OCXO-RK406NS" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

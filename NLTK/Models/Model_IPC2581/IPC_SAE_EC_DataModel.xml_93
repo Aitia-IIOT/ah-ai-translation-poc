@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Resistor, Metal Film, SMP-PW2010, 0.22R, 0.5%, 50ppm/�C" internalPartNumber="E10001008.F01" OEMDesignNumberRef="400102701R220D" />
+  <AvlItem OEMDesingNumber="SMP-R220-0.5-PW" />
+  <Component packageRef="PW2010" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="Isabellenh�tte (DE)" />
+  <RefDes layerRef="10 RESISTORS" name="10-RES-RESISTOR" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="0.22" engineeringPositiveTolerance="0.5%" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

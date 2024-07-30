@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Piezo-electric, Crystal Resonator, 3rd OT SC, HC35, 50 MHz" internalPartNumber="E03001009.E01" OEMDesignNumberRef="311205825-50M000000" />
+  <AvlItem OEMDesingNumber="311205825-50M000000" />
+  <Component packageRef="HC35" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="VECTRON INTERNATIONAL (US)" />
+  <RefDes layerRef="03 PIEZO-ELECTRIC DEVICES" name="EEE-03-OSC-XR-R311-3JY-AAJX-50M000000" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

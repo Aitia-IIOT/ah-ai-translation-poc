@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Coaxial Single Pole Double Throw Switch" internalPartNumber="E16001001.F01" OEMDesignNumberRef="E1667M1332001DKS" />
+  <AvlItem OEMDesingNumber="509H-3319" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="DOW-KEY MICROWAVE CORPORATION (US)" />
+  <RefDes layerRef="16 SWITCHES" name="16-SWI-509H-3319" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

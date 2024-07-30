@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Latching Relay TYPE TL 2PDT 26,5V 1A TO-5" internalPartNumber="E09001001.F01" OEMDesignNumberRef="ESCC36020020126V" />
+  <AvlItem OEMDesingNumber="TL26F70" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="REL (FR)" />
+  <RefDes layerRef="09 RELAYS" name="09-REL-ER422G" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

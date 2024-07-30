@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="High Power Bi-Directional Coupler, 10dB Coupling, 800-2500MHz 50Ohm" internalPartNumber="E30001001.F01" OEMDesignNumberRef="E3025M2741001MIS" />
+  <AvlItem OEMDesingNumber="BDCA-10-25" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="MINICIRCUITS (US)" />
+  <RefDes layerRef="30 RF PASSIVE COMPONENTS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

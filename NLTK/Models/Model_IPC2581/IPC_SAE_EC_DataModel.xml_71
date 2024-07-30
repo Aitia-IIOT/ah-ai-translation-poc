@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Microcircuit, MMIC, DIE, Lange Coupler, 1.2-3.6GHz" internalPartNumber="E08001002.E01" OEMDesignNumberRef="" />
+  <AvlItem OEMDesingNumber="" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="UNITED MONOLITHIC SEMICONDUCTOR (FR)" />
+  <RefDes layerRef="08 MICROCIRCUITS" name="08-MIC-E08000002" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

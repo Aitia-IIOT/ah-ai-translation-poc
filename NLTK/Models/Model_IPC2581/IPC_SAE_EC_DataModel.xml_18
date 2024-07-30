@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Rectangular PCB socket connector narrow profile micro-D, 9 contacts" internalPartNumber="E02001008.C01" OEMDesignNumberRef="MDA209SCBRW5G4" />
+  <AvlItem OEMDesingNumber="MDA209SCBRW5G4" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="AXON (FR)" />
+  <RefDes layerRef="02 CONNECTORS" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

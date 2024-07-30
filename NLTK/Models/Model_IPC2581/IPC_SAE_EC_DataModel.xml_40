@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Filter, Feedthrough, PI-Type, Case 2, 200V, 2.4nF, Screw-in" internalPartNumber="E05001008.F01" OEMDesignNumberRef="300801402B" />
+  <AvlItem OEMDesingNumber="SFP040 1010 IR 200" />
+  <Component packageRef="Case 2" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="EUROFARAD (FR)" />
+  <RefDes layerRef="05 FILTERS" name="05-FIL-FEEDTHROUGH" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="2.4nF" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="200V" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

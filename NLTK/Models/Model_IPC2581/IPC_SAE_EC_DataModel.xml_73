@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="Microcircuit, MMIC, ES/SGM6903GPC, GPC, Amplifier, HPA, 40W, 1.1-1.7GHz, GaN" internalPartNumber="E08001003.E01" OEMDesignNumberRef="ES/SGM6903GPC" />
+  <AvlItem OEMDesingNumber="ES/SGM6903GPC" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="SUMITOMO (JP)" />
+  <RefDes layerRef="08 MICROCIRCUITS" name="08-MIC-SGM6903GPC" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>

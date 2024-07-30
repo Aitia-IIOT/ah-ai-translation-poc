@@ -1,0 +1,14 @@
+<row>
+  <BomHeader assembly="" />
+  <BomItem description="RF Cable Assembly, MINI 141 K - 12,0" internalPartNumber="E50001003.E01" OEMDesignNumberRef="MINI141 K-12,0" />
+  <AvlItem OEMDesingNumber="MINI141 K-12,0" />
+  <Component packageRef="" refDes="" weight="" />
+  <AvlMpn moistureSensitivity="" />
+  <AvlHeader comment="" />
+  <AvlVendor enterpriseRef="HUBER + SUHNER (ASTROLAB) (US)" />
+  <RefDes layerRef="50 CABLE ASSEMBLY" name="" />
+  <Tuning value="" value="" value="" value="" value="" value="" value="" />
+  <Characteristics measuredCharacteristicsValue="" engineeringPositiveTolerance="" rangedCharacteristicsUpperValue="" />
+  <Package type="" />
+  <ChangeRec application="COM-SPACE-SMT" />
+</row>
