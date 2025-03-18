@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>10 RESISTORS</EPPL Family>
+    <EPPL Group>08 METAL FILM</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>Resistor, Metal Film, SMP-PW2010, 0.22R, 0.5%, 50ppm/�C</Description>
+    <SPN>E10001008.F01</SPN>
+    <Code Eng COM>E1034S01R220</Code Eng COM>
+    <Code Old COM>E1034S01R220IHS</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>400102701R220D</Component Number>
+    <Commercial Part Number>SMP-R220-0.5-PW</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package>PW2010</Engineering Package>
+    <Package>SMP-PW2010</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 4001</Generic specification>
+    <Detail specification>ESCC 4001/027</Detail specification>
+    <Quality Level>ESCC</Quality Level>
+    <Quality status>ESCC QPL</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>Isabellenh�tte (DE)</Manufacturer>
+    <PPL EBOM>Not approved</PPL EBOM>
+    <PPL MBOM>Not approved</PPL MBOM>
+    <Link files>E\E1034S01R220IHS-</Link files>
+    <Library Ref>10-RES-RESISTOR</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value>0.22</Value>
+    <Tol>0.5%</Tol>
+    <TCR>50</TCR>
+    <Volt></Volt>
+    <Footprint1>EEE-10-RES-RM2010</Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

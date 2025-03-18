@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>12 TRANSISTORS</EPPL Family>
+    <EPPL Group>05 FET N CHANNEL</EPPL Group>
+    <Quality type>E</Quality type>
+    <Description>Transistor, FET N Channel, BUY25CS12K-11 (P), TO-257AA, 250V</Description>
+    <SPN>E12001004.E01</SPN>
+    <Code Eng COM>E1218S0000044</Code Eng COM>
+    <Code Old COM>E1218S0000044INE</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>BUY25CS12K-11 (P)</Component Number>
+    <Commercial Part Number>BUY25CS12K-11 (P)</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package>TO-257AA</Engineering Package>
+    <Package>TO-257AA</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 5000</Generic specification>
+    <Detail specification>ESCC 5205/030</Detail specification>
+    <Quality Level>EM</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>INFINEON (DE)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E1218S0000044IN-</Link files>
+    <Library Ref>12-TRT-FET-N_PINS_CONF2-CASE</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt>250V</Volt>
+    <Footprint1>EEE-04-DIO-TO-257AA</Footprint1>
+    <Footprint2>EEE-04-DIO-TO-257AA_VERTICAL_PTH_VAR1</Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

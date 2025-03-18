@@ -7,7 +7,7 @@ def findingParent(par_id, data, tree):
     while par_id != None:
         for node in data:
             if node.get("id") == par_id:
-                tree.append(node)
+                tree.append(node)               
                 par_id = node.get("parent")
                 break
 #----------------------------#    
@@ -29,7 +29,7 @@ def find_element(element, description):
     first = []
     tree = []
     par_id = 0
-    with open("complex_class_tree.json", encoding="utf-8") as f:    #|
+    with open("auto_tree.json", encoding="utf-8") as f:    #|
         data = json.load(f)                                         #|Loading the nodes from JSON file
         data = data.get("nodes")                                    #|
 
@@ -59,7 +59,8 @@ def find_element(element, description):
                     k+=1
                     tree = []
                     
-        input_idx = int(input("Which one is the correct one? "))   #Asking the user to choose the correct one
+        #input_idx = int(input("Which one is the correct one? "))   #Asking the user to choose the correct one
+        input_idx = 1
         name = ""
         for node in answers[input_idx-1]:
             name+=(answers[input_idx-1][-i].get("name"))
@@ -80,7 +81,8 @@ def find_element(element, description):
                 k+=1
                 tree = []
 
-            input_idx = int(input("Which one is the correct one? "))    #Asking the user to choose the correct one
+            input_idx = 1
+            #input_idx = int(input("Which one is the correct one? "))    #Asking the user to choose the correct one
             name = ""
             i=1
             for node in answers[input_idx-1]:
@@ -107,4 +109,4 @@ def find_element(element, description):
 #---------------------------------#
 
 if __name__ == "__main__":                      #|
-    print(find_element("Property", ""))      #|Testing the function
+    print(find_element("LayerRef", ""))      #|Testing the function

@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>04 DIODES</EPPL Family>
+    <EPPL Group>02 RECTIFIER</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>Diode, Rectifier, 1N5822U, LCC2B, 40V</Description>
+    <SPN>E04001003.F01</SPN>
+    <Code Eng COM>E0418S0000053</Code Eng COM>
+    <Code Old COM>E0418S0000053STB</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>510602002</Component Number>
+    <Commercial Part Number>1N5822U</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package>D-5B_LCC2B</Engineering Package>
+    <Package>LCC2B</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 5000</Generic specification>
+    <Detail specification>5106/020</Detail specification>
+    <Quality Level>ESCC</Quality Level>
+    <Quality status>ESCC QPL</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>ST MICRO (FR)</Manufacturer>
+    <PPL EBOM>Preferred</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files></Link files>
+    <Library Ref></Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

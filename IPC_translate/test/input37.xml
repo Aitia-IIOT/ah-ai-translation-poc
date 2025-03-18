@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>05 FILTERS</EPPL Family>
+    <EPPL Group>99 MISCELLANEOUS</EPPL Group>
+    <Quality type>E</Quality type>
+    <Description>Filter, Miscellaneous, SAW, SSM-3840, 212-223 MHz</Description>
+    <SPN>E05001006.E01</SPN>
+    <Code Eng COM>E0522M1570101</Code Eng COM>
+    <Code Old COM>E0522M1570101KNE</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>SSM-3840</Component Number>
+    <Commercial Part Number>SSM-3840</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package></Package>
+    <Finish></Finish>
+    <Generic specification>ESCC3502</Generic specification>
+    <Detail specification>ESCC3502/002</Detail specification>
+    <Quality Level>AS PER SPEC.</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>NORSPACE KONSBERG (KNS) (NO)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E0522M1570101KN-</Link files>
+    <Library Ref></Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

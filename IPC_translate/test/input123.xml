@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>13 WIRES AND CABLES</EPPL Family>
+    <EPPL Group>01 LOW FREQUENCY</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>Single wires AWG26</Description>
+    <SPN>E13001003.F01</SPN>
+    <Code Eng COM>E1301S0000003</Code Eng COM>
+    <Code Old COM>E1301S0000003AXB</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>ESCC 390101302</Component Number>
+    <Commercial Part Number>ESCC 390101302</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package></Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 3901</Generic specification>
+    <Detail specification>ESCC 3901/013</Detail specification>
+    <Quality Level>ESCC</Quality Level>
+    <Quality status>ESCC QPL</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>AXON CABLE SAS (FR)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E1301S0000003AX-</Link files>
+    <Library Ref></Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

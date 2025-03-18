@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>10 RESISTORS</EPPL Family>
+    <EPPL Group>09 CHIP (ALL)</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>Resistor, SMP-PW R100 �1% �50ppm/�C Chip 2010</Description>
+    <SPN>E10001007.F01</SPN>
+    <Code Eng COM>E1034S01R100F</Code Eng COM>
+    <Code Old COM>E1034S01R100FIHS</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>400102701R100F</Component Number>
+    <Commercial Part Number>400102701R100F</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package>R2010</Engineering Package>
+    <Package>R2010</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 4001</Generic specification>
+    <Detail specification>ESCC 4001/027</Detail specification>
+    <Quality Level>ESCC</Quality Level>
+    <Quality status>ESCC QPL</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer></Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files></Link files>
+    <Library Ref></Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value>100</Value>
+    <Tol>1%</Tol>
+    <TCR>50</TCR>
+    <Volt></Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

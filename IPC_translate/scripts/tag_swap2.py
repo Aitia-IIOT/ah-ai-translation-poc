@@ -9,12 +9,25 @@ output_xml = ""
 formed_xml = ""
 with open("SAE_EC_DataModel.xml", "r") as f:
     xml_content = f.read()
+    
+
+with open("variables/auto_variables.txt", "r") as f:
+    data = f.read().split("\n")
+    
+ipc_elements = []
+els = []
+
+for line in data:
+    if line.__contains__("req"):
+        els.append(line.split(" | ")[0])
+        ipc_elements.append(line.split(" | ")[0])
+        
+print(ipc_elements)
 
 lines = xml_content.split("\n")
-    
 tags = pd.read_csv('output4.csv', sep=';')
 ec_tags = []
-ipc_elements = []
+
 used_tags = []
 used_values = []
 all_tree = []
@@ -28,7 +41,11 @@ for line in tags.values:            #|
 
 for e in ipc_elements:                                      #|
     if e != "-":                                            #| The reason for this, beacuse if there is an element which appears more than once in the tree,
-        all_tree.append(find_element(e.split('.')[0],""))   #| the program asks the user to choose which one to keep. If i do not put this here, it would ask it everytime.
+        try:
+            print("Finding element: ", e.split('.')[0])     #| the program asks the user to choose which one to keep. If i do not put this here, it would ask it everytime.
+            all_tree.append(find_element(e.split('.')[0],""))   #| the program asks the user to choose which one to keep. If i do not put this here, it would ask it everytime.
+        except Exception as e:
+            print(e)
 #------------------------------------------#
 
 #-----Reading input and creating output-----#
@@ -56,17 +73,27 @@ for line in lines[2:]:      #Iterating through the lines of the XML file (skippi
                 if t.split("/")[-1] == tag.split(".")[0]:       #|Gathering the trees which are used in the row
                     used_tree.append(t)                         #|
         
+        for e in els:
+            for t in all_tree:
+                if t.split("/")[-1] == e.split(".")[0]:
+                    used_tree.append(t)
+        
         used_tree = list(dict.fromkeys(used_tree))              #|IMPORTANT: Removing duplicates from the list & creating alphabetical order
         used_tree = sorted(used_tree)                           #|This way we know if we need to go further in the tree or not
                                                                 #|For example: if we have "X.Y" and "X.Z" where x is the same,
                                                                 #|we know that we only need to close y and then we can open z immediately, because they have the same parent.
+        
         open_tags = []
         all_tags = []
         all_components = []
         used_tags_start = []
+        req_tags_start = []
         
         for tag in used_tags:                           
             used_tags_start.append(tag.split(".")[0])
+        
+        for e in els:
+            req_tags_start.append(e.split(".")[0])
         
         for tag in used_tree:                           #|
             components = tag.split("/")                 #|
@@ -106,8 +133,30 @@ for line in lines[2:]:      #Iterating through the lines of the XML file (skippi
                             open_tags.pop()    #Removing the component from the open tags list
                         
                     else:   #If the component does not have attributes, we open it simply
-                        formed_xml += f"<{component}>\n"
-                        level += 1
+                        if req_tags_start.__contains__(component):     #If the component is a required one, we need to open it
+                            if all_components.count(component) > 1:     #If the component appears more than once in the tree, a.k.a. it has children. For example: X has attributes: X.y and X.z, but also a child X.W, so we need to open X
+                                j = 0
+                                formed_xml += f"<{component} "
+                                for k in req_tags_start:                                                           #|  
+                                    if k.__eq__(component):                                                         #| Inserting the attributes and values, to the correct component
+                                        formed_xml += f"{els[j].split('.')[1]}=\"\" "         #|
+                                    j += 1
+                                formed_xml = formed_xml[:-1]   #Removing the last extra space (for aesthetics only)
+                                formed_xml += ">\n"             
+                                level += 1
+                            else:                       #If the component does not have children, we can close it immediately
+                                formed_xml += f"<{component} "
+                                j = 0
+                                for k in req_tags_start:
+                                    if k.__eq__(component):
+                                        formed_xml += f"{els[j].split('.')[1]}=\"\" "
+                                    j += 1
+                                formed_xml = formed_xml[:-1]
+                                formed_xml += "/>\n"
+                                open_tags.pop()    #Removing the component from the open tags list
+                        else:   #If the component is not required, we need to check if it has children
+                            formed_xml += f"<{component}>\n"
+                            level += 1
             
             if int(used_tree.index(tag)) < len(all_tags)-1:             #If the current tree is not the last one
                 while open_tags[-1] not in all_tags[used_tree.index(tag)+1]:        #If the next tree does not contain the last opened tag, we need to close it

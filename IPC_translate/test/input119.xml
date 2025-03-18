@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>13 WIRES AND CABLES</EPPL Family>
+    <EPPL Group>02 COAXIAL</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>Conexionado de AFE ? BBP Secondary bias interface (N)</Description>
+    <SPN>E12001001.F01</SPN>
+    <Code Eng COM>E1204M191000R</Code Eng COM>
+    <Code Old COM>E1204M191000RAB</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>E1204M191000RAB</Component Number>
+    <Commercial Part Number>DWG-MNF-GICBR-191000-01</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package></Package>
+    <Finish></Finish>
+    <Generic specification>RAD-GEN-CSRS-001REV2</Generic specification>
+    <Detail specification>RAD-DET-CSRS-002 ISS 1C</Detail specification>
+    <Quality Level>AS PER SPEC.</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>RADIALL (FR)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E1204M191000RA-</Link files>
+    <Library Ref></Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

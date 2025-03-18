@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>04 DIODES</EPPL Family>
+    <EPPL Group>02 RECTIFIER</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description> 1 x 15 A - 200 V fast recovery rectifier</Description>
+    <SPN>E04001005.F01</SPN>
+    <Code Eng COM>E0418S0000055</Code Eng COM>
+    <Code Old COM>E0418S0000055STB</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>510302905</Component Number>
+    <Commercial Part Number>BYW81HR-200S</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package>SMD.5</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 5000</Generic specification>
+    <Detail specification>ESCC 5103/029 ISS 12</Detail specification>
+    <Quality Level>ESCC</Quality Level>
+    <Quality status>ESCC QPL</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>ST MICRO (FR)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E0418S0000055ST-</Link files>
+    <Library Ref>04-DIO-DUAL_DIODE_OP_3</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1>EEE-04-DIO-SMD05_2</Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

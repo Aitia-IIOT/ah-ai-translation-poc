@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>08 MICROCIRCUITS</EPPL Family>
+    <EPPL Group>69 LINEAR OTHER FUNCTIONS</EPPL Group>
+    <Quality type>E</Quality type>
+    <Description>Microcircuit, Linear Other Functions, ST1845K1, FP-8, PWM</Description>
+    <SPN>E08001004.E01</SPN>
+    <Code Eng COM>E0827M0991001</Code Eng COM>
+    <Code Old COM>E0827M0991001STE</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>ST1845K1</Component Number>
+    <Commercial Part Number>ST1845K1</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package>FP-8</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 9000</Generic specification>
+    <Detail specification>RNS/AS/10-326-02/CE-REV2</Detail specification>
+    <Quality Level>EM</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>ST MICRO (FR)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files></Link files>
+    <Library Ref>08-MIC-ST1845K1</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1>EEE-08-MIC-FLAT-8-V03</Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

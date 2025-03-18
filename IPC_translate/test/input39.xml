@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>05 FILTERS</EPPL Family>
+    <EPPL Group>01 FEEDTHROUGH</EPPL Group>
+    <Quality type>E</Quality type>
+    <Description>Filter, Feedthrough, PI-Type, Case 4, 250V, 750pF, Screw-in</Description>
+    <SPN>E05001007.E01</SPN>
+    <Code Eng COM>E0522S0000001</Code Eng COM>
+    <Code Old COM>E0522S0000001EUE</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>300801408B</Component Number>
+    <Commercial Part Number>SFP040 1103 IR 250</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package>Case 4</Engineering Package>
+    <Package>CASE 4</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC3008</Generic specification>
+    <Detail specification>ESCC 3008/014 ISS 1</Detail specification>
+    <Quality Level>EM</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>EUROFARAD (FR)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E0522S-------EU-</Link files>
+    <Library Ref>05-FIL-FEEDTHROUGH</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value>750pF</Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt>250V</Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

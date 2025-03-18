@@ -1,0 +1,175 @@
+	<row>
+		<IPC-2581 revision="">
+			<Avl name="PW2010">
+				<AvlHeader author="SMP-PW2010" datetime="ESCC 4001" source="ESCC 4001/027"/>
+				<AvlItem OEMDesignNumber="">
+					<AvlVmpn>
+						<AvlMpn name="Isabellenh�tte (DE)"/>
+						<AvlVendor enterpriseRef="10-RES-RESISTOR"/>
+					</AvlVmpn>
+				</AvlItem>
+			</Avl>
+			<Bom name="">
+				<BomHeader assembly="0.22" revision="0.5%">
+					<StepRef name=""/>
+				</BomHeader>
+				<BomItem OEMDesignNumberRef="50" category="EEE-10-RES-RM2010" quantity="COM-SPACE-SMT">
+					<BomDes>
+						<DocDes name=""/>
+						<FindDes number=""/>
+						<MatDes name=""/>
+						<RefDes name="">
+							<Firmware progName="" progVersion="">
+								<CachedFirmware hexEncodedBinary=""/>
+								<File crc="" name=""/>
+								<FirmwareRef id=""/>
+							</Firmware>
+							<Tuning value=""/>
+						</RefDes>
+					</BomDes>
+					<Characteristics category=""/>
+					<SpecRef id=""/>
+				</BomItem>
+			</Bom>
+			<Content roleRef="">
+				<AvlRef name="E\E1034S01R220IHS-"/>
+				<BomRef name=""/>
+				<DictionaryColor>
+					<Color b="" g="" r=""/>
+					<EntryColor id=""/>
+				</DictionaryColor>
+				<DictionaryFillDesc units=""/>
+				<DictionaryFirmware>
+					<EntryFirmware id=""/>
+				</DictionaryFirmware>
+				<DictionaryFont units="">
+					<EntryFont id=""/>
+				</DictionaryFont>
+				<DictionaryLineDesc units="">
+					<EntryLineDesc id=""/>
+					<LineDesc lineEnd="" lineWidth=""/>
+				</DictionaryLineDesc>
+				<DictionaryStandard units=""/>
+				<DictionaryUser units=""/>
+				<FunctionMode mode=""/>
+			</Content>
+			<Ecad name="">
+				<CadData>
+					<Layer layerFunction="" name="" polarity="" side=""/>
+					<Stackup name="" overallThickness="" stackupStatus="" tolMinus="" tolPlus="" whereMeasured="">
+						<StackupGroup name="" thickness="" tolMinus="" tolPlus="">
+							<StackupLayer layerOrGroupRef="" thickness="" tolMinus="" tolPlus=""/>
+						</StackupGroup>
+					</Stackup>
+					<Step name="">
+						<BendArea name="">
+							<CircularBend innerRadius="" innerSide="">
+								<BendLine endX="" endY="" startX="" startY=""/>
+							</CircularBend>
+						</BendArea>
+						<Component layerRef="" mountType="" part=""/>
+						<Dfx category="" name="">
+							<Criteria measurementMode="" name="">
+								<DfxMeasurement id="">
+									<DfxDetails>
+										<EmbeddedRef embeddedType="" name=""/>
+									</DfxDetails>
+								</DfxMeasurement>
+							</Criteria>
+							<DfxQuery name="" query="">
+								<DfxResponse response=""/>
+							</DfxQuery>
+						</Dfx>
+						<LayerFeature layerRef="">
+							<Set>
+								<Hole diameter="" minusTol="" name="" platingStatus="" plusTol="" x="" y=""/>
+								<NetShort>
+									<NetRef name=""/>
+								</NetShort>
+								<SlotCavity minusTol="" name="" platingStatus="" plusTol="">
+									<Z_AxisDim>
+										<MaterialCut depth=""/>
+										<MaterialLeft thickness=""/>
+									</Z_AxisDim>
+								</SlotCavity>
+							</Set>
+						</LayerFeature>
+						<LogicalNet name="">
+							<PortRef portName=""/>
+						</LogicalNet>
+						<Model name="">
+							<Extrusion height="" startHeight=""/>
+						</Model>
+						<NonstandardAttribute name="" type="" value=""/>
+						<Package name="" pinOneOrientation="" type="">
+							<LandPattern>
+								<Pad>
+									<PinRef pin=""/>
+								</Pad>
+							</LandPattern>
+							<Pin number="" type=""/>
+						</Package>
+						<PhyNetGroup name="">
+							<PhyNet name="">
+								<PhyNetPoint exposure="" layerRef="" netNode="" x="" y=""/>
+							</PhyNet>
+						</PhyNetGroup>
+						<Port name="">
+							<PortConnect portName=""/>
+							<PortType>
+								<WireBond layerRef=""/>
+							</PortType>
+						</Port>
+						<StackupZone name="" stackupRef="">
+							<ZoneLayer layerOrGroupRef="">
+								<Inset insetSize="">
+									<StackupZoneRef id=""/>
+								</Inset>
+							</ZoneLayer>
+						</StackupZone>
+						<StepRepeat angle="" dx="" dy="" mirror="" nx="" ny="" stepRef="" x="" y=""/>
+					</Step>
+				</CadData>
+				<CadHeader units="">
+					<Spec name="">
+						<Backdrill type=""/>
+						<Dielectric type=""/>
+						<EdgeChamfer type=""/>
+						<EdgePlating>
+							<SurfaceFinish type="">
+								<Product name=""/>
+							</SurfaceFinish>
+						</EdgePlating>
+						<Flex type=""/>
+						<General type=""/>
+						<Impedance value="">
+							<EdgeCoupled structure=""/>
+							<SingleEnded structure=""/>
+						</Impedance>
+						<Loss type=""/>
+						<SecondaryDrill type=""/>
+						<Technology type=""/>
+						<Temperature type=""/>
+						<Thieving type=""/>
+						<Tool toolProperty="" type=""/>
+						<V_Cut type=""/>
+					</Spec>
+				</CadHeader>
+			</Ecad>
+			<HistoryRecord lastChange="" number="" origination="" software="">
+				<ChangeRec application="" change="" datetime="" personRef="">
+					<Approval datetime="10 RESISTORS" personRef="08 METAL FILM"/>
+				</ChangeRec>
+				<FileRevision comment="" fileRevisionId="">
+					<SoftwarePackage name="" revision="" vendor="">
+						<Certification certificationStatus=""/>
+					</SoftwarePackage>
+				</FileRevision>
+			</HistoryRecord>
+			<LogisticHeader>
+				<Enterprise code="" id=""/>
+				<Person enterpriseRef="" name="" roleRef=""/>
+				<Role id="" roleFunction=""/>
+			</LogisticHeader>
+		</IPC-2581>
+	</row>

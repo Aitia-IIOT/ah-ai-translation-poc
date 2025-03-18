@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>40 HYBRIDS</EPPL Family>
+    <EPPL Group>03 CRYSTAL OSCILLATORS</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>100 MHz OCXO (RK406NS)</Description>
+    <SPN>E40001001.F01</SPN>
+    <Code Eng COM>E4003C0000001</Code Eng COM>
+    <Code Old COM>E4003C0000001RKE</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>RK406NS</Component Number>
+    <Commercial Part Number>RK406NS</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package></Package>
+    <Finish></Finish>
+    <Generic specification>-</Generic specification>
+    <Detail specification>-</Detail specification>
+    <Quality Level>TBD</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>Rakon (NZ)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E5070S0000001RA-</Link files>
+    <Library Ref>40-HYB-OCXO-RK406NS</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1>EEE-40-HYB-RK406NS</Footprint1>
+    <Footprint2>EEE-40-HYB-RK406NS-90DEG</Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

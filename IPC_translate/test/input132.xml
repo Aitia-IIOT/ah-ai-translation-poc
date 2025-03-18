@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>14 TRANSFORMER</EPPL Family>
+    <EPPL Group>02 SIGNAL</EPPL Group>
+    <Quality type>F</Quality type>
+    <Description>Wide Band RF 1:16 Transformers WRFT series</Description>
+    <SPN>E14001001.F02</SPN>
+    <Code Eng COM>E1424M0000001</Code Eng COM>
+    <Code Old COM>E1424M0000001EXC</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>MS06565-02C</Component Number>
+    <Commercial Part Number>WRFT41 16R 1S</Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package>SMD</Package>
+    <Finish></Finish>
+    <Generic specification>ESCC 3201</Generic specification>
+    <Detail specification>MSP-002 IS7</Detail specification>
+    <Quality Level>AS PER SPEC.</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>EXXELIA (FR)</Manufacturer>
+    <PPL EBOM>Preferred</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files>E\E1424M0000001EX-</Link files>
+    <Library Ref>14-TRF-WRFT41-16R</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1>EEE-14-TRF-WRFT4X-1S</Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>

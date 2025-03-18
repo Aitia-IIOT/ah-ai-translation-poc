@@ -1,0 +1,49 @@
+  <row>
+    <EPPL Family>08 MICROCIRCUITS</EPPL Family>
+    <EPPL Group>95 MICROWAVE MONOLITIC INTEGRATED CIRCUITS (MMIC)</EPPL Group>
+    <Quality type>E</Quality type>
+    <Description>Microcircuit, MMIC, DIE, Balum, 1.3-3.6GHz</Description>
+    <SPN>E08001001.E01</SPN>
+    <Code Eng COM>E08000001</Code Eng COM>
+    <Code Old COM>E08000001</Code Old COM>
+    <Code Old SEM>
+      <ASA></ASA>
+    </Code Old SEM>
+    <Code Old SENET></Code Old SENET>
+    <Code generic>No</Code generic>
+    <Component Number>E08000001</Component Number>
+    <Commercial Part Number></Commercial Part Number>
+    <Generic Part Type></Generic Part Type>
+    <Engineering Package></Engineering Package>
+    <Package>DIE</Package>
+    <Finish></Finish>
+    <Generic specification></Generic specification>
+    <Detail specification></Detail specification>
+    <Quality Level>EM</Quality Level>
+    <Quality status>NONE</Quality status>
+    <ESD Sensitivity level></ESD Sensitivity level>
+    <Moisture sensitivity level></Moisture sensitivity level>
+    <Comment></Comment>
+    <Weight></Weight>
+    <Manufacturer>UNITED MONOLITHIC SEMICONDUCTOR (FR)</Manufacturer>
+    <PPL EBOM>Approved</PPL EBOM>
+    <PPL MBOM>Preferred</PPL MBOM>
+    <Link files></Link files>
+    <Library Ref>08-MIC-E08000001</Library Ref>
+    <Sim Model Name></Sim Model Name>
+    <Sim File></Sim File>
+    <Sim Kind></Sim Kind>
+    <Sim SubKind></Sim SubKind>
+    <Sim Netlist></Sim Netlist>
+    <Sim Spice Prefix></Sim Spice Prefix>
+    <Sim Port Map></Sim Port Map>
+    <Assembly qual status></Assembly qual status>
+    <Value></Value>
+    <Tol></Tol>
+    <TCR></TCR>
+    <Volt></Volt>
+    <Footprint1></Footprint1>
+    <Footprint2></Footprint2>
+    <Footprint3></Footprint3>
+    <Application>COM-SPACE-SMT</Application>
+  </row>
