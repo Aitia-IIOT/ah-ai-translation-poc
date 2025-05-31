@@ -9,13 +9,13 @@ import openai
 
 #--------------------AI imports-----------------------#
 #Insert OpenAI key for embedding function
-embedding_func = OpenAIEmbeddings(api_key="XYZ")
+embedding_func = OpenAIEmbeddings(api_key="xyz")
 
 #Insert Azure OpenAI parameters
-openai.api_type = "XYZ"
-openai.azure_endpoint = "XYZ"
-openai.api_version = "XYZ"
-openai.api_key = "XYZ"
+openai.api_type = "xyz"
+openai.azure_endpoint = "xyz"
+openai.api_version = "xyz"
+openai.api_key = "xyz"
 #-----------------------------------------------------#
 
 #--------------------Templates------------------------#
@@ -162,4 +162,4 @@ def check_dupe(file):
     
     
 if __name__ == "__main__":      #|
-    check_dupe('output4.csv')   #|For testing
+    check_dupe('mapping.csv')   #|For testing

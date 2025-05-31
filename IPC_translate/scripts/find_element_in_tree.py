@@ -67,6 +67,7 @@ def find_element(element, description):
             if i < len(answers[input_idx-1]):
                 i += 1
                 name += "/"
+        #print(f"Chosen: {name}")
         return name
                             
     elif len(first) == 1:     #If there is only one node with the same name
@@ -90,6 +91,7 @@ def find_element(element, description):
                 if i < len(answers[input_idx-1]):
                     i += 1
                     name += "/"
+            #print(f"Chosen: {name}")
             return name
             
         else:  #If the parent is an integer, we can find the parent, no need to choose
@@ -102,11 +104,13 @@ def find_element(element, description):
                 if i < len(tree):
                     i += 1
                     name += "/"
+            #print(f"Chosen: {name}")
             return name 
     
     else:   #If there is no node with the same name just return an empty string
+        print("No element found")
         return ""
 #---------------------------------#
 
 if __name__ == "__main__":                      #|
-    print(find_element("LayerRef", ""))      #|Testing the function
+    print(find_element("Impedance", ""))      #|Testing the function

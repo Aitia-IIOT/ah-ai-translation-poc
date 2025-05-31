@@ -40,15 +40,24 @@ for line in lines:
                 class_name = cls[0]
                 break
     if line[0].__contains__("<attribute") and line[1] == 2:
+        req = False
         line_sep = line[0].split(" ")
         name = line_sep[1].replace("name=", "").replace('"', "")
         type = line_sep[2].replace("type=", "").replace('"', "").replace("/", "").replace(">", "")
+        if line[0].__contains__("use=\"required\""):
+            req = True
         if not nb.__contains__(type):
-            ipc_elements.append((class_name+"."+name+" | "+type))
+            if req:
+                ipc_elements.append((class_name+"."+name+" | "+type+" | " + "req"))
+            else:
+                ipc_elements.append((class_name+"."+name+" | "+type))
         else:
             idx = nb.index(type)
             t = not_basic_types[idx]
-            ipc_elements.append((class_name+"."+name+" | "+type+" { "+t[1]+", "+t[2]+" }"))
+            if req:
+                ipc_elements.append((class_name+"."+name+" | "+type+" { "+t[1]+", "+t[2]+" } | " + "req"))
+            else:
+                ipc_elements.append((class_name+"."+name+" | "+type+" { "+t[1]+", "+t[2]+" }"))
         
     if line[0].__contains__("<simpleType") and line[1] == 1:
         type = line[0].split(" ")[1].replace("name=", "").replace('"', "").replace(">", "")
@@ -81,13 +90,13 @@ for element in ipc_elements:
     print(element)
     
     
-ipc_elements = sorted(ipc_elements)
+#ipc_elements = sorted(ipc_elements)
 
 output = ""        
 for element in ipc_elements:
     output += element + "\n"
     
-with open('variables/auto_variables.txt', 'w') as f:
+with open('variables/auto_variables2.txt', 'w') as f:
     f.write(output[:-1])       
         
     

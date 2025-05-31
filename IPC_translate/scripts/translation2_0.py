@@ -9,18 +9,18 @@ from duplicate_output_detection import check_dupe
 #-----------------------------------------------------#
 
 #--------------------AI imports-----------------------#
-#TODO: Insert OpenAI key for embedding function
-embedding_function = OpenAIEmbeddings(api_key="XYZW")
+#Insert OpenAI key for embedding function
+embedding_function = OpenAIEmbeddings(api_key="xyz")
 
 #Import Chroma database
 vectorestore = Chroma(persist_directory="combined_rag", collection_name="ipc2581")
 vectorestore._embedding_function = embedding_function
 
-#TODO: Insert Azure OpenAI parameters
-openai.api_type = "XYZW"
-openai.azure_endpoint = "XYZW"
-openai.api_version = "XYZW"
-openai.api_key = "XYZW"
+#Insert Azure OpenAI parameters
+openai.api_type = "xyz"
+openai.azure_endpoint = "xyz"
+openai.api_version = "xyz"
+openai.api_key = "xyz"
 #-----------------------------------------------------#
 
 #--------------------Templates------------------------#
@@ -34,7 +34,7 @@ comparing_template = ChatPromptTemplate.from_messages([
             
             Based on the information above, answer these:
             
-            1. Any of them is capable to store natevily the source standard (First column is the element name)? If so, name the element.
+            1. Any of them is capable to store natevily the source standard (First column is the element name, second is the type)? If so, name the element.
             
             2. Why do you think that?
         
@@ -83,12 +83,12 @@ for line in tags.values:   #Iteraiting through EC tags in TagsMeaning.csv
     output_txt += line[0] + ";"+response.choices[0].message.content+"\n"
 
 
-with open(f"output4.csv", "w", encoding="utf-8") as f:    #|
+with open(f"onlab/10.csv", "w", encoding="utf-8") as f:    #|
     f.write(output_txt)                                   #| Seems useless, but it's easier to work with numpy array from this point 
     
 is_there_a_dupe = True   #We need to check if there are any duplicates in the output file
 
-tags = pd.read_csv('output4.csv', sep=';')     #Creating the numpy array
+tags = pd.read_csv('onlab/10.csv', sep=';')     #Creating the numpy array
 dupes = []
 seen = set()
 
@@ -104,8 +104,8 @@ if len(dupes) == 0:                 #|
     is_there_a_dupe = False         #|If there are no duplicates, we can skip the loop
     
 while is_there_a_dupe:
-    check_dupe('output4.csv')    #Swapping the duplicates
-    tags = pd.read_csv('output4.csv', sep=';')
+    check_dupe('mapping.csv')    #Swapping the duplicates
+    tags = pd.read_csv('mapping.csv', sep=';')
     dupes.clear()
     seen.clear()
     
