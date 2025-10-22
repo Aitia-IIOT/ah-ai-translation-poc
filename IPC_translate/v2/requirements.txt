@@ -1,0 +1,10 @@
+pandas
+numba
+langchain
+langchain_openai
+langchain_chroma
+pdfplumber
+pyyaml
+openai
+exrex
+elementpath

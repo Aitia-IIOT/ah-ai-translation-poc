@@ -1,0 +1,908 @@
+PDF Extraction Debug Log
+==============================
+
+Chapter: IPC-2581
+ADDED: IPC-2581.revision
+ADDED: IPC-2581.xOffset
+ADDED: IPC-2581.yOffset
+ADDED: IPC-2581.rotation
+ADDED: IPC-2581.mirror
+ADDED: IPC-2581.scale
+ADDED: IPC-2581.faceUp
+ADDED: IPC-2581.startX
+ADDED: IPC-2581.startY
+ADDED: IPC-2581.endX
+ADDED: IPC-2581.endY
+ADDED: IPC-2581.startX
+ADDED: IPC-2581.startY
+ADDED: IPC-2581.endX
+ADDED: IPC-2581.endY
+ADDED: IPC-2581.centerX
+ADDED: IPC-2581.centerY
+ADDED: IPC-2581.clockwise
+ADDED: IPC-2581.x
+ADDED: IPC-2581.y
+ADDED: IPC-2581.Outline
+ADDED: IPC-2581.componentRef
+ADDED: IPC-2581.pin
+ADDED: IPC-2581.title
+ADDED: IPC-2581.x
+ADDED: IPC-2581.y
+ADDED: IPC-2581.value
+ADDED: IPC-2581.text
+ADDED: IPC-2581.unit
+ADDED: IPC-2581.tolPlus
+ADDED: IPC-2581.tolMinus
+ADDED: IPC-2581.tolPercent
+ADDED: IPC-2581.refUnit
+ADDED: IPC-2581.refValue
+ADDED: IPC-2581.refText
+ADDED: IPC-2581.layerOrGroupRef
+ADDED: IPC-2581.comment
+ADDED: IPC-2581.r
+ADDED: IPC-2581.g
+ADDED: IPC-2581.b
+ADDED: IPC-2581.id
+ADDED: IPC-2581.comment
+ADDED: IPC-2581.hexEncodedBinary
+ADDED: IPC-2581.id
+ADDED: IPC-2581.charCode
+ADDED: IPC-2581.lowerLeftX
+ADDED: IPC-2581.lowerLeftY
+ADDED: IPC-2581.upperRightX
+ADDED: IPC-2581.upperRightY
+ADDED: IPC-2581.urn
+ADDED: IPC-2581.lineEnd
+ADDED: IPC-2581.lineWidth
+ADDED: IPC-2581.lineProperty
+ADDED: IPC-2581.id
+ADDED: IPC-2581.fillProperty
+ADDED: IPC-2581.lineWidth
+ADDED: IPC-2581.pitch1
+ADDED: IPC-2581.pitch2
+ADDED: IPC-2581.angle1
+ADDED: IPC-2581.angle2
+ADDED: IPC-2581.id
+ADDED: IPC-2581.x
+ADDED: IPC-2581.y
+ADDED: IPC-2581.centerX
+ADDED: IPC-2581.centerY
+ADDED: IPC-2581.clockwise
+ADDED: IPC-2581.x
+ADDED: IPC-2581.y
+ADDED: IPC-2581.Outline
+ADDED: IPC-2581.Octagon
+ADDED: IPC-2581.Oval
+ADDED: IPC-2581.shape
+ADDED: IPC-2581.diameter
+ADDED: IPC-2581.side
+ADDED: IPC-2581.diameter
+ADDED: IPC-2581.width
+ADDED: IPC-2581.height
+ADDED: IPC-2581.shape
+ADDED: IPC-2581.outerDiameter
+ADDED: IPC-2581.innerDiameter
+ADDED: IPC-2581.width
+ADDED: IPC-2581.height
+ADDED: IPC-2581.length
+ADDED: IPC-2581.diameter
+ADDED: IPC-2581.ringWidth
+ADDED: IPC-2581.ringGap
+ADDED: IPC-2581.ringNumber
+ADDED: IPC-2581.lineWidth
+ADDED: IPC-2581.lineLength
+ADDED: IPC-2581.lineAngle
+ADDED: IPC-2581.Octagon
+ADDED: IPC-2581.length
+ADDED: IPC-2581.Oval
+ADDED: IPC-2581.width
+ADDED: IPC-2581.height
+ADDED: IPC-2581.width
+ADDED: IPC-2581.height
+ADDED: IPC-2581.width
+ADDED: IPC-2581.height
+ADDED: IPC-2581.chamfer
+ADDED: IPC-2581.upperRight
+ADDED: IPC-2581.upperLeft
+ADDED: IPC-2581.lowerLeft
+ADDED: IPC-2581.lowerRight
+ADDED: IPC-2581.lowerLeftX
+ADDED: IPC-2581.lowerLeftY
+ADDED: IPC-2581.upperRightX
+ADDED: IPC-2581.upperRightY
+ADDED: IPC-2581.width
+ADDED: IPC-2581.height
+ADDED: IPC-2581.radius
+ADDED: IPC-2581.upperRight
+ADDED: IPC-2581.upperLeft
+ADDED: IPC-2581.lowerLeft
+ADDED: IPC-2581.lowerRight
+ADDED: IPC-2581.shape
+ADDED: IPC-2581.outerDiameter
+ADDED: IPC-2581.innerDiameter
+ADDED: IPC-2581.spokeCount
+ADDED: IPC-2581.spokeWidth
+ADDED: IPC-2581.spokeStartAngle
+ADDED: IPC-2581.base
+ADDED: IPC-2581.height
+ADDED: IPC-2581.textString
+ADDED: IPC-2581.fontSize
+ADDED: IPC-2581.lowerLeftX
+ADDED: IPC-2581.lowerLeftY
+ADDED: IPC-2581.id
+ADDED: IPC-2581.roleRef
+ADDED: IPC-2581.mode
+ADDED: IPC-2581.level
+ADDED: IPC-2581.sectionKey
+ADDED: IPC-2581.comment
+ADDED: IPC-2581.id
+ADDED: IPC-2581.units
+ADDED: IPC-2581.id
+ADDED: IPC-2581.units
+ADDED: IPC-2581.id
+ADDED: IPC-2581.units
+ADDED: IPC-2581.id
+ADDED: IPC-2581.id
+ADDED: IPC-2581.id
+ADDED: IPC-2581.roleFunction
+ADDED: IPC-2581.publicKey
+ADDED: IPC-2581.authority
+ADDED: IPC-2581.id
+ADDED: IPC-2581.code
+ADDED: IPC-2581.codeType
+ADDED: IPC-2581.address1
+ADDED: IPC-2581.address2
+ADDED: IPC-2581.city
+ADDED: IPC-2581.stateProvince
+ADDED: IPC-2581.country
+ADDED: IPC-2581.postalCode
+ADDED: IPC-2581.phone
+ADDED: IPC-2581.fax
+ADDED: IPC-2581.email
+ADDED: IPC-2581.url
+ADDED: IPC-2581.enterpriseRef
+ADDED: IPC-2581.title
+ADDED: IPC-2581.email
+ADDED: IPC-2581.phone
+ADDED: IPC-2581.fax
+ADDED: IPC-2581.mailstop
+ADDED: IPC-2581.publicKey
+ADDED: IPC-2581.roleRef
+ADDED: IPC-2581.number
+ADDED: IPC-2581.origination
+ADDED: IPC-2581.software
+ADDED: IPC-2581.lastChange
+ADDED: IPC-2581.lifecyclePhase
+ADDED: IPC-2581.externalConfiguration EntryPoint
+ADDED: IPC-2581.fileRevisionId
+ADDED: IPC-2581.comment
+ADDED: IPC-2581.label
+ADDED: IPC-2581.vendor
+ADDED: IPC-2581.revision
+ADDED: IPC-2581.model
+ADDED: IPC-2581.certificationStatus
+ADDED: IPC-2581.certificationCategory
+ADDED: IPC-2581.datetime
+ADDED: IPC-2581.personRef
+ADDED: IPC-2581.application
+ADDED: IPC-2581.change
+ADDED: IPC-2581.datetime
+ADDED: IPC-2581.personRef
+ADDED: IPC-2581.assembly
+ADDED: IPC-2581.revision
+ADDED: IPC-2581.affecting
+ADDED: IPC-2581.stepRef
+Chapter: OEMDesignNumberRef
+ADDED: OEMDesignNumberRef.quantity
+ADDED: OEMDesignNumberRef.pinCount
+ADDED: OEMDesignNumberRef.category
+ADDED: OEMDesignNumberRef.internalPartNumber
+ADDED: OEMDesignNumberRef.layerRef
+ADDED: OEMDesignNumberRef.layerRef
+ADDED: OEMDesignNumberRef.packageRef
+ADDED: OEMDesignNumberRef.populate
+ADDED: OEMDesignNumberRef.layerRef
+ADDED: OEMDesignNumberRef.value
+ADDED: OEMDesignNumberRef.comments
+ADDED: OEMDesignNumberRef.progName
+ADDED: OEMDesignNumberRef.progVersion
+ADDED: OEMDesignNumberRef.crc
+ADDED: OEMDesignNumberRef.hexEncodedBinary
+ADDED: OEMDesignNumberRef.id
+ADDED: OEMDesignNumberRef.layerRef
+ADDED: OEMDesignNumberRef.number
+ADDED: OEMDesignNumberRef.layerRef
+ADDED: OEMDesignNumberRef.category
+ADDED: OEMDesignNumberRef.definitionSource
+ADDED: OEMDesignNumberRef.measuredCharacteristicName
+ADDED: OEMDesignNumberRef.measuredCharacteristicValue
+ADDED: OEMDesignNumberRef.engineeringUnitOfMeasure
+ADDED: OEMDesignNumberRef.engineeringNegativeTolerance
+ADDED: OEMDesignNumberRef.engineeringPositiveTolerance
+ADDED: OEMDesignNumberRef.definitionSource
+ADDED: OEMDesignNumberRef.rangedCharacteristicName
+ADDED: OEMDesignNumberRef.rangedCharacteristicLowerValue
+ADDED: OEMDesignNumberRef.rangedCharacteristicUpperValue
+ADDED: OEMDesignNumberRef.engineeringUnitOfMeasure
+ADDED: OEMDesignNumberRef.engineeringNegativeTolerance
+ADDED: OEMDesignNumberRef.engineeringPositiveTolerance
+ADDED: OEMDesignNumberRef.definitionSource
+ADDED: OEMDesignNumberRef.enumeratedCharacteristicName
+ADDED: OEMDesignNumberRef.enumeratedCharacteristicValue
+ADDED: OEMDesignNumberRef.definitionSource
+ADDED: OEMDesignNumberRef.textualCharacteristicName
+ADDED: OEMDesignNumberRef.textualCharacteristicValue
+ADDED: OEMDesignNumberRef.units
+ADDED: OEMDesignNumberRef.Outline
+ADDED: OEMDesignNumberRef.type
+ADDED: OEMDesignNumberRef.comment
+ADDED: OEMDesignNumberRef.type
+ADDED: OEMDesignNumberRef.comment
+ADDED: OEMDesignNumberRef.material
+ADDED: OEMDesignNumberRef.foilType
+ADDED: OEMDesignNumberRef.type
+ADDED: OEMDesignNumberRef.comment
+ADDED: OEMDesignNumberRef.type
+ADDED: OEMDesignNumberRef.comment
+ADDED: OEMDesignNumberRef.type
+ADDED: OEMDesignNumberRef.comment
+ADDED: OEMDesignNumberRef.value
+ADDED: OEMDesignNumberRef.tolPlus
+ADDED: OEMDesignNumberRef.tolMinus
+ADDED: OEMDesignNumberRef.tolPercent
+ADDED: OEMDesignNumberRef.comment
+ADDED: OEMDesignNumberRef.structure
+ADDED: OEMDesignNumberRef.structure
+ADDED: OEMDesignNumberRef.structure
+ADDED: OEMDesignNumberRef.Offset
+ADDED: OEMDesignNumberRef.structure
+ADDED: OEMDesignNumberRef.value
+ADDED: OEMDesignNumberRef.unit
+ADDED: OEMDesignNumberRef.tolPlus
+ADDED: OEMDesignNumberRef.tolMinus
+ADDED: OEMDesignNumberRef.tolPercent
+ADDED: OEMDesignNumberRef.layerOrGroupRef
+ADDED: OEMDesignNumberRef.type
+ADDED: OEMDesignNumberRef.comment
+ADDED: OEMDesignNumberRef.type
+ADDED: OEMDesignNumberRef.comment
+ADDED: OEMDesignNumberRef.type
+ADDED: OEMDesignNumberRef.comment
+ADDED: OEMDesignNumberRef.type
+ADDED: OEMDesignNumberRef.toolProperty
+ADDED: OEMDesignNumberRef.comment
+Chapter: V_Cut
+ADDED: V_Cut.type
+ADDED: V_Cut.comment
+ADDED: V_Cut.type
+ADDED: V_Cut.comment
+ADDED: V_Cut.comment
+ADDED: V_Cut.type
+ADDED: V_Cut.criteria
+ADDED: V_Cut.type
+ADDED: V_Cut.comment
+ADDED: V_Cut.type
+ADDED: V_Cut.comment
+ADDED: V_Cut.datetime
+ADDED: V_Cut.personRef
+ADDED: V_Cut.lifecyclePhase
+ADDED: V_Cut.application
+ADDED: V_Cut.change
+ADDED: V_Cut.datetime
+ADDED: V_Cut.personRef
+ADDED: V_Cut.layerFunction
+ADDED: V_Cut.side
+ADDED: V_Cut.polarity
+ADDED: V_Cut.overallThickness
+ADDED: V_Cut.tolPlus
+ADDED: V_Cut.tolMinus
+ADDED: V_Cut.tolPercent
+ADDED: V_Cut.whereMeasured
+ADDED: V_Cut.matDes
+ADDED: V_Cut.comment
+ADDED: V_Cut.stackupStatus
+ADDED: V_Cut.thickness
+ADDED: V_Cut.tolPlus
+ADDED: V_Cut.tolMinus
+ADDED: V_Cut.tolPercent
+ADDED: V_Cut.matDes
+ADDED: V_Cut.comment
+Chapter: CADDataLayerRef
+ADDED: CADDataLayerRef.thickness
+ADDED: CADDataLayerRef.tolPlus
+ADDED: CADDataLayerRef.tolMinus
+ADDED: CADDataLayerRef.tolPercent
+ADDED: CADDataLayerRef.sequence
+ADDED: CADDataLayerRef.matDes
+ADDED: CADDataLayerRef.comment
+ADDED: CADDataLayerRef.type
+ADDED: CADDataLayerRef.stackupRef
+ADDED: CADDataLayerRef.type
+ADDED: CADDataLayerRef.value
+ADDED: CADDataLayerRef.diameter
+ADDED: CADDataLayerRef.platingStatus
+ADDED: CADDataLayerRef.plusTol
+ADDED: CADDataLayerRef.minusTol
+ADDED: CADDataLayerRef.x
+ADDED: CADDataLayerRef.y
+ADDED: CADDataLayerRef.layerRef
+ADDED: CADDataLayerRef.padUse
+ADDED: CADDataLayerRef.comment
+ADDED: CADDataLayerRef.x
+ADDED: CADDataLayerRef.y
+ADDED: CADDataLayerRef.stepRef
+ADDED: CADDataLayerRef.x
+ADDED: CADDataLayerRef.y
+ADDED: CADDataLayerRef.nx
+ADDED: CADDataLayerRef.ny
+ADDED: CADDataLayerRef.dx
+ADDED: CADDataLayerRef.dy
+ADDED: CADDataLayerRef.angle
+ADDED: CADDataLayerRef.mirror
+ADDED: CADDataLayerRef.type
+ADDED: CADDataLayerRef.pinOne
+ADDED: CADDataLayerRef.pinOneOrientation
+ADDED: CADDataLayerRef.height
+ADDED: CADDataLayerRef.negativeBodyExtension
+ADDED: CADDataLayerRef.comment
+ADDED: CADDataLayerRef.Outline
+ADDED: CADDataLayerRef.x
+ADDED: CADDataLayerRef.y
+ADDED: CADDataLayerRef.OtherSideView
+ADDED: CADDataLayerRef.Outline
+ADDED: CADDataLayerRef.markingUsage
+ADDED: CADDataLayerRef.Outline
+ADDED: CADDataLayerRef.markingUsage
+ADDED: CADDataLayerRef.number
+ADDED: CADDataLayerRef.type
+ADDED: CADDataLayerRef.electricalType
+ADDED: CADDataLayerRef.mountType
+ADDED: CADDataLayerRef.pinPolarity
+ADDED: CADDataLayerRef.Outline
+ADDED: CADDataLayerRef.OtherSideView
+ADDED: CADDataLayerRef.Outline
+ADDED: CADDataLayerRef.refDes
+ADDED: CADDataLayerRef.matDes
+ADDED: CADDataLayerRef.packageRef
+ADDED: CADDataLayerRef.part
+ADDED: CADDataLayerRef.layerRef
+ADDED: CADDataLayerRef.layerRefTopside
+ADDED: CADDataLayerRef.mountType
+ADDED: CADDataLayerRef.modelRef
+ADDED: CADDataLayerRef.weight
+ADDED: CADDataLayerRef.height
+ADDED: CADDataLayerRef.standoff
+ADDED: CADDataLayerRef.id
+ADDED: CADDataLayerRef.netClass
+ADDED: CADDataLayerRef.netPair
+ADDED: CADDataLayerRef.optimized
+ADDED: CADDataLayerRef.x
+ADDED: CADDataLayerRef.y
+ADDED: CADDataLayerRef.layerRef
+ADDED: CADDataLayerRef.secondaryLayerRef
+ADDED: CADDataLayerRef.netNode
+ADDED: CADDataLayerRef.exposure
+ADDED: CADDataLayerRef.layerIndex
+ADDED: CADDataLayerRef.comment
+ADDED: CADDataLayerRef.via
+ADDED: CADDataLayerRef.fiducial
+ADDED: CADDataLayerRef.test
+ADDED: CADDataLayerRef.staggerX
+ADDED: CADDataLayerRef.staggerY
+ADDED: CADDataLayerRef.staggerRadius
+ADDED: CADDataLayerRef.layerRef
+ADDED: CADDataLayerRef.net
+ADDED: CADDataLayerRef.netPair
+ADDED: CADDataLayerRef.polarity
+ADDED: CADDataLayerRef.padUsage
+ADDED: CADDataLayerRef.testPoint
+ADDED: CADDataLayerRef.geometry
+ADDED: CADDataLayerRef.plate
+ADDED: CADDataLayerRef.componentRef
+ADDED: CADDataLayerRef.geometryUsage
+ADDED: CADDataLayerRef.type
+ADDED: CADDataLayerRef.value
+ADDED: CADDataLayerRef.padstackDefRef
+ADDED: CADDataLayerRef.type
+ADDED: CADDataLayerRef.diameter
+ADDED: CADDataLayerRef.platingStatus
+ADDED: CADDataLayerRef.plusTol
+ADDED: CADDataLayerRef.minusTol
+ADDED: CADDataLayerRef.x
+ADDED: CADDataLayerRef.y
+ADDED: CADDataLayerRef.platingStatus
+ADDED: CADDataLayerRef.plusTol
+ADDED: CADDataLayerRef.minusTol
+ADDED: CADDataLayerRef.depth
+ADDED: CADDataLayerRef.startCutLayer
+ADDED: CADDataLayerRef.direction
+ADDED: CADDataLayerRef.plusTol
+ADDED: CADDataLayerRef.minusTol
+ADDED: CADDataLayerRef.thickness
+ADDED: CADDataLayerRef.startCutLayer
+ADDED: CADDataLayerRef.direction
+ADDED: CADDataLayerRef.plusTol
+ADDED: CADDataLayerRef.minusTol
+ADDED: CADDataLayerRef.depthRemaining
+ADDED: CADDataLayerRef.matDes
+ADDED: CADDataLayerRef.id
+ADDED: CADDataLayerRef.sequenceNumber
+ADDED: CADDataLayerRef.comment
+ADDED: CADDataLayerRef.Outline
+ADDED: CADDataLayerRef.innerSide
+ADDED: CADDataLayerRef.innerRadius
+ADDED: CADDataLayerRef.innerAngle
+ADDED: CADDataLayerRef.stackupRef
+ADDED: CADDataLayerRef.layerOrGroupRef
+ADDED: CADDataLayerRef.netType
+ADDED: CADDataLayerRef.comment
+ADDED: CADDataLayerRef.stepRef
+ADDED: CADDataLayerRef.compRef
+ADDED: CADDataLayerRef.pinRef
+ADDED: CADDataLayerRef.layerRef
+ADDED: CADDataLayerRef.compRef
+ADDED: CADDataLayerRef.pinRef
+ADDED: CADDataLayerRef.stepRef
+ADDED: CADDataLayerRef.compRef
+ADDED: CADDataLayerRef.portName
+ADDED: CADDataLayerRef.startingHeight
+ADDED: CADDataLayerRef.height
+ADDED: CADDataLayerRef.category
+ADDED: CADDataLayerRef.measurementMode
+ADDED: CADDataLayerRef.comment
+ADDED: CADDataLayerRef.id
+ADDED: CADDataLayerRef.severity
+ADDED: CADDataLayerRef.comment
+ADDED: CADDataLayerRef.query
+ADDED: CADDataLayerRef.layerRef
+ADDED: CADDataLayerRef.pinRef
+ADDED: CADDataLayerRef.componentRef
+ADDED: CADDataLayerRef.packageRef
+ADDED: CADDataLayerRef.specRef
+ADDED: CADDataLayerRef.firmwareRef
+ADDED: CADDataLayerRef.padstackDefRef
+ADDED: CADDataLayerRef.netRef
+ADDED: CADDataLayerRef.stackupRef
+ADDED: CADDataLayerRef.bomRef
+ADDED: CADDataLayerRef.featureObject
+ADDED: CADDataLayerRef.comment
+ADDED: CADDataLayerRef.embeddedType
+ADDED: CADDataLayerRef.dfxMeasurementRef
+ADDED: CADDataLayerRef.response
+ADDED: CADDataLayerRef.comment
+ADDED: CADDataLayerRef.title
+ADDED: CADDataLayerRef.source
+ADDED: CADDataLayerRef.author
+ADDED: CADDataLayerRef.datetime
+ADDED: CADDataLayerRef.version
+ADDED: CADDataLayerRef.comment
+ADDED: CADDataLayerRef.modRef
+Chapter: OEMDesignNumber
+ADDED: OEMDesignNumber.evplVendor
+ADDED: OEMDesignNumber.evplMpn
+ADDED: OEMDesignNumber.qualified
+ADDED: OEMDesignNumber.chosen
+ADDED: OEMDesignNumber.rank
+ADDED: OEMDesignNumber.cost
+ADDED: OEMDesignNumber.moistureSensitivity
+ADDED: OEMDesignNumber.availability
+ADDED: OEMDesignNumber.other
+ADDED: OEMDesignNumber.enterpriseRef
+
+Total elements extracted: 482
+Total cleaned elements: 482
+Successfully matched: 71
+Unmatched elements: 411
+
+Unmatched elements:
+  - IPC-2581.xOffset
+  - IPC-2581.yOffset
+  - IPC-2581.rotation
+  - IPC-2581.mirror
+  - IPC-2581.scale
+  - IPC-2581.faceUp
+  - IPC-2581.startX
+  - IPC-2581.startY
+  - IPC-2581.endX
+  - IPC-2581.endY
+  - IPC-2581.startX
+  - IPC-2581.startY
+  - IPC-2581.endX
+  - IPC-2581.endY
+  - IPC-2581.centerX
+  - IPC-2581.centerY
+  - IPC-2581.clockwise
+  - IPC-2581.x
+  - IPC-2581.y
+  - IPC-2581.Outline
+  - IPC-2581.componentRef
+  - IPC-2581.pin
+  - IPC-2581.title
+  - IPC-2581.x
+  - IPC-2581.y
+  - IPC-2581.value
+  - IPC-2581.text
+  - IPC-2581.unit
+  - IPC-2581.tolPlus
+  - IPC-2581.tolMinus
+  - IPC-2581.tolPercent
+  - IPC-2581.refUnit
+  - IPC-2581.refValue
+  - IPC-2581.refText
+  - IPC-2581.layerOrGroupRef
+  - IPC-2581.comment
+  - IPC-2581.g
+  - IPC-2581.b
+  - IPC-2581.id
+  - IPC-2581.comment
+  - IPC-2581.hexEncodedBinary
+  - IPC-2581.id
+  - IPC-2581.charCode
+  - IPC-2581.lowerLeftX
+  - IPC-2581.lowerLeftY
+  - IPC-2581.upperRightX
+  - IPC-2581.upperRightY
+  - IPC-2581.urn
+  - IPC-2581.lineEnd
+  - IPC-2581.lineWidth
+  - IPC-2581.lineProperty
+  - IPC-2581.id
+  - IPC-2581.fillProperty
+  - IPC-2581.lineWidth
+  - IPC-2581.pitch1
+  - IPC-2581.pitch2
+  - IPC-2581.angle1
+  - IPC-2581.angle2
+  - IPC-2581.id
+  - IPC-2581.x
+  - IPC-2581.y
+  - IPC-2581.centerX
+  - IPC-2581.centerY
+  - IPC-2581.clockwise
+  - IPC-2581.x
+  - IPC-2581.y
+  - IPC-2581.Outline
+  - IPC-2581.Octagon
+  - IPC-2581.Oval
+  - IPC-2581.shape
+  - IPC-2581.diameter
+  - IPC-2581.side
+  - IPC-2581.diameter
+  - IPC-2581.width
+  - IPC-2581.height
+  - IPC-2581.shape
+  - IPC-2581.outerDiameter
+  - IPC-2581.innerDiameter
+  - IPC-2581.width
+  - IPC-2581.height
+  - IPC-2581.length
+  - IPC-2581.diameter
+  - IPC-2581.ringWidth
+  - IPC-2581.ringGap
+  - IPC-2581.ringNumber
+  - IPC-2581.lineWidth
+  - IPC-2581.lineLength
+  - IPC-2581.lineAngle
+  - IPC-2581.Octagon
+  - IPC-2581.length
+  - IPC-2581.Oval
+  - IPC-2581.width
+  - IPC-2581.height
+  - IPC-2581.width
+  - IPC-2581.height
+  - IPC-2581.width
+  - IPC-2581.height
+  - IPC-2581.chamfer
+  - IPC-2581.upperRight
+  - IPC-2581.upperLeft
+  - IPC-2581.lowerLeft
+  - IPC-2581.lowerRight
+  - IPC-2581.lowerLeftX
+  - IPC-2581.lowerLeftY
+  - IPC-2581.upperRightX
+  - IPC-2581.upperRightY
+  - IPC-2581.width
+  - IPC-2581.height
+  - IPC-2581.radius
+  - IPC-2581.upperRight
+  - IPC-2581.upperLeft
+  - IPC-2581.lowerLeft
+  - IPC-2581.lowerRight
+  - IPC-2581.shape
+  - IPC-2581.outerDiameter
+  - IPC-2581.innerDiameter
+  - IPC-2581.spokeCount
+  - IPC-2581.spokeWidth
+  - IPC-2581.spokeStartAngle
+  - IPC-2581.base
+  - IPC-2581.height
+  - IPC-2581.textString
+  - IPC-2581.fontSize
+  - IPC-2581.lowerLeftX
+  - IPC-2581.lowerLeftY
+  - IPC-2581.id
+  - IPC-2581.roleRef
+  - IPC-2581.mode
+  - IPC-2581.level
+  - IPC-2581.sectionKey
+  - IPC-2581.comment
+  - IPC-2581.id
+  - IPC-2581.units
+  - IPC-2581.id
+  - IPC-2581.units
+  - IPC-2581.id
+  - IPC-2581.units
+  - IPC-2581.id
+  - IPC-2581.id
+  - IPC-2581.id
+  - IPC-2581.roleFunction
+  - IPC-2581.publicKey
+  - IPC-2581.authority
+  - IPC-2581.id
+  - IPC-2581.code
+  - IPC-2581.codeType
+  - IPC-2581.address1
+  - IPC-2581.address2
+  - IPC-2581.city
+  - IPC-2581.stateProvince
+  - IPC-2581.country
+  - IPC-2581.postalCode
+  - IPC-2581.phone
+  - IPC-2581.fax
+  - IPC-2581.email
+  - IPC-2581.url
+  - IPC-2581.enterpriseRef
+  - IPC-2581.title
+  - IPC-2581.email
+  - IPC-2581.phone
+  - IPC-2581.fax
+  - IPC-2581.mailstop
+  - IPC-2581.publicKey
+  - IPC-2581.roleRef
+  - IPC-2581.number
+  - IPC-2581.origination
+  - IPC-2581.software
+  - IPC-2581.lastChange
+  - IPC-2581.lifecyclePhase
+  - IPC-2581.externalConfiguration EntryPoint
+  - IPC-2581.comment
+  - IPC-2581.label
+  - IPC-2581.vendor
+  - IPC-2581.model
+  - IPC-2581.certificationStatus
+  - IPC-2581.certificationCategory
+  - IPC-2581.datetime
+  - IPC-2581.personRef
+  - IPC-2581.application
+  - IPC-2581.change
+  - IPC-2581.datetime
+  - IPC-2581.personRef
+  - IPC-2581.assembly
+  - IPC-2581.affecting
+  - IPC-2581.stepRef
+  - OEMDesignNumberRef.quantity
+  - OEMDesignNumberRef.pinCount
+  - OEMDesignNumberRef.category
+  - OEMDesignNumberRef.internalPartNumber
+  - OEMDesignNumberRef.layerRef
+  - OEMDesignNumberRef.layerRef
+  - OEMDesignNumberRef.packageRef
+  - OEMDesignNumberRef.populate
+  - OEMDesignNumberRef.layerRef
+  - OEMDesignNumberRef.value
+  - OEMDesignNumberRef.comments
+  - OEMDesignNumberRef.progName
+  - OEMDesignNumberRef.progVersion
+  - OEMDesignNumberRef.crc
+  - OEMDesignNumberRef.hexEncodedBinary
+  - OEMDesignNumberRef.id
+  - OEMDesignNumberRef.layerRef
+  - OEMDesignNumberRef.number
+  - OEMDesignNumberRef.layerRef
+  - OEMDesignNumberRef.category
+  - OEMDesignNumberRef.definitionSource
+  - OEMDesignNumberRef.measuredCharacteristicName
+  - OEMDesignNumberRef.engineeringUnitOfMeasure
+  - OEMDesignNumberRef.definitionSource
+  - OEMDesignNumberRef.rangedCharacteristicName
+  - OEMDesignNumberRef.rangedCharacteristicLowerValue
+  - OEMDesignNumberRef.rangedCharacteristicUpperValue
+  - OEMDesignNumberRef.engineeringUnitOfMeasure
+  - OEMDesignNumberRef.definitionSource
+  - OEMDesignNumberRef.definitionSource
+  - OEMDesignNumberRef.textualCharacteristicName
+  - OEMDesignNumberRef.textualCharacteristicValue
+  - OEMDesignNumberRef.units
+  - OEMDesignNumberRef.Outline
+  - OEMDesignNumberRef.type
+  - OEMDesignNumberRef.comment
+  - OEMDesignNumberRef.type
+  - OEMDesignNumberRef.comment
+  - OEMDesignNumberRef.material
+  - OEMDesignNumberRef.foilType
+  - OEMDesignNumberRef.type
+  - OEMDesignNumberRef.comment
+  - OEMDesignNumberRef.type
+  - OEMDesignNumberRef.comment
+  - OEMDesignNumberRef.type
+  - OEMDesignNumberRef.comment
+  - OEMDesignNumberRef.value
+  - OEMDesignNumberRef.tolPlus
+  - OEMDesignNumberRef.tolMinus
+  - OEMDesignNumberRef.tolPercent
+  - OEMDesignNumberRef.comment
+  - OEMDesignNumberRef.structure
+  - OEMDesignNumberRef.structure
+  - OEMDesignNumberRef.structure
+  - OEMDesignNumberRef.Offset
+  - OEMDesignNumberRef.structure
+  - OEMDesignNumberRef.value
+  - OEMDesignNumberRef.unit
+  - OEMDesignNumberRef.tolPlus
+  - OEMDesignNumberRef.tolMinus
+  - OEMDesignNumberRef.tolPercent
+  - OEMDesignNumberRef.layerOrGroupRef
+  - OEMDesignNumberRef.type
+  - OEMDesignNumberRef.comment
+  - OEMDesignNumberRef.type
+  - OEMDesignNumberRef.comment
+  - OEMDesignNumberRef.type
+  - OEMDesignNumberRef.comment
+  - OEMDesignNumberRef.type
+  - OEMDesignNumberRef.toolProperty
+  - OEMDesignNumberRef.comment
+  - V_Cut.criteria
+  - V_Cut.datetime
+  - V_Cut.personRef
+  - V_Cut.lifecyclePhase
+  - V_Cut.application
+  - V_Cut.change
+  - V_Cut.datetime
+  - V_Cut.personRef
+  - V_Cut.layerFunction
+  - V_Cut.side
+  - V_Cut.polarity
+  - V_Cut.tolPlus
+  - V_Cut.tolMinus
+  - V_Cut.tolPercent
+  - V_Cut.whereMeasured
+  - V_Cut.matDes
+  - V_Cut.stackupStatus
+  - V_Cut.thickness
+  - V_Cut.tolPlus
+  - V_Cut.tolMinus
+  - V_Cut.tolPercent
+  - V_Cut.matDes
+  - CADDataLayerRef.thickness
+  - CADDataLayerRef.tolPlus
+  - CADDataLayerRef.tolMinus
+  - CADDataLayerRef.tolPercent
+  - CADDataLayerRef.sequence
+  - CADDataLayerRef.matDes
+  - CADDataLayerRef.comment
+  - CADDataLayerRef.stackupRef
+  - CADDataLayerRef.platingStatus
+  - CADDataLayerRef.plusTol
+  - CADDataLayerRef.minusTol
+  - CADDataLayerRef.x
+  - CADDataLayerRef.padUse
+  - CADDataLayerRef.comment
+  - CADDataLayerRef.x
+  - CADDataLayerRef.stepRef
+  - CADDataLayerRef.x
+  - CADDataLayerRef.nx
+  - CADDataLayerRef.mirror
+  - CADDataLayerRef.pinOne
+  - CADDataLayerRef.pinOneOrientation
+  - CADDataLayerRef.height
+  - CADDataLayerRef.negativeBodyExtension
+  - CADDataLayerRef.comment
+  - CADDataLayerRef.Outline
+  - CADDataLayerRef.x
+  - CADDataLayerRef.OtherSideView
+  - CADDataLayerRef.Outline
+  - CADDataLayerRef.markingUsage
+  - CADDataLayerRef.Outline
+  - CADDataLayerRef.markingUsage
+  - CADDataLayerRef.number
+  - CADDataLayerRef.electricalType
+  - CADDataLayerRef.mountType
+  - CADDataLayerRef.pinPolarity
+  - CADDataLayerRef.Outline
+  - CADDataLayerRef.OtherSideView
+  - CADDataLayerRef.Outline
+  - CADDataLayerRef.refDes
+  - CADDataLayerRef.matDes
+  - CADDataLayerRef.packageRef
+  - CADDataLayerRef.mountType
+  - CADDataLayerRef.modelRef
+  - CADDataLayerRef.weight
+  - CADDataLayerRef.height
+  - CADDataLayerRef.standoff
+  - CADDataLayerRef.netClass
+  - CADDataLayerRef.netPair
+  - CADDataLayerRef.optimized
+  - CADDataLayerRef.x
+  - CADDataLayerRef.secondaryLayerRef
+  - CADDataLayerRef.netNode
+  - CADDataLayerRef.exposure
+  - CADDataLayerRef.comment
+  - CADDataLayerRef.fiducial
+  - CADDataLayerRef.test
+  - CADDataLayerRef.staggerRadius
+  - CADDataLayerRef.netPair
+  - CADDataLayerRef.padUsage
+  - CADDataLayerRef.testPoint
+  - CADDataLayerRef.geometry
+  - CADDataLayerRef.componentRef
+  - CADDataLayerRef.geometryUsage
+  - CADDataLayerRef.padstackDefRef
+  - CADDataLayerRef.platingStatus
+  - CADDataLayerRef.plusTol
+  - CADDataLayerRef.minusTol
+  - CADDataLayerRef.x
+  - CADDataLayerRef.platingStatus
+  - CADDataLayerRef.plusTol
+  - CADDataLayerRef.minusTol
+  - CADDataLayerRef.depth
+  - CADDataLayerRef.direction
+  - CADDataLayerRef.plusTol
+  - CADDataLayerRef.minusTol
+  - CADDataLayerRef.thickness
+  - CADDataLayerRef.direction
+  - CADDataLayerRef.plusTol
+  - CADDataLayerRef.minusTol
+  - CADDataLayerRef.depthRemaining
+  - CADDataLayerRef.matDes
+  - CADDataLayerRef.sequenceNumber
+  - CADDataLayerRef.comment
+  - CADDataLayerRef.Outline
+  - CADDataLayerRef.innerRadius
+  - CADDataLayerRef.innerAngle
+  - CADDataLayerRef.stackupRef
+  - CADDataLayerRef.netType
+  - CADDataLayerRef.comment
+  - CADDataLayerRef.stepRef
+  - CADDataLayerRef.compRef
+  - CADDataLayerRef.pinRef
+  - CADDataLayerRef.compRef
+  - CADDataLayerRef.pinRef
+  - CADDataLayerRef.stepRef
+  - CADDataLayerRef.compRef
+  - CADDataLayerRef.portName
+  - CADDataLayerRef.startingHeight
+  - CADDataLayerRef.height
+  - CADDataLayerRef.measurementMode
+  - CADDataLayerRef.comment
+  - CADDataLayerRef.comment
+  - CADDataLayerRef.pinRef
+  - CADDataLayerRef.componentRef
+  - CADDataLayerRef.packageRef
+  - CADDataLayerRef.specRef
+  - CADDataLayerRef.firmwareRef
+  - CADDataLayerRef.padstackDefRef
+  - CADDataLayerRef.netRef
+  - CADDataLayerRef.stackupRef
+  - CADDataLayerRef.bomRef
+  - CADDataLayerRef.featureObject
+  - CADDataLayerRef.comment
+  - CADDataLayerRef.embeddedType
+  - CADDataLayerRef.dfxMeasurementRef
+  - CADDataLayerRef.response
+  - CADDataLayerRef.comment
+  - CADDataLayerRef.title
+  - CADDataLayerRef.source
+  - CADDataLayerRef.author
+  - CADDataLayerRef.datetime
+  - CADDataLayerRef.comment
+  - CADDataLayerRef.modRef
+  - OEMDesignNumber.evplVendor
+  - OEMDesignNumber.evplMpn
+  - OEMDesignNumber.qualified
+  - OEMDesignNumber.chosen
+  - OEMDesignNumber.rank
+  - OEMDesignNumber.cost
+  - OEMDesignNumber.moistureSensitivity
+  - OEMDesignNumber.availability
+  - OEMDesignNumber.other
+  - OEMDesignNumber.enterpriseRef

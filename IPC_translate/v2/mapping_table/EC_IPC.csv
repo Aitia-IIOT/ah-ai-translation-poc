@@ -1,0 +1,33 @@
+EC_tag;IPC_element
+EPPL Family;IPC-2581/Content/DictionaryLineDesc.units
+EPPL Group;IPC-2581/Content/DictionaryFirmware/EntryFirmware/CachedFirmware.hexEncodedBinary
+Quality type;IPC-2581/Content/DictionaryFillDesc.units
+Description;IPC-2581/Content/DictionaryFont.units
+SPN;IPC-2581/Content/StepRef.name
+EIN;IPC-2581/Content/AvlRef.name
+Component Number;IPC-2581/Avl/AvlItem.OEMDesignNumber
+Commercial Part Number;IPC-2581/Content/FunctionMode.mode
+Generic Part Type;IPC-2581/Content/DictionaryStandard/EntryStandard/Contour/Cutout/Xform.faceUp
+Engineering Package;IPC-2581/Content/DictionaryStandard/EntryStandard/Contour/Cutout/LineDescRef.id
+Package;IPC-2581/Ecad/CadData/Step/Component.packageRef
+Generic specification;IPC-2581/Content/BomRef.name
+Detail specification;IPC-2581/Content/DictionaryStandard/EntryStandard/Contour/Cutout/FillDesc/ColorRef.id
+Moisture sensitivity level;IPC-2581/Content/DictionaryStandard/EntryStandard/Contour/Cutout/FillDesc/Color.g
+Comment;IPC-2581/Content/FunctionMode.comment
+Weight;IPC-2581/Content/DictionaryStandard/EntryStandard/Butterfly.side
+Manufacturer;IPC-2581/Avl.name
+Link files;IPC-2581/Content.roleRef
+Library Ref;IPC-2581/Ecad/CadData/Step/Component.refDes
+Sim Model Name;IPC-2581/Content/DictionaryStandard/EntryStandard/Contour/Cutout/FillDesc/ColorTerm.comment
+Sim File;IPC-2581/Content/DictionaryFillDesc/EntryFillDesc/FillDesc/ColorTerm.comment
+Sim Kind;IPC-2581/Content/DictionaryFillDesc/EntryFillDesc/FillDesc.fillProperty
+Sim SubKind;IPC-2581/Content/FunctionMode.sectionKey
+Sim Netlist;IPC-2581/Ecad/CadData/Step/Package/OtherSideView/SilkScreen/NetShort.id
+Sim Spice Prefix;IPC-2581/Content/LayerRef.name
+Assembly qual status;IPC-2581/Bom/BomItem/Characteristics/Textual.definitionSource
+Value;IPC-2581/Content/DictionaryStandard/EntryStandard/Circle.diameter
+Tol;IPC-2581/Content/DictionaryStandard/EntryStandard/Contour/Cutout/FillDesc/Color.r
+TCR;IPC-2581/Content/DictionaryStandard/EntryStandard/Diamond.height
+Footprint1;IPC-2581/Ecad/CadData/Step/Package.type
+Application;IPC-2581/Content/DictionaryStandard/EntryStandard/Contour/Cutout/Xform.mirror
+Application;INVALID_LAYER

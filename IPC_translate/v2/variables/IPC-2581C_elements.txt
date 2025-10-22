@@ -1,0 +1,527 @@
+IPC-2581.revision | The status of the IPC-2581 file content.
+Xform.xOffset | The x offset of a previously defined shape relative to its original point oforigin in order to define a new origin used for rotation, mirroring, scaling andlocation. The CadHeader defines the units of measure.
+Xform.yOffset | The y offset of a previously defined shape relative to its original point oforigin in order to define a new origin used for rotation, mirroring, scaling andlocation. The CadHeader defines the units of measure.
+Xform.rotation | Defines the rotation of a shape about the local origin in degrees. Positiverotation is always counter-clockwise as viewed from the board TOP (primaryside). Degree accuracy is expressed as a two place decimal i.e., 45.15;62.34
+Xform.mirror | An enumerated string is either “true” or “false” (part of the 3WC standard –must be lower case). True indicates that the image is mirrored; Falseindicates that it is not. Mirror is implemented as “false” by default andMUST be set to “true” if the features/components are to be inverted whenapplied to a component it is placed on the underside of its given layer. Whenthe given layer is not the bottom layer then the component is embeddedwithin the PCB substrate.
+Xform.scale | An attribute that defines a “double” dimension whoseminExclusiveValue=0.0 representing the multiplication factor of all x and ydimensions. The scale factor does not apply to angular values.
+Xform.faceUp | An attribute applicable to the placement ot a component. When false thecomponent is placed “face down”, which is the default orientation per thelibrary definition. When true the component is placed on its back, so that anypins on its underside are now on its topside and vice versa.
+Line.startX | Beginning x-coordinate of the Line.
+Line.startY | Beginning y-coordinate of the Line.
+Line.endX | Ending x-coordinate of the Line.
+Line.endY | Ending y-coordinate of the Line.
+Arc.startX | Beginning x-coordinate of the Arc.
+Arc.startY | Beginning y-coordinate of the Arc.
+Arc.endX | Ending x-coordinate of the Arc.
+Arc.endY | Ending y-coordinate of the Arc.
+Arc.centerX | The X location for the origin of the radius of the circular Arc.
+Arc.centerY | The Y location for the origin of the radius of the circular Arc.
+Arc.clockwise | A required boolean to set the direction of rotation of the curve. If “true”then the direction of rotation is clockwise. If “false” then the direction ofrotation is counterclockwise
+PolyBegin.x | The X co-ordinate starting point.
+PolyBegin.y | The Y co-ordinate starting point.
+Outline.componentRef | The qualifiedNameType that identifies the reference designator used asthe attribute refDes of the Component element in StepIt is the reference to the component that is connected by the particular Pinand becomes a part of the electrical description of the net.The componentRef attribute is not required when used for a PinRefelement under Pad elements which are under LandPattern elements.Otherwise, the componentRef attribute is required for PinRef elementsunder Pad and LogicalNet elements.
+Outline.pin | An identification of the component pin, such as the pin number, thatbecomes a part of the electrical description.
+Outline.title | An alternate method of relating the pin information providing characteristicsof the component lead or termination description.
+Outline.x | The x coordinate of the object, in accordance with the Cartesiancoordinate system. The CadHeader defines the units of measure.
+Outline.y | The y coordinate of the object, in accordance with the Cartesiancoordinate system. The CadHeader defines the units of measure.
+Outline.name | An optional name that can be given to the property being described.Only to be used for custom properties when the IPC-2581 file senderand receiver have a prior arrangement of what names are to be used.
+Outline.value | A number that identifies the characteristics of the Value to be applied toany specified Unit attribute identified from the propertyUnitTypeenumerations.
+Outline.text | Specific conditions or instructions that can be used as a property valuewhen the value in non numeric or can be applied to the combination ofUnit, Value and any tolerance attribute conditions.
+Outline.unit | A set of enumerated string descriptions that identify the Unit propertiesof the Value attribute requirement. They consist of MM | INCH | MICRON| MILS | OHMS | MHO/CM | SIEMENS/M | CELCIUS | FARANHEIT |PERCENT | Hz | DEGREES | RMAX | RZ | RMS | SECTION | CLASS |ITEM | GAUGE | IN-LB | IN-OZ | FT-LB | N-m | N-cm | MIN | MAX | OZ |OZ/SQ-FT | GRAMS | HENRYS | AMPS | WATTS | VOLTS | FARAD |dB | dB/INCH | dB/MM | OTHER. If OTHER is noted a comment attributeis required.
+Outline.tolPlus | The plus tolerance that may be applied to the nominal number defined inthe Value attribute setting the upper control limit.
+Outline.tolMinus | The minus tolerance that may be applied to the nominal number definedin the Value attribute setting the lower control limit.
+Outline.tolPercent | An enumerated string is either “true” or “false” (part of the 3WC standard– must be lower case). True means that the attribute(s) tolPlus and/ortolMinus are a percentage. False indicates that they represent anonNegativeDouble. The Default is “false”.
+Outline.refUnit | A second Unit set of enumerated string descriptions that are to be usedas reference Unit properties of the basic attribute requirement. Theyconsist of MM | INCH | MICRON | MILS | OHMS | MHO/CM |SIEMENS/M | CELCIUS | FARANHEIT | PERCENT | Hz | DEGREES |RMAX | RZ | RMS | SECTION | CLASS | ITEM | GAUGE | IN-LB | IN-OZ| FT-LB | N-m | N-cm | MIN | MAX | OZ | OZ/SQ-FT | GRAMS | HENRYS| AMPS | WATTS | VOLTS | FARAD | dB | dB/INCH | dB/MM | OTHER.If OTHER is noted a comment attribute is required.
+Outline.refValue | A second Value number that is to be used as reference Value inconsidering the properties of the basic attribute requirement.
+Outline.refText | A second set of instructions that need to be applied when consideringthe references established for the Value number, unit, tolerances orinstructions applied to the properties of the basic attribute requirement.
+Outline.layerOrGroupRef | A reference to the identification of the unique name assigned to aspecific layer or group to which the properties of the specification are tobe applied.
+Outline.comment | A description of any unit or refUnit characteristic that is different orsupplements the propertyUnitType enumerations
+Color.r | Defines the red color intensity as a value between 0 and 255.
+Color.g | Defines the green color intensity as a value between 0 and 255.
+Color.b | Defines the blue color intensity as a value between 0 and 255.
+ColorRef.id | The qualified description name assigned as an id standard for XML schemacolor substitution.
+ColorTerm.name | An enumerated list consisting of basic color terms. The list consists ofBLACK, WHITE, RED, GREEN, YELLOW, BLUE, BROWN, ORANGE,PINK, PURPLE, GRAY, OTHER.
+ColorTerm.comment | Required if OTHER is chosen as the name, or can be used to describe anyother information about the color requirement
+CachedFirmware.hexEncodedBinary | An attribute defining the binary code that shall be added to aparticular component and which is contained in theDictionaryFirmware.
+FirmwareRef.id | The qualified name of CachedFirmware contained in theDictionaryFirmware.
+FontDefEmbedded.name | A unique name related to the charCode of the Glyph character.
+FontDefEmbedded.charCode | A code used by the user to identify a special character.
+FontDefEmbedded.lowerLeftX | The lower left hand x dimension of the rectangular area encompassing thecharacter.
+FontDefEmbedded.lowerLeftY | The lower left hand y dimension of the rectangular area encompassing thecharacter.
+FontDefEmbedded.upperRightX | The upper right hand x dimension of the rectangular area encompassing thecharacter.
+FontDefEmbedded.upperRightY | The upper right hand y dimension of the rectangular area encompassing thetext character.
+FontDefExternal.name | A unique name related to the character set of a known font.
+FontDefExternal.urn | A specific urn that makes reference to a known font that has theappropriate permission to use the font substitution in a IPC-2581 file.
+LineDesc.lineEnd | A description of the line ends used in any graphic description. ThelineEnd description is an enumerated string that may be ROUND |SQUARE | NONE. The default is ROUND.
+LineDesc.lineWidth | A dimensional characteristic that defines the nominal lineWidth of aLine, Polyline, or Arc element. The dimensions are in the samecategory as all dimensions contained in the IPC-2581 file.
+LineDesc.lineProperty | The line property is one of SOLID, DOTTED, DASHED, CENTER,PHANTOM or (solid) ERASE. The default is SOLID.
+LineDescRef.id | The identification of the LineDesc being referenced from theDictionaryLineDesc.
+FillDesc.fillProperty | The texture of the fill is one of HOLLOW, HATCH, MESH, FILL or VOID.The value VOID is reserved for Cutout elements – refer to section 3.4.5Cutout. The default is FILL.
+FillDesc.lineWidth | The width of the lines used in a HATCH or MESH. (This attribute onlyapplies to the fill types HATCH and MESH.)
+FillDesc.pitch1 | The distance between the first set of lines in a HATCH or MESH. Thedefault pitch between the hatch lines is 4 times the lineWidth. (Thisattribute only applies to the fill types HATCH and MESH.)
+FillDesc.pitch2 | The distance between the second set of lines in a MESH. The default pitchbetween the hatch lines is 4 times the lineWidth. (This attribute onlyapplies to the fill type MESH.)
+FillDesc.angle1 | The angle of a set of lines in a HATCH or a MESH. The angle is measuredrelative to the x-axis of the local coordinate system. The range of values islimited to between 0 and 180 degrees. The default is 45 degrees. (Thisattribute only applies to the fill types HATCH and MESH.)
+FillDesc.angle2 | The angle of the second set of lines in a MESH. The angle is measuredrelative to the x-axis of the local coordinate system. The angle must bebetween 90 and 180 degrees. The default is 135 degrees. (This attributeonly applies to the fill type MESH.)
+FillDescRef.id | The identification of the FillDesc being referenced from theDictionaryFillDesc.
+PolyStepCurve.x | The X end point of the curve.
+PolyStepCurve.y | The Y end point of the curve.
+PolyStepCurve.centerX | The X point that is the center of rotation of the curve.
+PolyStepCurve.centerY | The Y point that is the center of rotation of the curve.
+PolyStepCurve.clockwise | A required boolean to set the direction of rotation of the curve. If“true” then the direction of rotation is clockwise. If “false” then thedirection of rotation is counterclockwise
+PolyStepSegment.x | The X end point of the line.
+PolyStepSegment.y | The Y end point of the line.
+Arc.Outline | Outline has Polygon and LineDescGroup as children elements.The characteristics of the Polygon must be a closed shape. The pointof origin of the shape is identified as the 0:0 coordinate. The elementincludes the start of the polygon definition (PolyBegin) and theappropriate number of PolySteps to complete the closed shape. ThelineWidth is defined at a time when the Outline is instantiated orpredefined.
+Butterfly.Octagon | An eight-sided primitive shape with all sides being equal in length andwith all angles between adjacent sides being equal. The orientation of theOctagon is with one of its points facing north. Only the dimensionacross the points is required.
+Butterfly.Oval | A rectangular primitive shape with a complete radius (180° arc) at eachend. The limits of the feature are controlled by the length and width of theoval across the outer extremities.
+Butterfly.shape | The inner and outer shapes are one of ROUND or SQUARE:ROUND: The inner and outer shapes are like circleDef.SQUARE: The inner and outer shapes are like RectCenterDef withheight and width of each shape being equal.
+Butterfly.diameter | The diameter applies to the circular butterfly and is the outer boundaryof the butterfly.
+Butterfly.side | The width along the x-axis and the height along the y-axis of a square.
+Circle.diameter | The diameter of the circle.
+Diamond.width | The length of the diamond along, and centered on, the x-axis.
+Diamond.height | The length of the diamond along, and centered on, the y-axis.
+Donut.shape | The inner and outer shapes are one of ROUND, SQUARE , HEXAGONor OCTAGON:ROUND – The inner and outer shapes are like a circle.SQUARE – The inner and outer shapes are like a RectCenter withheight and width of each shape being equal.HEXAGON – The inner and outer shapes are like a Hexagon.OCTAGON – The inner and outer shapes are like an Octagon.
+Donut.outerDiameter | The outer boundary of the filled region. The meaning based ondonutShape:ROUND –The diameter of the circle is the outer boundary of the donut.The center of the circle is at the origin of the donut.SQUARE –The width along the x-axis and the height along the y-axis ofa square at the inner boundary of the donut. The center of the square isat the origin.HEXAGON – The point-to-point measurement on the x-axis of thehexagon that forms the outer boundary of the donut.OCTAGON – The point-to-point measurement on the x-axis of theoctagon that forms the outer boundary of the donut.
+Donut.innerDiameter | The inner boundary of the filled region. The meaning based ondonutShape :ROUND – The diameter of the circle is the inner boundary of the donut.The center of the circle is at the origin of the donut.SQUARE – The width along the x-axis and height along the y-axis of asquare at the inner boundary of the donut. The center of the square isat the origin.HEXAGON – The point-to-point measurement on the x-axis of thehexagon that forms the inner boundary of the donut.OCTAGON – the point-to-point measurement on the x-axis of theoctagon that forms the inner boundary of the donut.
+Ellipse.width | The height of the ellipse on the y-axis.
+Ellipse.height | The width of the ellipse on the x-axis.
+Hexagon.length | The length (L) between any two opposing corner points of thehexagon.
+Moire.diameter | The diameter of the center of the outermost circle.
+Moire.ringWidth | The width of the line used for each circle.
+Moire.ringGap | The gap between circle lines as defined by the dimension betweenthe centerlines of each circle location. The gap between centerlinesmust be larger than the ringWidth so that there is a clearancebetween individual rings.
+Moire.ringNumber | The number of rings.
+Moire.lineWidth | The line width used to develop a cross hair across the moiré. Thedefault is 0.
+Moire.lineLength | The length of the line for both the horizontal and vertical cross hair.
+Moire.lineAngle | The angle at which the cross hair may be rotated. Rotation is alwayscounter-clockwise. The default is 0° and can be oriented up to 90°.
+Octagon.length | The length (L) between any two opposing corner points of theoctagon.
+Oval.width | The length of the rectangle about the x-axis.
+Oval.height | The length of the rectangle about the y-axis. It is an error to define aheight greater than the width.
+RectCenter.width | The length of the rectangle about the x-axis.
+RectCenter.height | The length of the rectangle about the y-axis.
+RectCham.width | The length of the rectangle about the x-axis.
+RectCham.height | The length of the rectangle about the y-axis.
+RectCham.chamfer | The length measured from each corner that defines 4 points along thewidth and 4 points along the height. The corners are clipped between thepoints at each corner. The resulting chamfers are always cut at 45°relative to the local coordinate system.It is an error to define the value of chamfer to be greater than ½ theheight or ½ the width.
+RectCham.upperRight | The upper right corner (1).
+RectCham.upperLeft | The upper left corner (2).
+RectCham.lowerLeft | The lower left corner (3).
+RectCham.lowerRight | The lower right corner (4).
+RectCorner.lowerLeftX | The lower left hand x dimension of the rectangular area shape.
+RectCorner.lowerLeftY | The lower left hand y dimension of the rectangular area shape.
+RectCorner.upperRightX | The upper right hand x dimension of the rectangular area shape.
+RectCorner.upperRightY | The upper right hand y dimension of the rectangular area shape.
+RectRound.width | The length of the rectangle about the x-axis.
+RectRound.height | The length of the rectangle about the y-axis.
+RectRound.radius | The radius to be trimmed from the four corners of the rectangle. Itis an error to define a radius that is greater than ½ the heightvalue or ½ the width value.
+RectRound.upperRight | The upper right corner (1).
+RectRound.upperLeft | The upper left corner (2).
+RectRound.lowerLeft | The lower left corner (3).
+RectRound.lowerRight | The lower right corner (4).
+Thermal.shape | The shape of the thermal. One of ROUND | SQUARE | OCTAGON.ROUND: The inner and outer shapes are like Circle.SQUARE: The inner and outer shapes are like RectCenter with heightand width of each shape being equal.HEXAGON: The inner and outer shape are like Hexagon.OCTAGON: The inner and outer shapes are like Octagon.
+Thermal.outerDiameter | The outer boundary of the filled region. The meaning based on the shapeattribute:ROUND: The diameter of the circle is the outer boundary of the thermal.The center of the circle is at the origin of the thermal.SQUARE: The width along the x-axis and the height along the y-axis of asquare at the inner boundary of the thermal. The center of the square is atthe origin.HEXAGON: The point-to-point measurement (L) on the x-axis of thehexagon that forms the outer boundary of the thermal.OCTAGON: The point-to-point (L) measurement on the x-axis of theoctagon that forms the outer boundary of the thermal.
+Thermal.innerDiameter | The inner boundary of the filled region. The meaning based on the shapeattribute:ROUND: The diameter of the circle is the inner boundary of the thermal.The center of the circle is at the origin of the thermal.SQUARE: The width along the x-axis and the height along the y-axis of asquare at the inner boundary of the thermal The center of the square is atthe origin.HEXAGON: The point-to-point measurement on the x-axis of the hexagonthat forms the inner boundary of the thermal.OCTAGON: The point-to-point measurement on the x-axis of the octagonthat forms the inner boundary of the thermal.
+Thermal.spokeCount | The number of cutouts allowed in the inner and outer shapes.ROUND: must be 0, 2, 3, or 4 (the default is 4)SQUARE: must be 0, 2, or 4 (the default is 4)HEXAGON: must be 0, 2, or 3 (the default is 3)OCTAGON: must be 0, 2, or 4 (the default is 4)If the spokeCount is defined as 0 (zero), the other three optionalparameters do not apply. The spokeless thermal has a shape like a donutshape.
+Thermal.spokeWidth | The minimum distance between the sides of a spoke cut. The defaultvalue is the innerDiameter subtracted from the outerDiameter.
+Thermal.spokeStartAngle | The angle in counterclockwise direction from the x-axis at which the firstspoke is cut. The default angle is 45º counterclockwise from the x-axis.
+Triangle.base | The distance between the two corner points of the base of thetriangle with the point of origin at the center of the base and heightdimensions.
+Triangle.height | The triangle height.
+Text.textString | The text phrase (case-sensitive) in accordance with the languageelement of the Header element.
+Text.fontSize | A dimensional characteristic in terms of an integer that defines the fontsize.
+Text.lowerLeftX | The lower left hand x dimension of the rectangular area encompassingthe text.
+Text.lowerLeftY | The lower left hand y dimension of the rectangular area encompassingthe text.
+Text.id | The identification of the FontDef stored in the DictionaryFont.
+StandardShape.roleRef | A reference to a globally unique name that identifies the roleresponsibility associated with the specific role at the time the fileis transferred or archived.
+FunctionMode.mode | An enumerated string, either USERDEF | BOM | STACKUP |FABRICATION | ASSEMBLY | TEST | STENCIL, that defines the type ofmode that the file is intended to serve.
+FunctionMode.level | A numerical value, fixed at 1. For backward compatibility purposes only.This attribute will be removed in revision C
+FunctionMode.sectionKey | A list of alphabetic characters that is equal to, or a subset of, theenumerated list “ABCDEFGIKLMOPRSUXY”. Each character in the listrepresents a schema section that is included in the output file. Refer toTable 4 for the key to schema section mapping. So if a schema section isomitted from the output file, to comply with a given function mode, then itscorresponding character is removed from the sectionKey list.
+FunctionMode.comment | Any appropriate comment to help clarify the intended use of the file.
+StepRef.name | The unique name of all Step segment descriptions.
+LayerRef.name | The unique name of all Layer segment descriptions
+BomRef.name | The unique name of all Bom segment descriptions.
+AvlRef.name | The unique name of the single Approved Vender List segmentdescriptions.
+DictionaryColor.id | The qualified description name assigned as an id standard for XMLschema color substitution.
+DictionaryLineDesc.units | An enumerated string that may be one of the following:MILLIMETER | MICRON | INCH.
+DictionaryLineDesc.id | The unique qualified name description assigned as an id for anyLineDesc for XML schema substitution.
+DictionaryFillDesc.units | An enumerated string that may be one of the following:MILLIMETER | MICRON | INCH.
+DictionaryFillDesc.id | The unique qualified name description assigned as an id for anyFillDesc for XML schema substitution.
+DictionaryFont.units | An enumerated string that may be one of the following:MILLIMETER | MICRON | INCH.
+DictionaryFont.id | The unique qualified name description assigned as an id for anyEntryFont for XML schema substitution.
+DictionaryFirmware.id | The qualified description name assigned as an id for XMLschema substitution of firmware.
+Role.id | A string that must be consistent throughout the IPC-2581 file that providesthe identification of the role. A globally unique name that identifies thespecific role responsibility associated with the general role descriptions.
+Role.roleFunction | The attribute that defines a globally unique identification of the role within anenterprise The description uniquely identifies a role type used by theenterprise. The name is a roleType (a restricted xsd:string) that must beunique within the global (top-level) namespace of the IPC-2581 file.The standard IPC role types are defined as follows:SENDER: Identifies the person sending out the IPC-2581 file.OWNER: Identifies the person who maintains the configuration managementof the IPC-2581 file and has the right to increment the file history number ofthe IPC-2581 file.RECEIVER: Identifies the person receiving the IPC-2581 file.DESIGNER: Identifies the designer of the product described in the IPC-2581file.ENGINEER: Identifies the engineer who is responsible for the productdescribed in the IPC-2581 file.BUYER: Identifies the person who is responsible for payment.CUSTOMERSERVICE: Identifies the customer service representative who isresponsible for the account.DELIVERTO: Identifies the person in the receiving department who takespossession of the shipment in the name of the enterprise.BILLTO: Identifies the person in the billing or purchasing department towhom the billing should be addressed.OTHER: Any other name however completing the description attribute isrecommended
+Role.description | The description attribute further defines a role within an enterprise inorder to highlight the specific capabilities of the roleFunction inharmony with the FunctionMode of the file. (The description isoptional if the IPC definition is to be used, but useful in order to differentiatebetween several ENGINEER functions.)
+Role.publicKey | The publicKey attribute of a role holds the public encryption key if oneexists for the role. The key is base64 encoded. (See IETF RFC 1421 for thebase64 algorithm) If a role publicKey is present it can be used instead ofa Person/publicKey to encrypt data. The role’s publicKey is used toencrypt data so only that someone with access to the role’s private key canaccess the data.
+Role.authority | The access level associated with this role as defined by the systemreferenced by externalConfigurationControlEntryPoint
+Role.id | The id uniquely identifies an enterprise throughout the IPC-2581 file. Theid is a string data type that must be unique within the global (top-level)namespace of the IPC-2581 file. (Suggest “XYZ”, “ACME”…).
+Role.name | The full name of the enterprise.
+Role.code | Value of a CAGE or DUNS code. If no CAGE or DUNS code is availableuse “NONE” as the value of the code attribute.
+Role.codeType | One of DUNS or CAGE. The default is DUNS.If the DUNS codeType is selected, then the code attribute ofEnterprise is the D-U-N-S Number of the enterprise. (See thereference to D&B D-U-N-S Number at http://www.dnb.com/)If the CAGE codeType is used then the CAGE code of theEnterprise is in the code attribute of Enterprise. (seehttp://www.dscc.dla.mil/offices/sourcedev/cage.html).
+Role.address1 | The street address of the Enterprise.
+Role.address2 | Additional address information for the Enterprise.
+Role.city | The city.
+Role.stateProvince | The state or province.
+Role.country | The two-letter ISO country code from the ISO 3166 standard. (Seeftp://info.ripe.net/iso3166-countrycodes). The default country is “US.”
+Role.postalCode | The postal code.
+Role.phone | The general phone number for the Enterprise.
+Role.fax | The phone number of the Enterprise fax machine.
+Role.email | The email address for the Enterprise.
+Role.url | The Internet HTTP Web address of the Enterprise.
+Person.name | A string that uniquely identifies the person throughout the IPC-2581 file.The Name must be unique within the global (top-level) namespace of theIPC-2581 file. It may be the full legal name or a known abbreviation.
+Person.enterpriseRef | The name of the person’s company or enterprise. If no enterprise exists,the term “SELF” should be used.
+Person.title | The job title of the person.
+Person.email | The email address of the person.
+Person.phone | The phone number of the person.
+Person.fax | The fax machine phone number of the person.
+Person.mailstop | The mail stop within the Enterprise, however this may be an alternateaddress from the Enterprise should the mail e directed somewhere else.In that event, the Enterprise shall be named, but contain no address orcontact information.
+Person.publicKey | The publicKey attribute of a person holds the public encryption key if oneexists for the person. The key is base64 encoded. (see IETF RFC 1421for the base64 algorithm) The person’s publicKey is used to encrypt dataso only that person can access the data.
+Person.roleRef | A reference to a globally unique name (the Role “id” attribute) thatidentifies the specific role responsibility associated with the general“roleFunction” descriptions.
+Person.number | The revision number of the IPC-2581 file. The content of this numberis defined and controlled by the file owner.
+Person.origination | The timestamp recorded when the IPC-2581 file was first created.
+Person.software | The name of the software tool used to create the original file.
+Person.lastChange | The timestamp recorded when the History number was lastincremented.
+Person.lifecyclePhase | A string indicating the lifecycle phase of the data. The states areuser defined per the user’s lifecycle policy, e.g. DFX review, stackupreview, prototype, preproduction, production, etc.
+Person.externalConfigurationEntryPoint | A URI referencing a configuration control system that “owns” theIPC-2581 file contents.
+FileRevision.fileRevisionId | An identifier for the revision. This value may be supplied by a revisioncontrol system such as RCS, CVS, or SCCS.
+FileRevision.comment | A short description of the revision, such as a changes statement enteredby RCS or SCCS.
+FileRevision.label | A label that can be applied to a branch head. The label can be used toassociate a file revision of special significance.
+SoftwarePackage.name | The name of the software package that wrote the revision to thefile.
+SoftwarePackage.vendor | The tool providers name both system and software package.
+SoftwarePackage.revision | The revision of the software that wrote the file.
+SoftwarePackage.model | The model of the software or release number.
+SoftwarePackage.certificationStatus | An enumerated string that defines the status as one of four types.ALPHA | BETA | CERTIFIED | SELFTEST.
+SoftwarePackage.certificationCategory | The various categories that exist for certification of the type ofactivities related to building electronic assemblies. An enumeratedstring consisting of:ASSEMBLYDRAWING | ASSEMBLYFIXTUREGENERATION |ASSEMBLYPANEL | ASSEMBLYPREPTOOLS |ASSEMBLYTESTFIXTUREGENERATION |ASSEMBLYTESTGENERATION | BOARDFABRICATION |BOARDFIXTUREGENERATION | BOARDPANEL |BOARDTESTGENERATION | COMPONENTPLACEMENT |DETAILEDDRAWING | FABRICATIONDRAWING |GENERALASSEMBLY | GLUEDOT | MECHANICALHARDWARE |MULTIBOARDPARTLIST | PHOTOTOOLS |SCHEMATICDRAWINGS | SINGLEBOARDPARTLIST |SOLDERSTENCILPASTE | SPECSOURCECONTROLDRAWING |EMBEDDEDCOMPONENT | OTHER
+ChangeRec.datetime | The timestamp recorded when the change was made to the file.
+ChangeRec.personRef | The pointer to the ‘name’ of the person listed in the LogisticHeaderwho initiated the change.
+ChangeRec.application | The effectivity of the change indicating when it becomes active, such asafter so many completed units.
+ChangeRec.change | A short description of the change.
+ChangeRec.personRef | The pointer to the ‘name’ of the person listed in the LogisticHeaderwho approved the change.
+Bom.name | The name string that identifies the specific Bom section. This name isreferenced in the AvlDataHeader element.
+BomHeader.assembly | Electronic assembly name as parsed from the Bom file.
+BomHeader.revision | Revision as parsed from the Bom file.
+BomHeader.affecting | An enumerated string is either “true” or “false” (part of the 3WC standard– must be lower case). True equals that the current BOM was used inthe assembly merge process in the job and therefore was the affectingone. This is due to the fact that there can be multiple BOMs in a job, butonly one has been used to affect the current top and bottom componentplacements sections.
+BomHeader.stepRef | Identification of specific steps used to help describe the BomItem withinthe category of materials
+BomItem.OEMDesignNumberRef | A qualified name referencing the OEM part number data.
+BomItem.quantity | The amount of the instances of this item in the board orassembly. This may be a length in the units of the IPC-2581 file,a nonNegativeInteger or an As Required (AR) designation tosignify as needed quantity.
+BomItem.pinCount | The number of physical pin terminations on the packageshown as a lineItem. The number includes power and groundand thermal pads whether connected or not connected to a net.
+BomItem.category | The category of the bomItem as an enumerated string beingeither ELECTRICAL | PROGRAMMABLE | MECHANICAL |MATERIAL | DOCUMENT
+BomItem.internalPartNumber | Internal or warehouse stock part identifier.
+BomItem.description | The description of the BomItem.
+Name.layerRef | A reference to the identification of the unique name assigned toa specific layer with a DOCUMENT layerFunction that containsgraphical data that is considered documentation
+Name.name | A unique name assigned as a designation for materialsconsisting of a combination of letter(s) and number(s)
+Name.layerRef | A reference to the identification of the unique name assigned toa specific layer which identifies a layerFunction describing thematerials being identified in the CadData.
+RefDes.name | The qualifiedNameType that identifies the reference designator used asthe attribute refDes of the Component element in Step.
+RefDes.packageRef | The name assigned to the package describing the physical outlines,documentation, and land patterns features related to package pinassignment.
+RefDes.populate | An enumerated string is either “true” or “false” (part of the 3WC standard–must be lower case). True equals that the RefDes was populated; Falseindicates that it was not. True is the default.
+RefDes.layerRef | A reference to the identification of the unique name assigned to a specificlayer which identifies a layerFunction describing the components beingidentified in the CadData mounted on the top, bottom or internal to theprinted board.
+Tuning.value | The value of the tuning characteristics and its relationship to the otherprescribed values.
+Tuning.comments | Any instructions or comments needed to prescribe the proper tuning.
+Firmware.progName | Name of the program to be embedded in the BomItem.
+Firmware.progVersion | Version of program or revision status.
+Firmware.name | Name of the file.
+Firmware.crc | Certification status to verify correct program elements.
+FirmwareGroup.hexEncodedBinary | An attribute defining the binary code that shall be added to a particularcomponent and which is contained in the DictionaryFirmware.
+FirmwareGroup.id | The id uniquely identifies a firmware that has been stored in the firmwaredictionary and is used throughout the IPC-2581 file. The id is aqualifiedNameType data type (a restricted xsd: string) that must beunique within the global (top-level) namespace of the IPC-2581 file.
+FirmwareGroup.name | A unique name assigned as a designation for tools or fixturesconsisting of a combination of letter(s) and number(s)
+FirmwareGroup.layerRef | A reference to the identification of the unique name assigned toa specific layer which identifies a layerFunction describing thetools or fixtures being identified in the CadData.
+FirmwareGroup.number | A unique number assigned as a Find Number, being a positiveinteger. Unlike "Reference Designators" that are uniqueinstances of a part number (1:1), Find Numbers are oftencollections of the same part number (1:many), and in theMechanical World are often tied to balloon notes and workinstructions.
+FirmwareGroup.layerRef | A reference to the identification of the unique name assigned toa specific layer which identifies a layerFunction describing themechanical parts being identified in the CadData.
+Characteristics.category | Defines the type of material or component category to which theBomItem belongs. The bomCatogoryType enumerations may be eitherELECTRICAL | PROGRAMMABLE | MECHANICAL | MATERIAL |DOCUMENT
+Measured.definitionSource | The source of the information about the measurements.
+Measured.measuredCharacteristicName | A unique name applied to the characteristic (e.g., capacitance)
+Measured.measuredCharacteristicValue | The value of the measured property at its nominal or targetvalue.
+Measured.engineeringUnitOfMeasure | The engineering unit of measure.
+Measured.engineeringNegativeTolerance | The negative tolerance on the value identified.
+Measured.engineeringPositiveTolerance | The positive tolerance on the value identified.
+Ranged.definitionSource | The source of the information about the measurementranges.
+Ranged.rangedCharacteristicName | A unique name applied to the characteristic.
+Ranged.rangedCharacteristicLowerValue | The lower value of a ranged characteristic.
+Ranged.rangedCharacteristicUpperValue | The upper value of a ranged characteristic.
+Ranged.engineeringUnitOfMeasure | The engineering unit of measure.
+Ranged.engineeringNegativeTolerance | Any negative tolerance that can may be applied to the rangein order to affix the target value of the BomItem.
+Ranged.engineeringPositiveTolerance | Any positive tolerance that can may be applied to the rangein order to affix the target value of the BomItem.
+Enumerated.definitionSource | The source of the information about the enumerated value.
+Enumerated.enumeratedCharacteristicName | A unique name applied to the characteristic.
+Enumerated.enumeratedCharacteristicValue | The enumerated value identified for the BomItem.
+Textual.definitionSource | The source of the information about the textual value.
+Textual.textualCharacteristicName | A unique name applied to the characteristic.
+Textual.textualCharacteristicValue | The textual value identified for the BomItem.
+Ecad.name | The qualified name related to identify the specific Ecad information basedon the electronic assembly(s) in the IPC-2581 file.
+CadHeader.units | An enumerated string that may be one of the following:MILLIMETER | MICRON | INCH.
+Spec.name | The qualified name of the specification. The name must be unique andshould indicating to which product in the file the specification pertains.
+Spec.Outline | A nested element containing a specific area(s) to which thespecification(s) apply. The Outline is a closed polygon configuration
+Loss.type | A set of enumerated string descriptions that identify the condition of thebackdrill requirement. They consist of START_LAYER |MUST_NOT_CUT_LAYER | MAX_STUB_LENGTH | OTHER. If OTHERis noted a comment attribute is required.
+Loss.comment | A description of the requirements for backdrilling that are different orsupplement the backdrillListType enumerations
+Loss.type | A set of enumerated string descriptions that identify the condition of thecompliance requirement. They consist of ROHS |CONFLICT_MINERALS | WEEE | REACH | HALOGEN_FREE | OTHER.If OTHER is noted, a comment attribute is required.
+Loss.comment | A description of the requirements for meeting compliance regulationsthat are different or supplement the compliancelListType enumerations
+Loss.material | A set of enumerated string descriptions that identify the conductormaterial. Possible values are COPPER | SILVER_INK | CARBON_INK |CONDUCTIVE_INK | OTHER
+Loss.foilType | A set of enumerated string descriptions that identify a copper foil type inaccordance with IPC-4652. Possible values are CU-E1 |CU-E2 |CU-E3 |CU-W5 | CU-W6 | CU-W7 |CU-W8 |NI/E1 | CU-E10 | CU-E11 | OTHER
+Loss.type | A set of enumerated string descriptions that identify the condition of theconductor requirement. They consist of CONDUCTIVITY |PRODUCT_NAME | SURFACE_ROUGHNESS_UPFACING |SURFACE_ROUGHNESS_DOWNFACING | SURFACE_ROUGHNESS_TREATED | ETCH_FACTOR | FINISHED_HEIGHT |WEIGHT | OTHER. If OTHER is noted a comment attribute is required.
+Loss.comment | A description of the requirements for conductors that are different orsupplement the conductorListType enumerations
+Loss.type | A set of enumerated string descriptions that identify the condition of theconductor requirement. They consist of DIELECTRIC_CONSTANT |LOSS_TANGENT | GLASS_STYLE | RESIN_CONTENT | Tg_DSC |Tg_DMA | Tg_TMA | Td | SLASH_ IPC4101 | SLASH _IPC4103 |PRODUCT_NAME | OTHER. If OTHER is noted a comment attribute isrequired.
+Loss.comment | A description of the requirements for dielectric material that are differentor supplement the dielectricListType enumerations
+Loss.type | A set of enumerated string descriptions that identify any generalrequirements. The general groupings consist of ELECTRICAL |THERMAL | MATERIAL | INSTRUCTION | STANDARD |CONFIGURATION | OTHER. If OTHER is noted a comment attribute isrequired.
+Loss.comment | A description of any general requirements that are a different categoryor supplement the generalListType enumerations
+Loss.value | The value of impedance, in ohms. For example 10e3 = 10 Kilohms
+Loss.tolPlus | The plus tolerance that may be applied to the nominal number defined inthe Value attribute setting the upper control limit.
+Loss.tolMinus | The minus tolerance that may be applied to the nominal number defined inthe Value attribute setting the lower control limit.
+Loss.tolPercent | An enumerated string is either “true” or “false” (part of the 3WC standard –must be lower case). True means that the attribute(s) tolPlus andtolMinus are a percentage if present. False indicates that they representan absolute value (nonNegativeDouble). The Default is “false”.
+Loss.comment | A description of any impedance requirements that are different orsupplemental
+Loss.structure | A set of enumerated string descriptions that identify the impedancestructure. They consist of STRIPLINE_SYMMETRIC |STRIPLINE_ASYMMETRIC |STRIPLINE _PLANE_LESS |MICROSTRIP_EMBEDDED | MICROSTRIP_NO_MASK |MICROSTRIP_MASK_COVERED |MICROSTRIP_DUAL_MASK_COVERED |
+Loss.structure | A set of enumerated string descriptions that identify the impedancestructure options. They consist of STRIPLINE_SYMMETRIC |STRIPLINE_ASYMMETRIC |STRIPLINE _PLANE_LESS |MICROSTRIP_EMBEDDED | MICROSTRIP_NO_MASK |MICROSTRIP_MASK_COVERED |MICROSTRIP_DUAL_MASK_COVERED
+Loss.structure | A set of enumerated string descriptions that identify the broadsidecoupled specific impedance structure options. They consist ofSTRIPLINE_SYMMETRIC | STRIPLINE_ASYMMETRIC | STRIPLINE_PLANE_LESS
+Loss.Offset | The horizontal distance between corresponding edges of the coupledpair, indicating an offset in vertical alignment. A zero value withtolerance can be used to specify a tolerance for the offset.
+Loss.structure | A set of enumerated string descriptions that identify the broadsidecoupled specific impedance structure options. They consist ofCOPLANAR_WAVEGUIDE_STRIPLINE |COPLANAR_WAVEGUIDE_EMBEDDED |COPLANAR_WAVEGUIDE_NO_MASK |COPLANAR_WAVEGUIDE_MASK_COVERED |COPLANAR_WAVEGUIDE_DUAL_MASKED_COVERED | OTHER.If OTHER is noted a comment attribute is required.
+Loss.value | The value of the length
+Loss.unit | An enumerated list that defines the unit of length options.Possible options are: MM | MICRON | MIL | INCH
+Loss.tolPlus | The plus tolerance that may be applied to the nominal numberdefined in the Value attribute setting the upper control limit.
+Loss.tolMinus | The minus tolerance that may be applied to the nominalnumber defined in the Value attribute setting the lower controllimit.
+Loss.tolPercent | An enumerated string is either “true” or “false” (part of the3WC standard – must be lower case). True means that theattribute(s) tolPlus and/or tolMinus are a percentage.False indicates that they represent a nonNegativeDouble. TheDefault is “false”.
+Loss.layerOrGroupRef | A unique StackupLayer or StackupGroup name that is usedin the impedance definition
+Loss.type | A set of enumerated string descriptions that identify the mounting platformtechnology requirements. The description categories consist of RIGID |RIGID_FLEX | FLEX | HDI | EMBEDDED_COMPONENT | OTHER.If OTHER is noted a comment attribute is required.
+Loss.comment | A description of any technology requirements that are a differentcategory or supplement the technologyListType enumerations
+Loss.type | A set of enumerated string descriptions that identify the temperatureextremes at which the material changes state. The description categoriesare THERMAL_DELAMINATION | EXPANSION_Z_AXIS |EXPANSION_X_Y AXIS | OTHER. If OTHER is noted, a commentattribute is required.
+Loss.comment | A description of any temperature impact characteristic that is different orsupplements the TemperatureListType enumerations
+Loss.type | A set of enumerated string descriptions that identify either keep in orkeep out. The description categories are KEEP_IN | KEEP_OUT.
+Loss.comment | A description of any thieving characteristic that is different orsupplements the thievingListType enumerations
+Loss.type | A set of enumerated string descriptions that identify the tool types requiredin the manufacturing of the boards or the assemblies. The tool typesinclude CARBIDE | ROUTER | LASER | FLATNOSE | EXTENSION |V_CUTTER | SCREWDRIVER | WRENCH | OTHER. If OTHER is noted acomment attribute is required.
+Loss.toolProperty | A set of enumerated string descriptions that identify the tool propertiesrequired in the manufacturing of the boards or the assemblies. The toolproperties include DRILL_SIZE | FINISHED_SIZE | BIT_ANGLE|TORQUE | HEX_NUT_SIZE | PHILLIPS_HEAD | FLAT_HEAD |TORX_HEAD | ALLEN_HEAD | OTHER. If OTHER is noted a commentattribute is required.
+Loss.comment | A description of any tool characteristic that is different or supplementsthe toolListType or toolPropertyListType enumerations
+Loss.type | A set of enumerated string descriptions that identify the characteristics ofthe groove or V cut as related to the thickness of the material. Thedescription categories are ANGLE | THICKNESS_REMAINING | OFFSET| OTHER. If OTHER is noted a comment attribute is required.
+Loss.comment | A description of any V cut characteristic that is different or supplementsthe vCutListType enumerations
+Loss.type | A set of enumerated string descriptions that identify characteristics of the edgechamfer. The description categories are ANGLE | WIDTH | SIDE.ANGLE shall be referenced from the plane of each layer identified by SIDE suchthat the edge of the board is the thinnest part of the chamfer.WIDTH shall define the perpendicular distance from the identified board edge tothe innermost extent of the chamferSIDE shall identify one or both outer layers to receive the chamfer
+Loss.comment | A description of any edge chamfer characteristic that is different from, orsupplements the edgeChamferListType enumerations
+Type.comment | Any comment(s) relating to the edge plating
+Type.type | An enumerated string with values in accordance with IPC-6012. Refer toTable 3-3 “Final Finish and Coating Requirements” in IPC-6012 for a fulldescription of the values. Possible values are: S | b1 | T | X | TLU | G | GS| GWB-1-G | GWB-1-N | GWB-2-G | GWB-2-N | N | NB | OSP | HT_OSP |ENIG-N | ENIG-G | ENEPIG-N | ENEPIG-G | ENEPIG-P | DIG | IAg | ISn |C | OTHER
+Type.name | The brand name of a specific surface finish
+Type.criteria | An enumerated list with values ALLOWED | SUGGESTED | PREFERRED| REQUIRED | CHOSEN
+Type.type | A set of enumerated string descriptions that identify the Flex associatedproperty The description categories are ADHESIVE_SQUEEZE_OUT |DIELECTRIC_SQUEEZE_OUT | STRESS_RELIEF_FILLET_WIDTH |OTHER.
+Type.comment | A description of any thieving characteristic that is different orsupplements the flexListType enumerations
+Type.type | An enumerated list to define the type of loss, with possible valuesATTENUATION | IMPEDANCE | INSERTION | POWER | SIGNAL |VOLTAGE
+Type.comment | A comment describing a type of OTHER and/or any other commentrelated to the loss
+ChangeRec.datetime | The standard date and time indication of the change request.
+ChangeRec.personRef | The name of the person to whom the request was made.
+ChangeRec.lifecyclePhase | A string indicating the lifecycle phase of the data, i.e., DFX review, stackupreview, prototype, preproduction, production, etc.
+ChangeRec.application | The effectivity of the change and exactly where the change was to bemade.
+ChangeRec.change | A detailed description of the change, including a reference to a URL ifgraphic descriptions are involved.
+ChangeRec.datetime | The standard date and time indication of the change approval.
+ChangeRec.personRef | The name of the person who approved the change request.
+Layer.name | The identification of the Cad data element identifying a particular layer. Ifthe layerFunction STACKUP_COMPOSITE is indicated the unique nameassigned shall match the name assigned to the related Stackup element
+Layer.layerFunction | The type of layer and its main use as established by the following:ASSEMBLY | BOARDFAB | BOARD_OUTLINE | CAPACITIVE |COATINGCOND | COATINGNONCOND | COMPONENT |COMPONENT_BOTTOM | COMPONENT_TOP |COMPONENT_EMBEDDED | COMPONENT_FORMED | CONDFILM |CONDFOIL | CONDUCTIVE_ADHESIVE | CONDUCTOR | COURTYARD| DIELBASE | DIELCORE | DIELPREG | DIELADHV | DIELBONDPLY |DIELCOVERLAY | DOCUMENT | DRILL | FIXTURE | GLUE | GRAPHIC |HOLEFILL | SOLDERBUMP | PASTEMASK | LANDPATTERN | LEGEND| MIXED | OTHER | PIN | PLANE | PROBE | RESISTIVE | SIGNAL |SILKSCREEN | SOLDERMASK | SOLDERPASTE |STACKUP_COMPOSITE | REWORK | ROUT | V_CUT |EDGE_CHAMFER | EDGE_PLATING | THIEVING_KEEP_INOUT |STIFFENER
+Layer.side | A fixed field parameter that defines the side of the layer. The fixedattribute is one of the following TOP | BOTTOM | BOTH | INTERNAL |ALL | NONE
+Layer.polarity | Applies for layers of type signal, power/ground or mixed. In such layers,positive means that the layer features represent copper. NEGATIVEmeans that the layer features represent laminate. For example, on anegative power/ground layer, features represent clearances. All otherlayers should be defined as positive. POSITIVE is the default.
+Stackup.name | A unique name assigned by the user to the printed board. The namemust be unique and match the name used for the layerFunctionSTACKUP_COMPOSITE assigned by the CadData element
+Stackup.overallThickness | Describes the overall nominal thickness of the finished printed boardincluding all plating and coatings.
+Stackup.tolPlus | The plus tolerance that may be applied to the nominal thickness toset the printed board upper control limit.
+Stackup.tolMinus | The minus tolerance that may be applied to the nominal thickness toset the printed board lower control limit.
+Stackup.tolPercent | An enumerated string is either “true” or “false” (part of the 3WCstandard – must be lower case). True means that the attribute(s)tolPlus and tolMinus are a percentage. False indicates that theyrepresent a nonNegativeDouble. The Default is “false”.
+Stackup.whereMeasured | An enumerated string that may be one of the following:LAMINATE | METAL | MASK | OTHER that defines the location onthe printed board, panel, or assembly where the overall thickness isto be measured.
+Stackup.matDes | A unique reference designator, using the letters in Appendix Cfollowed by a number, in order to represent the composite stackupthat could be called for in a Bill of Material for the printed boardconstruction
+Stackup.comment | An optional attribute used to provide any special instructions aboutthe layering, specification requirements or stackup of an HDI,multilayer, single-sided, or double-sided printed board.
+Stackup.stackupStatus | An enumerated string that may be one of the following: SPECIFIED |PROPOSED | APPROVED. Generally SPECIFIED would indicate arequest from the OEM, PROPOSED would indicate a response froma fabricator, and APPROVED would indicate approval by the OEM ofwhat the fabricator proposed. However specific circumstances maydictate otherwise.
+StackupGroup.name | A unique name assigned to an individual or group of layers thatmake up the printed board. The name must be unique so thatwhen a group becomes nested in the over all board it isreferenced in the proper order of occurrence in the stackup.
+StackupGroup.thickness | The nominal thickness of the stackup group. If the stackup grouprepresents the total board rather than a subset the thickness mustmatch the information provided in the stackup element attributes.
+StackupGroup.tolPlus | The plus tolerance that may be applied to the nominal thickness toset the stackupGroup upper control limit.
+StackupGroup.tolMinus | The minus tolerance that may be applied to the nominal thicknessto set the stackupGroup lower control limit.
+StackupGroup.tolPercent | An enumerated string is either “true” or “false” (part of the 3WCstandard – must be lower case). True means that the attribute(s)tolPlus and tolMinus are a percentage. False indicates thatthey represent a nonNegativeDouble. The Default is “false”.
+StackupGroup.matDes | A unique reference designator in order to represent theStackupGroup as orderable item that could be called for in a Billof Material. For example a laminated core.
+StackupGroup.comment | An optional attribute used to provide any special instructions aboutthe layering, layer pairs or stackupGroup
+CADDataLayerRef.thickness | The thickness of the particular material being defined. Thethickness matches nominal thickness of a predefinedStackupGroup.
+CADDataLayerRef.tolPlus | The plus tolerance that may be applied to the nominal thickness toset the layer upper control limit. If this is a stackupGroup thetolerances shall match those indicated in the group description
+CADDataLayerRef.tolMinus | The minus tolerance that may be applied to the nominal thicknessto set the layer lower control limit. If this is a stackupGroup thetolerances shall match those indicated in the group description
+CADDataLayerRef.tolPercent | An enumerated string is either “true” or “false” (part of the 3WCstandard – must be lower case). True means that the attribute(s)tolPlus and tolMinus are a percentage. False indicates thatthey represent a nonNegativeDouble. The Default is “false”.
+CADDataLayerRef.sequence | The specific order in which the layer materials or layer pairs arepositioned in the stackup stating with the top of the board assequence 1 followed by the entire board construction of imaged orun imaged layers/layer pairs.
+CADDataLayerRef.matDes | A unique reference designator using the letters in Appendix Cfollowed by a number in order to represent the StackupLayerthat could be called for in a Bill of Material for the printed boardconstruction
+CADDataLayerRef.comment | An optional attribute used to provide any special instructions aboutthe layering or stackup of a multilayer single-sided, or double-sided printed board.
+Step.name | The name assigned by the user for the individual Steps used to makeup the layers identified in a particular StepList.
+Step.type | An optional enumerated string to identify what the Step represents.Choices are BOARD | ARRAY | IC
+Step.stackupRef | An optional reference to an associated stackup, if there is another stepwith a different stackup (that is not a stackup zone)
+NonstandardAttribute.name | A unique name assigned by the user to the NonstandardAttribute. The namemust be unique and should match the purpose of the actions to be taken.
+NonstandardAttribute.type | A set of enumerated string descriptions that identify the condition of thevalue requirement. They consist of BOOLEAN | DOUBLE | INTEGER orSTRING data.
+NonstandardAttribute.value | The detail requirements as they pertain to the particular Step descriptionand interpreted - according to the type enumeration that is part of theparticular NonstandardAttribute.
+PadStackDef.name | A unique name assigned to the construction of a particular padstacktype.
+PadstackHoleDef.name | A unique identification of a particular padstack hole description.
+PadstackHoleDef.diameter | The nominal diameter of the hole in the as-finished state.
+PadstackHoleDef.platingStatus | The type of hole defined as an enumerated string indicating PLATED |NONPLATED | VIA | VIA_CAPPED
+PadstackHoleDef.plusTol | The plus tolerance that defines the variation permitted from the nominalhole-diameter.
+PadstackHoleDef.minusTol | The minus tolerance that defines the variation permitted from thenominal hole-diameter.
+PadstackHoleDef.x | The x-location of the hole.
+PadstackHoleDef.y | The y-location of the hole.
+PadstackPadDef.layerRef | The reference to a specific layer element by it’s “name” attribute. Thelayer referenced is where the pad image is located.
+PadstackPadDef.padUse | An enumerated value of the pad type used on the particular layer, suchas a power or signal or mask layer. The enumerations are REGULAR |ANTIPAD | THERMAL | OTHER. If OTHER is used a comment isrequired to explain the purpose of the pad.
+PadstackPadDef.comment | An explanation as to the condition of the Pad if OTHER is defined asthe padUse. A comment may also be used if the pad is not connected tocircuitry and has been removed by the manufacturer to improveclearance conditons.
+Datum.x | The x location of the datum.
+Datum.y | The y location of the datum.
+StepRepeat.stepRef | A reference to the step that should be replicated on the panel.
+StepRepeat.x | The X point of origin where the first step should be placed in relationshipto the datum. This may be coincident or may be offset from the datum ofthe particular step.
+StepRepeat.y | The Y point of origin where the first step should be placed in relationshipto the datum. This may be coincident or may be offset from the datum ofthe particular step.
+StepRepeat.nx | The total number of steps in the X direction, including the first step
+StepRepeat.ny | The total number of steps in the Y direction, including the first step
+StepRepeat.dx | The delta distance in the positive X direction from one step’s origin to thenext, starting from the first step’s origin x, y (not necessarily the datum).
+StepRepeat.dy | The delta distance in the positive Y direction from one step’s origin to thenext, starting from the first step’s origin x, y (not necessarily the datum).
+StepRepeat.angle | A unique angle to allow rotation of the StepRepeat image descriptionwhere “0°” is as defined with the angle descriptions beingcounterclockwise (i.e., 45° 90°) from the horizontal zero angle.
+StepRepeat.mirror | An enumerated string is either “true” or “false” (part of the 3WC standard– must be lower case). True equals that the image is mirrored; Falseindicates that it is not.
+Package.name | A unique name assigned to the physical and graphical descriptionof a part in accordance with the IPC-7351 Naming Convention forPackages and Land Patterns.
+Package.type | A specific body construction indicated as an enumerated stringusing one of the following naming conventions:AXIAL_LEADED | BARE_DIE | CERAMIC_BGA | CERAMIC_DIP |CERAMIC_FLATPACK | CERAMIC_QUAD_FLATPACK |CERAMIC_SIP | CHIP | CHIP_SCALE | CHOKE_SWITCH_SM |COIL | CONNECTOR_SM | CONNECTOR_TH | EMBEDDED |FLIPCHIP | HERMETIC_HYBRID |LEADLESS_CERAMIC_CHIP_CARRIER | MCM | MELF |FINEPITCH_BGA | MOLDED | NETWORK | PGA | PLASTIC_BGA| PLASTIC_CHIP_CARRIER | PLASTIC_DIP | PLASTIC_SIP |POWER_TRANSISTOR | RADIAL_LEADED |RECTANGULAR_QUAD_FLATPACK | RELAY_SM | RELAY_TH |SOD123 | SOIC | SOJ | SOPIC | SOT143 | SOT23 | SOT52 |SOT89 | SQUARE_QUAD_FLATPACK | SSOIC | SWITCH_TH |TANTALUM | TO_TYPE | TRANSFORMER | TRIMPOT_SM |TRIMPOT_TH | OTHER
+Package.pinOne | A reference to the landpattern PinRef pin number which isconsidered the first pin in the sequence of all pin numbers in thepackage. Examples are ‘1’, ‘A1’, ‘ANODE’, ‘2’ (when there is nopin ‘1’).”
+Package.pinOneOrientation | An enumerated string that defines the location of pinOne relativeto the centroid of the package, within the library definition of thepackage that is captured in the design. The enumerations areLOWER_LEFT | LEFT | LEFT_CENTER | UPPER_LEFT |UPPER_CENTER | UPPER_RIGHT | RIGHT | RIGHT_CENTER |LOWER_RIGHT | LOWER_CENTER | OTHER. If OTHER is useda comment is required to describe the condition. The intent is todescribe the default orientation of the package (e.g. ‘landscape’ or‘portrait’ for an IC), which could establish a relationship to a librarydefinition standard such as IEC or IPC, or provide a zero degreerotation reference for assembly.” See the diagrams below forexamples.
+Package.height | A description of the component height in terms of the mountingsurface to the highest protrusion of the Package. The units are inthe Units set by the Cadheader.
+Package.negativeBodyExtension | An optional height to which the body of the package extendsbelow the XY plane of the landpattern and contact surface of thepins, per the package definition. That is, the extension below thesurface plane of the mounting layer. A positive value defines anextension in the –z direction when the instantiated package is notmirrored, and in the +z direction when it is mirrored. The packagewill need to be seated in a cutout or cavity. See .Figure 16
+Package.comment | A description of the orientation of the Package as provided in theoriginal CAD data
+Package.Outline | A nested element that defines the physical outline of the part asseen from the top, related to the graphical image that appears onthe assembly. Includes body and pin profiles if applicable. Theoutline is an enclosed polygon type. Refer to section 3.4.7
+Package.x | The x coordinate of the location of the PickupPoint.
+Package.y | The y coordinate of the location of the PickupPoint.
+SilkScreen.Outline | A nested element that defines the outlines of the part related to thegraphical image that appears on the board. The outline is an enclosedpolygon type. Refer to section 3.4.7
+SilkScreen.markingUsage | An indication as to the usage of any marking that becomes a part of theSilkScreen. The descriptions are enumerated strings and must be one of thefollowing: REFDES | PARTNAME | TARGET | POLARITY_MARKING |ATTRIBUTE_GRAPHICS | PIN_ONE | NONE>
+AssemblyDrawing.Outline | A nested element that defines the outlines of the part related to thegraphical image that appears on the board. The Outline is anenclosed polygon type.
+AssemblyDrawing.markingUsage | An indication as to the usage of any marking that becomes a part of theAssemblyDrawing. The descriptions are enumerated strings and mustbe one of the following: REFDES | PARTNAME | TARGET |POLARITY_MARKING | ATTRIBUTE_GRAPHICS | PIN_ONE | NONE.
+Pin.number | An alphanumeric indicator identified as the pin number which isunique within the package description and is established by the netlist
+Pin.name | A name assigned by the user to describe the Pin at a particularlocation. The same name may be applied to multiple pins at the usersdiscretion
+Pin.type | An enumerated string that defines the type of Pin as being one of thefollowing: THRU | BLIND | SURFACE.
+Pin.electricalType | The electrical type enumerated string that defines the Pin as one ofthree possible conditions. These are: ELECTRICAL | MECHANICAL |UNDEFINED.
+Pin.mountType | An enumerated string that defines the mounting characteristics of thePin and may be any one of the following:SURFACE_MOUNT_PIN | SURFACE_MOUNT_PAD |THROUGH_HOLE_PIN | THROUGH_HOLE_HOLE | PRESSFIT |NONBOARD | HOLE | WIRE_BOND | UNDEFINED
+Pin.pinPolarity | An enumerated string that defines the polarity of the pin. Possiblevalues are: PLUS | MINUS | ANODE | CATHODEFor example PLUS | MINUS for a polarized capacitor or ANODE |CATHODE for a diode
+Topside.Outline | A nested element that defines the physical outline of the part as seenfrom the top, related to the graphical image that appears on theassembly. Includes body and pin profiles if applicable. The outline isan enclosed polygon type. Refer to section 3.4.7
+OtherSideView.Outline | A nested element that defines the physical outline of the part as seenfrom the top, related to the graphical image that appears on theassembly. Includes body and pin profiles if applicable. The outline isan enclosed polygon type. Refer to section 3.4.7
+Component.refDes | A unique name assigned to the particular electrical or mechanicalcomponent that is defined in the Bom section
+Component.matDes | A unique name assigned to the particular material that requires aprecise location (e.g. coin or adhesive), that is defined in the Bomsection
+Component.packageRef | A reference to the package Type used to house the component.
+Component.part | A unique identifier of the part, such as OEMDesignNumber
+Component.layerRef | The reference to a specific layer element, by its “name” attribute. Thelayer referenced is to where the component is primarily mounted. Thereference is usually a surface layer, however it may be an internallayer for embedded component attachment. The layer Function Typeshall be of the Board usage only.
+Component.layerRefTopside | The reference to a specific layer above an embedded component thatany Topside pins connect to. Refer to section 8.2.3.6.5
+Component.mountType | The mount type as defined by an enumerated string which may beone of the following: SMT | THMT | EMBEDDED | PRESSFIT |WIRE_BONDED | GLUED | CLAMPED | SOCKETED | FORMED |OTHER. This attribute can be used to modify the Packagedescription i.e., a through-hole mount modified to be surface mounted.If at least one pin needs to be flow soldered then the componentshould be considered SMT, so that the pick and place machine canaccount for it, even though the majority of the other pins are not SMT.
+Component.modelRef | Reference to a unique 3D model name that represents thecomponent. Model examples include a simplified model of an IC, or aprecise model of a copper coin
+Component.weight | The weight of the particular component in grams.
+Component.height | The height that the top protrusion of the component body is above thesurface of the printed board in units assigned in the CadHeader.
+Component.standoff | The standoff clearance between the body and the printed board inunits assigned in the CadHeader.
+Component.id | The unique name of a SlotCavity definition
+LogicalNet.name | The unique name assigned to the electrical description of the net.
+LogicalNet.netClass | An enumerated string identifying one of the following net class typesCLK | FIXED | GROUND | SIGNAL | POWER | UNUSED
+LogicalNet.netPair | The unique name assigned to the net that forms a differential pair withthe net name
+PhyNetGroup.name | A unique name assigned to the PhyNetGroup.
+PhyNetGroup.optimized | An enumerated string is either “true” or “false” (part of the 3WCstandard – must be lower case). True equals that the PhyNetGrouphas been optimized by combining all PhyNets into a convenientdescription under the PhyNetGroup element; False indicates that thePhyNetGroup has not been optimized. If the attribute is not presentthe optimization condition is unknown.
+PhyNetGroup.name | A unique name assigned to a specific PhyNet.
+PhyNet.name | A unique name assigned to the PhyNet.
+PhyNet.x | The x-location for the PhyNetPoint.
+PhyNet.y | The y-location for the PhyNetPoint.
+PhyNet.layerRef | The reference to the layer to which the physical net pertains asidentified by the layer name including defining a reference to an internallayer for embedded component net relationships.
+PhyNet.secondaryLayerRef | The reference to a secondary layer to which the physical net pertains asidentified by the layer name usually to the opposite side of the boardand includes defining a reference to an internal layer for embeddedcomponent net relationships.
+PhyNet.netNode | A NetPointType may be one of END | MIDDLE to indicate where thePhyNet should be probed defining the end of the Net or a conductor atmidpoint.
+PhyNet.exposure | The exposure attribute indicates whether the NetPoint is accessiblefor probing. The enumerated strings consist of: EXPOSED |COVERED_PRIMARY | COVERED_SECONDARY | COVERED
+PhyNet.layerIndex | An identification related to inner layer testing prior to multilayerlamination.
+PhyNet.comment | Any comment pertaining to the probing of PhyNetPoints.
+PhyNet.via | An enumerated string is either “true” or “false” (part of the 3WCstandard – must be lowere case). True equals that the via is beingused as the probe point; False indicates that the via is not available. Ifthe attribute is not present the via probing condition is unknown.
+PhyNet.fiducial | An enumerated string is either “true” or “false” (part of the 3WCstandard – must be lower case). True equals that the fiducial isbeing used as the probe point; False indicates that the fiducial isnot available. If the attribute is not present the fiducial probingcondition is unknown
+PhyNet.test | An enumerated string is either “true” or “false” (part of the 3WCstandard – must be lower case). True equals that the PhyNetPoint ispart of the test sequence allowing for full nodal access, partial nodalaccess, or functional testing; False indicates that the PhyNetPoint isnot part of the test sequence. If the attribute is not present the testcondition is unknown.
+PhyNet.staggerX | An X dimension that differs from the original X of the PhyNetPoint toindicate a probing location that varies from that specific point.
+PhyNet.staggerY | A y-dimension that differs from the original x of the PhyNetPoint toindicate a probing location that varies from that specific point.
+PhyNet.staggerRadius | A numerical value that indicates a radius taken from the original x-ypoint description in the direction of an open conductor that may beprobed at its center.
+LayerFeature.layerRef | The reference to the unique layer name to which theLayerFeature(s) pertain.
+Set.net | The electrical relationship of any feature, through the name of thePhyNet, when the Set feature has conductivity checked in thePhyNetPoint descriptions. This attribute is left blank if the Setdescriptions are for other than printed board fabrication or assemblyconductivity.
+Set.netPair | The unique name assigned to the net that forms a differential pair withthe net
+Set.polarity | Polarity indicates whether the information described in the Set isPOSITIVE | NEGATIVE. A NEGATIVE connotation can be used todescribe the removal of a dark field to the specific dimensionsdescribed for another attribute. Thus, a surface that contains islandsmay have the islands described in a negative format.
+Set.padUsage | An indication as to the usage of any pad that becomes a part of theLayerFeature Set. The descriptions are enumerated strings andmust be one of the following: TERMINATION | VIA | PLANE |TOOLING_HOLE | FIDUCIAL | MASK | THIEVING |THERMAL_RELIEF | NONE.
+Set.testPoint | An enumerated string is either “true” or “false” (part of the 3WCstandard – must be lower case). True indicates that the feature is acandidate for a test point used for either in-circuit or functional testing.False indicates that it is not.
+Set.geometry | An identification to describe the overall geometry of the featurescontained in the Set and their particular application to the electronicproduct.
+Set.plate | An enumerated string is either “true” or “false” (part of the 3WCstandard – must be lower case). True indicates that the feature isplated in a secondary operation. False indicates that it is not.
+Set.componentRef | A reference to the component instance associated with the referencedesignation that links the information together so that graphicrepresentation in the Set can be accurately described in Assembly orSilk screen documentation.
+Set.geometryUsage | An indication as to the usage of any geometry that becomes a part ofthe LayerFeature Set. The descriptions are enumerated strings andmust be one of the following: THIEVING | THERMAL_RELIEF | TEXT| TEARDROP | GRAPHIC | NONE.
+NonstandardAttribute.name | A unique name assigned by the user to the NonstandardAttribute. Thename must be unique and should match the purpose of the actions to betaken.
+NonstandardAttribute.type | A set of enumerated string descriptions that identify the condition of thevalue requirement. They consist of BOOLEAN | DOUBLE | INTEGER orSTRING data.
+NonstandardAttribute.value | The detail requirements as they pertain to the particular Step descriptionand interpreted according to the type enumeration that is part of theparticular NonstandardAttribute.
+Pad.padstackDefRef | A reference to the name of the padstackDef element that provides thecharacteristics of individual padstacks in the design, as established by theCAD system, and provides the link to the layer distribution of thepadstack’s individual characteristics.
+Hole.name | A unique identification of a particular hole.
+Hole.type | The type of hole shape. Legal values are CIRCLE and SQUARE.Default type is CIRCLE.
+Hole.diameter | The nominal diameter of the hole in the as-finished state.
+Hole.platingStatus | The type of hole defined as an enumerated string indicatingPLATED | NONPLATED | VIA | VIA_CAPPED
+Hole.plusTol | The plus tolerance variation permitted from the nominal holediameter.
+Hole.minusTol | The minus tolerance variation permitted from the nominal holediameter.
+Hole.x | The x-location of the hole.
+Hole.y | The y-location of the hole.
+SlotCavity.name | A unique identification of a particular slot or cavity
+SlotCavity.platingStatus | The type of slot defined as an enumerated string indicating PLATED |NONPLATED | VIA.
+SlotCavity.plusTol | The plus tolerance variation permitted from the nominal dimensions
+SlotCavity.minusTol | The minus tolerance variation permitted from the nominal dimensions
+MaterialCut.depth | The nominal dimension of the depth of the cut in material removal froma specified thickness
+MaterialCut.startCutLayer | The unique name of the layer, from the list of Layer definitions, whichis the first to be cut. It is the name of the layer in the final stackup, afterall laminations processes are complete. If an inner layer is specifiedthen sequential lamination is implied, with that layer being an outerlayer of the layer subset to be cut.
+MaterialCut.direction | An optional enumerated string with values DOWN|UP that denotes thedirection of the cut, Referring to Figure 2, DOWN means in thedirection of moving from the primary (top) side of the board to thesecondary (bottom) side of the board, and UP means in the oppositedirection. If cutting more than one layer then the cut direction canpossibly be inferred from startCutLayer, but if cutting just one layer,or the direction is ambiguous, then direction is required.
+MaterialCut.plusTol | The plus tolerance variation permitted from the nominal depthdimension
+MaterialCut.minusTol | The minus tolerance variation permitted from the nominal depthdimension
+MaterialLeft.thickness | The nominal dimension of the thickness of the remaining material.
+MaterialLeft.startCutLayer | The unique name of the layer, from the list of Layer definitions, whichis the first to be cut. It is the name of the layer in the final stackup, afterall laminations processes are complete. If an inner layer is specifiedthen sequential lamination is implied, with that layer being an outerlayer of the layer subset to be cut.
+MaterialLeft.direction | An optional enumerated string with values DOWN|UP that denotes thedirection of the cut, Referring to Figure 2, DOWN means in thedirection of moving from the primary (top) side of the board to thesecondary (bottom) side of the board, and UP means in the oppositedirection. If cutting more than one layer then the cut direction can beinferred from startCutLayer, but if cutting just one layer thencutDirection is required.
+MaterialLeft.plusTol | The plus tolerance variation permitted from the nominal depthdimension
+MaterialLeft.minusTol | The minus tolerance variation permitted from the nominal depthdimension
+Fill.depthRemaining | The depth measured (in design units) from the surface entrance of theSlotCavity to the uppermost surface of the fill material. A value ofzero, or an absence of the attribute, indicates the SlotCavity iscompletely filled
+Fill.matDes | A reference to a fill material used that is defined in the Bom section
+Features.id | Optional unique identification of the net short, orcollective/group name of the shorted nets
+Features.name | A reference to a unique net name in the design
+Features.name | The identification of the bend area. Each bend area must be a uniquename.
+Features.sequenceNumber | An integer for which order in sequence a bend should take place inreference to other bends.
+Features.comment | A description of the Bend Area as provided in theoriginal CAD data
+Features.Outline | A nested element that defines the physical outline of the bend area asviewed from the top.
+Features.innerSide | Side name for the inner side of the surface that is bending as viewed fromthe Top of the design. TOP indicate the outermost extents of the bendmove upward. BOTTOM indicates the outermost extents of the bend movedownward.
+Features.innerRadius | The radius of the bend
+Features.innerAngle | The final angle of the bend from the opposite side extents of the bend areaoutline and parallel to the bend line.
+Features.name | If more than one stack up zone, it is recommended to have a unique namefor each stackup zone. Duplicate names are not allowed.
+Features.stackupRef | A reference to the stackup layer structure that is contained within thiszone structure
+Features.layerOrGroupRef | A reference to a layer in the stackup layer structure that is contained withinthis zone structure.
+Features.name | A unique name assigned to the Port
+Features.netType | An enumerated list to specify the direction (or other function) of theelectrical signal carried by the port, in relation to the Step that the portis in. Possible values are INPUT | OUTPUT | BIDIRECTIONAL |VOLTAGE_REF | UNSPECIFIED | NO_CONNECT | OTHER
+Features.comment | Text that describes a netType of OTHER or any other details about theport
+Features.name | A unique name assigned to the PortConnect
+Features.stepRef | An optional reference if the port connects to another Step, representinganother board or custom IC
+Features.compRef | Reference to any component that is instantiated on the Step beingconnected to
+Features.pinRef | Reference to any component that is instantiated on the Step beingconnected to
+Features.layerRef | A reference to the layer that the wire bond starts from
+Features.compRef | Reference to a component that is instantiated in the current Step whichrelates to the port
+Features.pinRef | Reference to any component pin that is instantiated in the current Stepwhich relates to the port
+Features.stepRef | An optional reference if the port connects to another Step, representinganother board or custom IC
+Features.compRef | Reference to any component that is instantiated on the Step beingconnected to
+Features.portName | A reference to a predefined port name
+Features.name | A unique name for the model
+SpecRef.startingHeight | The starting height of the extrusion, relative to zero height of the Modeldefinition. The startingHeight shall be either zero (as the firstshape) or equal to the height value of another shape, such that theshape is not floating in mid air.
+SpecRef.height | The height to which the 2D shape is extruded above thestartingHeight
+Dfx.name | A unique name assigned to the Dfx element.
+Dfx.category | A unique description defined by the user which relates to theproducts contained in the particular IPC-2581 file intended toprovide identification for the group of the DfxMeasurementcharacteristics. The category type is an enumerated string thatmay be any of the following groupings COMPONENT |BOARDFAB | ASSEMBLY | STACKUP | TESTING |DATAQUALITY
+Criteria.name | A descriptive name that describes the specific measurement or detail
+Criteria.measurementMode | The mode of measurement depending on the characteristic beingevaluated, indicated as an enumerated string using:DISTANCE | AREA | RESISTANCE | CAPACITANCE | IMPEDANCE| INDUCTANCE | VOLTAGE_DC | VOLTAGE_AC | FREQUENCY |CURRENT | POWER | PERCENTAGE | SIZE | NONE | TEXT |TOLERANCE | OTHER
+Criteria.comment | Any comment to assist in the definition or description of the unitdetails. Mandatory when measurementMode value is theenumerated type OTHER
+DfxMeasurement.id | A unique identifier that can be referenced by a DfxResponse
+DfxMeasurement.severity | A user defined indication of the seriousness of the violation.
+DfxMeasurement.comment | Any comment to assist in the definition or description of the unitdetails, required when OTHER is used.
+MeasurementPoint.name | A descriptive name that describes the specific DfxQuery
+MeasurementPoint.query | A string describing the specific issue causing the query
+FeatureDescription.layerRef | A reference to the specific layer in the Ecad layer section that pertains to thespecifics of the DfxMeasurement
+FeatureDescription.pinRef | An individual Pin related to the place where a component attaches to the net.This description facilitates location of lands on the surface of the board orplaces where through-hole components are mounted.
+FeatureDescription.componentRef | Identifies the reference designator used as the attribute refDes of theComponent element in Step. It is the reference to the component that isconnected by the particular Pin and becomes a part of the electrical descriptionof the net.The componentRef attribute is not required when used for a PinRef elementunder Pad elements which are under LandPattern elements. Otherwise, thecomponentRef attribute is required for PinRef elements under Pad, LayerPadand LogicalNet elements.
+FeatureDescription.packageRef | The name assigned to the package describing the physical outlines,documentation, and land patterns features related to package pin assignment.
+FeatureDescription.specRef | The identification of a particular specification(s) from theSpecificationType that is able to provide additional details or instructions thatapply to the board or assembly descriptions of the Layer. The linkage isprovided through the specific “specificationId” (spec Name)
+FeatureDescription.firmwareRef | The specific reference to firmware previously defined and contained in theDictionaryFirmware.
+FeatureDescription.padstackDefRef | A reference to the name of the padstackDef element that provides thecharacteristics of individual padstacks in the design, as established by the CADsystem, and provides the link to the layer distribution of the padstack’sindividual characteristics.
+FeatureDescription.netRef | A reference to a logical net whose reference value is a logicalNet name.
+FeatureDescription.stackupRef | A reference to the stackup where the feature resides, if there are multiplestackupds in the file.
+FeatureDescription.bomRef | A reference to a specific Bom element. Required if there is more than one BOMin the file
+FeatureDescription.featureObject | A brief description of the type of object referenced as an enumerated attributewhose values are: PAD | SHAPE | POLYGON | COMPONENT| DRILL/HOLE |CUTOUT | OUTLINE | TEXT | SLOT | CAVITY | ZONE | BEND | PORT |MILLING | OTHER (requires comment)
+FeatureDescription.comment | To describe a featureObject type of OTHER, and/or any other informationabout the object.
+EmbeddedRef.name | The qualified name type of the file name and extension.
+EmbeddedRef.embeddedType | The EmbeddedType attribute value is an enumerated string that identifies theembedded object type IMAGE | FIRMWARE | EXECUTABLE | DOCUMENT
+DfxResponse.dfxMeasurementRef | An optional reference to the ID of a DfxMeasurement element. Refer tosection 8.2.3.15.1.1 DfxMeasurement. This allows each response for aparent DfxQuery to reference a specific measurement listed under Criteria.
+DfxResponse.response | An enumerated string containing the following response choices: YES | NO |APPROVED | CONDITIONALLY_APROVED | REJECTED | WAIVED |IGNORE | OPEN | CLOSED | OTHER
+DfxResponse.comment | An optional comment shall be used to explain a response choice ofOTHER, and/or for any additional comments about the response.
+Avl.name | A unique name assigned to a group of approved sources of supply for thematerials used in building the electronic assembly.
+AvlHeader.title | A unique title provided to the AvlHeader that distinguishes the schemainstance from the AvlDataHeader.
+AvlHeader.source | The source of the information contained in the Avl file. If multiple sourcesexist they shall be so indicated with the relationship to the Avl dataidentified.
+AvlHeader.author | The individual responsible for the header creation and update. If theresponsibility changes the information for this attribute must also change. Itis required the person and their enterprise be contained in theLogisticHeader instances and the string name be identical to the id ofthe Person instance.
+AvlHeader.datetime | The date and time that the header was created or modified.
+AvlHeader.version | A positive number that defines the revision level of the AvlHeader.
+AvlHeader.comment | Any comment to assist in the interpretation of the Avl data.
+AvlHeader.modRef | A reference to the mode intended for the file transfer. An enumerated stringconsisting of:USERDEF | BOM | STACKUP | ASSEMBLY | FABRICATION | TEST |STENCIL
+AvlItem.OEMDesignNumber | The identification of the unique part number used by the OEMcustomer in the Component XML instance.
+AvlVmpn.evplVendor | The identification of an external vender part library (evpl) which may includea URL to the total library domain.
+AvlVmpn.evplMpn | The manufactures part number in the evpl.
+AvlVmpn.qualified | An enumerated string is either “true” or “false” (part of the 3WC standard –must be lower case). True equals that the external vendor part library hasbeen qualified; False indicates that it has not been qualified. If the attributeis not present the qualification is unknown.
+AvlVmpn.chosen | An enumerated string is either “true” or “false” (part of the 3WC standard –must be lower case). True equals that the external vendor part library hasbeen chosen; False indicates that it has not been chosen. If the attribute isnot present the fact as to whether the vendor part library has been chosenor not is unknown.
+AvlMpn.name | The name of the part being suggested as an appropriate substitution
+AvlMpn.rank | The appropriateness of the part for its ability to serve as the same formfit and function of the original part identified as the OEMDesignNumber.The number 1 is the best ranking.
+AvlMpn.cost | The cost of the part when purchased in a reasonable quantity
+AvlMpn.moistureSensitivity | An identification of the parts’ ability to resist moisture penetration. It isan enumerated string that matches the requirements of J-STD-020 andis one of the following:UNLIMITED | 1_YEAR | 4_WEEKS | 168_HOURS | 72_HOURS |48_HOURS | 24_HOURS | BAKE
+AvlMpn.availability | An enumerated string is either “true” or “false” (part of the 3WCstandard – must be lower case). True equals that the part is readilyavailable; False indicates that it is not. If the attribute is not present thefact as to the parts availability is unknown.
+AvlMpn.other | Any other information pertinent to the information about themanufacturers part number
+AvlVendor.enterpriseRef | A reference to the Enterprise id attribute identifying the companythat is able to deliver the required part. The information must be availablein the LogisticHeader

@@ -1,0 +1,11 @@
+IPC-2581/Bom
+IPC-2581/Bom/BomHeader
+IPC-2581/Bom/BomHeader/StepRef
+IPC-2581/Bom/BomItem
+IPC-2581/Bom/BomItem/BomDes
+IPC-2581/Bom/BomItem/Characteristics
+IPC-2581/Bom/BomItem/Characteristics/Measured
+IPC-2581/Bom/BomItem/Characteristics/Ranged
+IPC-2581/Bom/BomItem/Characteristics/Enumerated
+IPC-2581/Bom/BomItem/Characteristics/Textual
+IPC-2581/Bom/BomItem/SpecRef

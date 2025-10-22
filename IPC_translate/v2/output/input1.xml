@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IPC-2581 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://webstds.ipc.org/2581" revision="C">
+	<Content roleRef="E\E0102M1341---DL-">
+		<FunctionMode mode="C06CF0R3A-9UN-C0TC0T"/>
+		<StepRef name="C0603"/>
+		<BomRef name="MIL-PRF-55681"/>
+		<DictionaryLineDesc units="01 CAPACITORS"/>
+		<DictionaryFillDesc units="F">
+			<EntryFillDesc id="">
+				<FillDesc fillProperty="">
+					<ColorRef id="RQS/APR-0077 ISS.1"/>
+				</FillDesc>
+			</EntryFillDesc>
+		</DictionaryFillDesc>
+		<DictionaryFont units="Capacitor, Ceramic Chip, CC-I, C0603CF, 0.3pF, 0.05pF, 250V"/>
+		<DictionaryStandard units="">
+			<EntryStandard id="">
+				<StandardPrimitive/>
+				<Circle diameter="0.3pF"/>
+				<Contour>
+					<Polygon>
+						<PolyBegin x=""  y=""/>
+						<PolyStep/>
+					</Polygon>
+					<Cutout>
+						<PolyBegin x=""  y=""/>
+						<PolyStep/>
+						<Xform mirror="COM-SPACE-SMT"/>
+						<FillDesc fillProperty="">
+							<Color r="0.05pF"/>
+							<ColorRef id="RQS/APR-0077 ISS.1"/>
+						</FillDesc>
+						<FillDescRef id="C0603CF"/>
+					</Cutout>
+				</Contour>
+			</EntryStandard>
+		</DictionaryStandard>
+		<DictionaryFirmware>
+			<EntryFirmware id="">
+				<CachedFirmware hexEncodedBinary="02 CERAMIC CHIP"/>
+			</EntryFirmware>
+		</DictionaryFirmware>
+	</Content>
+	<LogisticHeader>
+		<Role id=""  roleFunction=""/>
+		<Enterprise id=""  code=""/>
+		<Person name=""  enterpriseRef=""  roleRef=""/>
+	</LogisticHeader>
+	<HistoryRecord number=""  origination=""  software=""  lastChange="">
+		<FileRevision fileRevisionId=""  comment="">
+			<SoftwarePackage name=""  vendor=""  revision="">
+				<Certification certificationStatus=""/>
+			</SoftwarePackage>
+		</FileRevision>
+	</HistoryRecord>
+	<Ecad name="">
+		<CadHeader units=""/>
+		<CadData>
+			<Layer name=""  layerFunction=""  side=""  polarity=""/>
+			<Step name="">
+				<Datum x=""  y=""/>
+				<Package type="EEE-01-CAP-0603"/>
+				<Component refDes="01-CAP-CERAMIC"/>
+			</Step>
+		</CadData>
+	</Ecad>
+	<Avl name="DILABS (US)">
+		<AvlItem OEMDesignNumber="E01001027.F01">
+			<AvlVmpn>
+				<AvlMpn other="E0102M1341A03DLF"/>
+				<AvlVendor enterpriseRef=""/>
+			</AvlVmpn>
+		</AvlItem>
+	</Avl>
+</IPC-2581>

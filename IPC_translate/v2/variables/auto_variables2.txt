@@ -1,0 +1,573 @@
+Approval.datetime | dateTime | 2025-10-06T19:48:34.846247Z | req
+Approval.personRef | string | "" | req
+Arc.startX | double | 0 | req
+Arc.startY | double | 0 | req
+Arc.endX | double | 0 | req
+Arc.endY | double | 0 | req
+Arc.centerX | double | 0 | req
+Arc.centerY | double | 0 | req
+Arc.clockwise | boolean | false | req
+Avl.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | b | req
+AvlHeader.title | string | "" | req
+AvlHeader.source | string | "" | req
+AvlHeader.author | string | "" | req
+AvlHeader.datetime | dateTime | 2025-10-06T19:48:34.846247Z | req
+AvlHeader.version | positiveInteger | 1 | req
+AvlHeader.comment | string | ""
+AvlHeader.modRef | modeType { string, ENUM VALUES: USERDEF, BOM, STACKUP, FABRICATION, ASSEMBLY, TEST, STENCIL, DFX } | USERDEF
+AvlItem.OEMDesignNumber | string | "" | req
+AvlMpn.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | h | req
+AvlMpn.rank | nonNegativeInteger | 0
+AvlMpn.cost | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+AvlMpn.moistureSensitivity | floorLifeType { string, ENUM VALUES: UNLIMITED, 1_YEAR, 4_WEEKS, 168_HOURS, 72_HOURS, 48_HOURS, 24_HOURS, BAKE } | UNLIMITED
+AvlMpn.availability | boolean | false
+AvlMpn.other | string | ""
+AvlRef.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | b | req
+AvlVendor.enterpriseRef | string | "" | req
+AvlVmpn.evplVendor | string | ""
+AvlVmpn.evplMpn | string | ""
+AvlVmpn.qualified | boolean | false
+AvlVmpn.chosen | boolean | false
+BendArea.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | , | req
+BendArea.sequenceNumber | integer | 0
+BendArea.comment | string | ""
+BendLine.startX | double | 0 | req
+BendLine.startY | double | 0 | req
+BendLine.endX | double | 0 | req
+BendLine.endY | double | 0 | req
+Bom.name | string | "" | req
+BomHeader.assembly | string | "" | req
+BomHeader.revision | string | "" | req
+BomHeader.affecting | boolean | false
+BomItem.OEMDesignNumberRef | string | "" | req
+BomItem.quantity | string | "" | req
+BomItem.pinCount | nonNegativeInteger | 0
+BomItem.category | bomCategoryType { string, ENUM VALUES: ELECTRICAL, PROGRAMMABLE, MECHANICAL, MATERIAL, DOCUMENT } | ELECTRICAL | req
+BomItem.internalPartNumber | string | ""
+BomItem.description | string | ""
+RefDes.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | 2 | req
+RefDes.packageRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | m
+RefDes.populate | boolean | false
+RefDes.layerRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | t
+RefDes.modelRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | d
+MatDes.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | $ | req
+MatDes.layerRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | m
+DocDes.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | J | req
+DocDes.layerRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | c
+ToolDes.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | ` | req
+ToolDes.layerRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | [
+FindDes.number | positiveInteger | 1 | req
+FindDes.layerRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | g
+FindDes.modelRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | I
+BomRef.name | string | "" | req
+BoundingBox.lowerLeftX | double | 0 | req
+BoundingBox.lowerLeftY | double | 0 | req
+BoundingBox.upperRightX | double | 0 | req
+BoundingBox.upperRightY | double | 0 | req
+Butterfly.shape | butterflyShapeType { string, ENUM VALUES: ROUND, SQUARE } | ROUND | req
+Butterfly.diameter | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Butterfly.side | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+CachedFirmware.hexEncodedBinary | string | "" | req
+CadHeader.units | unitsType { string, ENUM VALUES: MILLIMETER, MICRON, INCH } | MILLIMETER | req
+Certification.certificationStatus | certificationStatusType { string, ENUM VALUES: ALPHA, BETA, CERTIFIED, SELFTEST } | ALPHA | req
+Certification.certificationCategory | certificationCategoryType { string, ENUM VALUES: ASSEMBLYDRAWING, ASSEMBLYFIXTUREGENERATION, ASSEMBLYPANEL, ASSEMBLYPREPTOOLS, ASSEMBLYTESTFIXTUREGENERATION, ASSEMBLYTESTGENERATION, BOARDFABRICATION, BOARDFIXTUREGENERATION, BOARDPANEL, BOARDTESTGENERATION, COMPONENTPLACEMENT, DETAILEDDRAWING, FABRICATIONDRAWING, GENERALASSEMBLY, GLUEDOT, MECHANICALHARDWARE, MULTIBOARDPARTSLIST, PHOTOTOOLS, SCHEMATICDRAWINGS, SINGLEBOARDPARTSLIST, SOLDERSTENCILPASTE, SPECSOURCECONTROLDRAWING, EMBEDDEDCOMPONENT, OTHER } | ASSEMBLYDRAWING
+ChangeRec.datetime | dateTime | 2025-10-06T19:48:34.846247Z | req
+ChangeRec.personRef | string | "" | req
+ChangeRec.application | string | "" | req
+ChangeRec.change | string | "" | req
+Characteristics.category | bomCategoryType { string, ENUM VALUES: ELECTRICAL, PROGRAMMABLE, MECHANICAL, MATERIAL, DOCUMENT } | ELECTRICAL | req
+Circle.diameter | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+CircularBend.innerSide | bendSideType { string, ENUM VALUES: TOP, BOTTOM } | TOP | req
+CircularBend.innerRadius | double | 0 | req
+CircularBend.innerAngle | angleType { decimal, RESTRICTIONS: minInclusive ="0.00", maxExclusive ="360.00", totalDigits ="3", fractionDigits ="2" } | 0.00
+Color.r | unsignedByte { nonNegativeInteger, RESTRICTIONS: maxInclusive ="255" } | 0 | req
+Color.g | unsignedByte { nonNegativeInteger, RESTRICTIONS: maxInclusive ="255" } | 0 | req
+Color.b | unsignedByte { nonNegativeInteger, RESTRICTIONS: maxInclusive ="255" } | 0 | req
+ColorRef.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | # | req
+ColorTerm.name | colorListType { string, ENUM VALUES: BLACK, WHITE, RED, GREEN, YELLOW, BLUE, BROWN, ORANGE, PINK, PURPLE, GRAY, OTHER } | BLACK | req
+ColorTerm.comment | string | ""
+Component.refDes | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | T
+Component.matDes | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | R
+Component.packageRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | x
+Component.part | string | "" | req
+Component.layerRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | ; | req
+Component.layerRefTopside | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | Q
+Component.mountType | mountType { string, ENUM VALUES: SMT, THMT, EMBEDDED, PRESSFIT, WIRE_BONDED, GLUED, CLAMPED, SOCKETED, FORMED, OTHER } | SMT | req
+Component.modelRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | )
+Component.weight | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Component.height | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Component.standoff | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Content.roleRef | string | "" | req
+Criteria.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | L | req
+Criteria.measurementMode | measurementModeType { string, ENUM VALUES: DISTANCE, AREA, RESISTANCE, CAPACITANCE, IMPEDANCE, INDUCTANCE, VOLTAGE_DC, VOLTAGE_AC, FREQUENCY, CURRENT, POWER, PERCENTAGE, SIZE, NONE, TEXT, TOLERANCE, OTHER } | DISTANCE | req
+Criteria.comment | string | ""
+Dfx.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | K | req
+Dfx.category | dfxCategoryType { string, ENUM VALUES: COMPONENT, BOARDFAB, ASSEMBLY, STACKUP, TESTING, DATAQUALITY } | COMPONENT | req
+DfxMeasurement.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | / | req
+DfxMeasurement.severity | string | ""
+DfxMeasurement.comment | string | ""
+DfxQuery.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | , | req
+DfxQuery.query | string | "" | req
+DfxResponse.dfxMeasurementRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | \
+DfxResponse.response | dfxResponseChoices { string, ENUM VALUES: YES, NO, APPROVED, CONDITIONALLY_APPROVED, REJECTED, WAIVED, IGNORE, OPEN, CLOSED, OTHER } | YES | req
+DfxResponse.comment | string | ""
+Diamond.width | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Diamond.height | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+DictionaryFont.units | unitsType { string, ENUM VALUES: MILLIMETER, MICRON, INCH } | MILLIMETER | req
+DictionaryLineDesc.units | unitsType { string, ENUM VALUES: MILLIMETER, MICRON, INCH } | MILLIMETER | req
+DictionaryFillDesc.units | unitsType { string, ENUM VALUES: MILLIMETER, MICRON, INCH } | MILLIMETER | req
+DictionaryStandard.units | unitsType { string, ENUM VALUES: MILLIMETER, MICRON, INCH } | MILLIMETER | req
+DictionaryUser.units | unitsType { string, ENUM VALUES: MILLIMETER, MICRON, INCH } | MILLIMETER | req
+Donut.shape | donutShapeType { string, ENUM VALUES: ROUND, SQUARE, HEXAGON, OCTAGON } | ROUND | req
+Donut.outerDiameter | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Donut.innerDiameter | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Ecad.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | x | req
+EdgeCoupled.structure | structureListType { string, ENUM VALUES: STRIPLINE_SYMMETRIC, STRIPLINE_ASYMMETRIC, STRIPLINE_PLANE_LESS, MICROSTRIP_EMBEDDED, MICROSTRIP_NO_MASK, MICROSTRIP_MASK_COVERED, MICROSTRIP_DUAL_MASKED_COVERED, OTHER } | STRIPLINE_SYMMETRIC | req
+Ellipse.width | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Ellipse.height | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+EmbeddedRef.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | b | req
+EmbeddedRef.embeddedType | embeddedTypeType { string, ENUM VALUES: IMAGE, FIRMWARE, EXECUTABLE, DOCUMENT } | IMAGE | req
+Enterprise.id | string | "" | req
+Enterprise.name | string | ""
+Enterprise.code | string | "" | req
+Enterprise.codeType | enterpriseCodeType { string, ENUM VALUES: DUNNS, CAGE } | DUNNS
+Enterprise.address1 | string | ""
+Enterprise.address2 | string | ""
+Enterprise.city | string | ""
+Enterprise.stateProvince | string | ""
+Enterprise.country | isoCodeType { string, ENUM VALUES: AD, AE, AF, AG, AI, AL, AM, AN, AO, AQ, AR, AS, AT, AU, AW, AZ, BA, BB, BD, BE, BF, BG, BH, BI, BJ, BM, BN, BO, BR, BS, BT, BV, BW, BY, BZ, CA, CC, CF, CG, CH, CI, CK, CL, CM, CN, CO, CR, CU, CV, CX, CY, CZ, DE, DJ, DK, DM, DO, DZ, EC, EE, EG, EH, ER, ES, ET, FI, FJ, FK, FM, FO, FR, FX, GA, GB, GD, GE, GF, GH, GI, GL, GM, GN, GP, GQ, GR, GS, GT, GU, GW, GY, HK, HM, HN, HR, HT, HU, ID, IE, IL, IN, IO, IQ, IR, IS, IT, JM, JO, JP, KE, KG, KH, KI, KM, KN, KP, KR, KW, KY, KZ, LA, LB, LC, LI, LK, LR, LS, LT, LU, LV, LY, MA, MC, MD, MG, MH, MK, ML, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MX, MY, MZ, NA, NC, NE, NF, NG, NI, NL, NO, NP, NR, NU, NZ, OM, PA, PE, PF, PG, PH, PK, PL, PM, PN, PR, PT, PW, PY, QA, RE, RO, RU, RW, SA, SB, SC, SD, SE, SG, SH, SI, SJ, SK, SL, SM, SN, SO, SR, ST, SV, SY, SZ, TC, TD, TF, TG, TH, TJ, TK, TM, TN, TO, TP, TR, TT, TV, TW, TZ, UA, UG, UM, US, UY, UZ, VA, VC, VE, VG, VI, VN, VU, WF, WS, YE, YT, YU, ZA, ZM, ZR, ZW } | AD
+Enterprise.postalCode | string | ""
+Enterprise.phone | string | ""
+Enterprise.fax | string | ""
+Enterprise.email | string | ""
+Enterprise.url | anyURI | ""
+EntryColor.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | V | req
+EntryFirmware.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | S | req
+EntryFont.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } |   | req
+EntryLineDesc.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | " | req
+EntryFillDesc.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | S | req
+EntryStandard.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | 2 | req
+EntryUser.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | B | req
+Enumerated.definitionSource | string | ""
+Enumerated.enumeratedCharacteristicName | string | ""
+Enumerated.enumeratedCharacteristicValue | string | ""
+Extrusion.startHeight | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Extrusion.height | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+FeatureDescription.layerRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | F
+FeatureDescription.pinRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | )
+FeatureDescription.componentRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | k
+FeatureDescription.packageRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | m
+FeatureDescription.specRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | p
+FeatureDescription.firmwareRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | l
+FeatureDescription.padstackDefRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | R
+FeatureDescription.netRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | H
+FeatureDescription.stackupRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | 8
+FeatureDescription.bomRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | x
+FeatureDescription.featureObject | featureObjectType { string, ENUM VALUES: PAD, SHAPE, POLYGON, DRILL/HOLE, CUTOUT, OUTLINE, TEXT, SLOT, CAVITY, ZONE, BEND, PORT, MILLING, OTHER } | PAD
+FeatureDescription.comment | string | ""
+File.name | string | "" | req
+File.crc | string | "" | req
+FileRevision.fileRevisionId | string | "" | req
+FileRevision.comment | string | "" | req
+FileRevision.label | string | ""
+Firmware.progName | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | & | req
+Firmware.progVersion | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | $ | req
+FirmwareRef.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | n | req
+FontDefEmbedded.name | string | "" | req
+FontDefExternal.name | string | "" | req
+FontDefExternal.urn | string | "" | req
+FontRef.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | S | req
+FunctionMode.mode | modeType { string, ENUM VALUES: USERDEF, BOM, STACKUP, FABRICATION, ASSEMBLY, TEST, STENCIL, DFX } | USERDEF | req
+FunctionMode.sectionKey | sectionKeyType { string, PATTERN: [ABCDEFGIKLMOPRSUXY]* } | 
+FunctionMode.comment | string | ""
+Glyph.charCode | hexBinary | "" | req
+Glyph.lowerLeftX | double | 0 | req
+Glyph.lowerLeftY | double | 0 | req
+Glyph.upperRightX | double | 0 | req
+Glyph.upperRightY | double | 0 | req
+Hexagon.length | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+HistoryRecord.number | historyNumberType { string, PATTERN: [0-9]+(.[0-9]+)* } | 4 | req
+HistoryRecord.origination | dateTime | 2025-10-06T19:48:34.853833Z | req
+HistoryRecord.software | string | "" | req
+HistoryRecord.lastChange | dateTime | 2025-10-06T19:48:34.853833Z | req
+HistoryRecord.lifecyclePhase | string | ""
+HistoryRecord.externalConfigurationEntryPoint | anyURI | ""
+Hole.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | 0 | req
+Hole.type | holeShapeType { string, ENUM VALUES: CIRCLE, SQUARE } | CIRCLE
+Hole.diameter | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Hole.platingStatus | platingStatusType { string, ENUM VALUES: PLATED, NONPLATED, VIA, VIA_CAPPED } | PLATED | req
+Hole.plusTol | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Hole.minusTol | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Hole.x | double | 0 | req
+Hole.y | double | 0 | req
+IPC-2581.revision | string | "" | req
+Inset.insetSize | double | 0 | req
+Layer.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | % | req
+Layer.layerFunction | layerFunctionType { string, ENUM VALUES: ASSEMBLY, BOARDFAB, BOARD_OUTLINE, CAPACITIVE, COATINGCOND, COATINGNONCOND, COMPONENT, COMPONENT_BOTTOM, COMPONENT_TOP, COMPONENT_EMBEDDED, COMPONENT_FORMED, CONDFILM, CONDFOIL, CONDUCTIVE_ADHESIVE, CONDUCTOR, COURTYARD, DIELBASE, DIELCORE, DIELPREG, DIELADHV, DIELBONDPLY, DIELCOVERLAY, DOCUMENT, DRILL, FIXTURE, GLUE, GRAPHIC, HOLEFILL, SOLDERBUMP, PASTEMASK, LANDPATTERN, LEGEND, MIXED, OTHER, PIN, PLANE, PROBE, RESISTIVE, SIGNAL, SILKSCREEN, SOLDERMASK, SOLDERPASTE, STACKUP_COMPOSITE, REWORK, ROUT, V_CUT, EDGE_CHAMFER, EDGE_PLATING, THIEVING_KEEP_INOUT, STIFFENER } | ASSEMBLY | req
+Layer.side | sideType { string, ENUM VALUES: TOP, BOTTOM, BOTH, INTERNAL, ALL, NONE } | TOP | req
+Layer.polarity | polarityType { string, ENUM VALUES: POSITIVE, NEGATIVE } | POSITIVE | req
+LayerFeature.layerRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | h | req
+Model.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | < | req
+PadstackHoleDef.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | ( | req
+PadstackHoleDef.diameter | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+PadstackHoleDef.platingStatus | platingStatusType { string, ENUM VALUES: PLATED, NONPLATED, VIA, VIA_CAPPED } | PLATED | req
+PadstackHoleDef.plusTol | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+PadstackHoleDef.minusTol | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+PadstackHoleDef.x | double | 0 | req
+PadstackHoleDef.y | double | 0 | req
+PadstackPadDef.layerRef | use=required | 0 | req
+PadstackPadDef.padUse | use=required | 0 | req
+PadstackPadDef.comment | use=optional | 0
+LayerRef.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | Z | req
+Line.startX | double | 0 | req
+Line.startY | double | 0 | req
+Line.endX | double | 0 | req
+Line.endY | double | 0 | req
+LineDesc.lineEnd | lineEndType { string, ENUM VALUES: NONE, ROUND, SQUARE } | NONE | req
+LineDesc.lineWidth | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+LineDesc.lineProperty | linePropertyType { string, ENUM VALUES: SOLID, DOTTED, DASHED, CENTER, PHANTOM, ERASE } | SOLID
+LineDescRef.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | P | req
+FillDesc.fillProperty | fillPropertyType { string, ENUM VALUES: HOLLOW, HATCH, MESH, FILL, VOID } | HOLLOW | req
+FillDesc.lineWidth | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+FillDesc.pitch1 | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+FillDesc.pitch2 | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+FillDesc.angle1 | angleType { decimal, RESTRICTIONS: minInclusive ="0.00", maxExclusive ="360.00", totalDigits ="3", fractionDigits ="2" } | 0.00
+FillDesc.angle2 | angleType { decimal, RESTRICTIONS: minInclusive ="0.00", maxExclusive ="360.00", totalDigits ="3", fractionDigits ="2" } | 0.00
+FillDescRef.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | O | req
+Location.x | double | 0 | req
+Location.y | double | 0 | req
+PickupPoint.x | double | 0 | req
+PickupPoint.y | double | 0 | req
+LogicalNet.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | K | req
+LogicalNet.netClass | netClassType { string, ENUM VALUES: CLK, FIXED, GROUND, SIGNAL, POWER, UNUSED } | CLK
+LogicalNet.netPair | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | "
+Marking.markingUsage | markingUsageType { string, ENUM VALUES: REFDES, PARTNAME, TARGET, POLARITY_MARKING, ATTRIBUTE_GRAPHICS, PIN_ONE, NONE } | REFDES
+MaterialCut.depth | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+MaterialCut.plusTol | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+MaterialCut.minusTol | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+MaterialCut.startCutLayer | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | z
+MaterialLeft.thickness | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+MaterialLeft.plusTol | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+MaterialLeft.minusTol | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+MaterialLeft.startCutLayer | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | "
+Measured.definitionSource | string | ""
+Measured.measuredCharacteristicName | string | ""
+Measured.measuredCharacteristicValue | double | 0
+Measured.engineeringUnitOfMeasure | string | ""
+Measured.engineeringNegativeTolerance | double | 0
+Measured.engineeringPositiveTolerance | double | 0
+Modification.repairInfo | string | ""
+Modification.weldsPermitted | boolean | false
+Moire.diameter | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Moire.ringWidth | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Moire.ringGap | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Moire.ringNumber | nonNegativeInteger | 0 | req
+Moire.lineWidth | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Moire.lineLength | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Moire.lineAngle | angleType { decimal, RESTRICTIONS: minInclusive ="0.00", maxExclusive ="360.00", totalDigits ="3", fractionDigits ="2" } | 0.00
+NonstandardAttribute.name | string | "" | req
+NonstandardAttribute.type | cadPropertyType { string, ENUM VALUES: DOUBLE, INTEGER, BOOLEAN, STRING } | DOUBLE | req
+NonstandardAttribute.value | string | "" | req
+Octagon.length | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+NetShort.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | (
+NetRef.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | 1 | req
+Oval.width | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Oval.height | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Package.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | Z | req
+Package.type | packageTypeType { string, ENUM VALUES: AXIAL_LEADED, BARE_DIE, CERAMIC_BGA, CERAMIC_DIP, CERAMIC_FLATPACK, CERAMIC_QUAD_FLATPACK, CERAMIC_SIP, CHIP, CHIP_SCALE, CHOKE_SWITCH_SM, COIL, CONNECTOR_SM, CONNECTOR_TH, EMBEDDED, FLIPCHIP, HERMETIC_HYBRED, LEADLESS_CERAMIC_CHIP_CARRIER, MCM, MELF, FINEPITCH_BGA, MOLDED, NETWORK, PGA, PLASTIC_BGA, PLASTIC_CHIP_CARRIER, PLASTIC_DIP, PLASTIC_SIP, POWER_TRANSISTOR, RADIAL_LEADED, RECTANGULAR_QUAD_FLATPACK, RELAY_SM, RELAY_TH, SOD123, SOIC, SOJ, SOPIC, SOT143, SOT23, SOT52, SOT89, SQUARE_QUAD_FLATPACK, SSOIC, SWITCH_TH, TANTALUM, TO_TYPE, TRANSFORMER, TRIMPOT_SM, TRIMPOT_TH, OTHER } | AXIAL_LEADED | req
+Package.pinOne | string | ""
+Package.pinOneOrientation | pinOneOrientationType { string, ENUM VALUES: LOWER_LEFT, LEFT, LEFT_CENTER, UPPER_LEFT, UPPER_CENTER, UPPER_RIGHT, RIGHT, RIGHT_CENTER, LOWER_RIGHT, LOWER_CENTER, CENTER, OTHER } | LOWER_LEFT | req
+Package.height | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Package.negativeBodyExtension | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Package.comment | string | ""
+Pad.padstackDefRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | *
+PadStackDef.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | 0
+Person.name | string | "" | req
+Person.enterpriseRef | string | "" | req
+Person.title | string | ""
+Person.email | string | ""
+Person.phone | string | ""
+Person.fax | string | ""
+Person.mailstop | string | ""
+Person.publicKey | base64Binary | ""
+Person.roleRef | string | "" | req
+PhyNet.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | * | req
+PhyNetGroup.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | V | req
+PhyNetGroup.optimized | boolean | false
+PhyNetPoint.x | double | 0 | req
+PhyNetPoint.y | double | 0 | req
+PhyNetPoint.layerRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | j | req
+PhyNetPoint.secondaryLayerRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | Q
+PhyNetPoint.netNode | netPointType { string, ENUM VALUES: END, MIDDLE } | END | req
+PhyNetPoint.exposure | exposureType { string, ENUM VALUES: EXPOSED, COVERED_PRIMARY, COVERED_SECONDARY, COVERED } | EXPOSED | req
+PhyNetPoint.layerIndex | string | ""
+PhyNetPoint.comment | string | ""
+PhyNetPoint.via | boolean | false
+PhyNetPoint.fiducial | boolean | false
+PhyNetPoint.test | boolean | false
+PhyNetPoint.staggerX | double | 0
+PhyNetPoint.staggerY | double | 0
+PhyNetPoint.staggerRadius | double | 0
+Pin.number | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | A | req
+Pin.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | R
+Pin.type | cadPinType { string, ENUM VALUES: THRU, BLIND, SURFACE } | THRU | req
+Pin.electricalType | pinElectricalType { string, ENUM VALUES: ELECTRICAL, MECHANICAL, UNDEFINED } | ELECTRICAL
+Pin.mountType | pinMountType { string, ENUM VALUES: SURFACE_MOUNT_PIN, SURFACE_MOUNT_PAD, THROUGH_HOLE_PIN, THROUGH_HOLE_HOLE, PRESSFIT, NONBOARD, HOLE, WIRE_BOND, UNDEFINED } | SURFACE_MOUNT_PIN
+Pin.pinPolarity | pinPolarityType { string, ENUM VALUES: PLUS, MINUS, ANODE, CATHODE } | PLUS
+PinRef.componentRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | \
+PinRef.pin | string | "" | req
+PinRef.title | string | ""
+PlatingThickness.value | double | 0
+PlatingThickness.unit | lengthUnitType { string, ENUM VALUES: MM, INCH, MICRON, MILS } | MM
+PlatingThickness.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+PlatingThickness.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+PlatingThickness.tolPercent | boolean | false
+PlatingThickness.constraintType | constraintTypeType { string, ENUM VALUES: MIN, MAX, NONE } | MIN
+PlatingGap.value | double | 0
+PlatingGap.unit | lengthUnitType { string, ENUM VALUES: MM, INCH, MICRON, MILS } | MM
+PlatingGap.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+PlatingGap.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+PlatingGap.tolPercent | boolean | false
+PlatingGap.constraintType | constraintTypeType { string, ENUM VALUES: MIN, MAX, NONE } | MIN
+PolyBegin.x | double | 0 | req
+PolyBegin.y | double | 0 | req
+PolyStepCurve.x | double | 0 | req
+PolyStepCurve.y | double | 0 | req
+PolyStepCurve.centerX | double | 0 | req
+PolyStepCurve.centerY | double | 0 | req
+PolyStepCurve.clockwise | boolean | false | req
+PolyStepSegment.x | double | 0 | req
+PolyStepSegment.y | double | 0 | req
+Port.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | H | req
+Port.netType | netFunctionType { string, ENUM VALUES: INPUT, OUTPUT, BIDIRECTIONAL, POWER } | INPUT
+Port.comment | string | ""
+PortConnect.portName | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | " | req
+PortConnect.stepRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | `
+PortConnect.compRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | !
+PortConnect.pinRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | 2
+PortRef.portName | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | L | req
+Product.name | string | "" | req
+Product.criteria | productCriteriaType { string, ENUM VALUES: ALLOWED, SUGGESTED, PREFERRED, REQUIRED, CHOSEN } | ALLOWED
+WireBond.layerRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | ? | req
+WireBond.compRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | v
+WireBond.pinRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | r
+ConnectorMate.compRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | <
+ConnectorMate.pinRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | k
+ComponentPad.compRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | <
+ComponentPad.pinRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | k
+WireHeight.value | double | 0
+WireHeight.unit | lengthUnitType { string, ENUM VALUES: MM, INCH, MICRON, MILS } | MM
+WireHeight.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+WireHeight.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+WireHeight.tolPercent | boolean | false
+WireHeight.constraintType | constraintTypeType { string, ENUM VALUES: MIN, MAX, NONE } | MIN
+Ranged.definitionSource | string | ""
+Ranged.rangedCharacteristicName | string | ""
+Ranged.rangedCharacteristicLowerValue | double | 0
+Ranged.rangedCharacteristicUpperValue | double | 0
+Ranged.engineeringUnitOfMeasure | string | ""
+Ranged.engineeringNegativeTolerance | double | 0
+Ranged.engineeringPositiveTolerance | double | 0
+RectCenter.width | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+RectCenter.height | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+RectCham.width | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+RectCham.height | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+RectCham.chamfer | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+RectCham.upperRight | boolean | false
+RectCham.upperLeft | boolean | false
+RectCham.lowerLeft | boolean | false
+RectCham.lowerRight | boolean | false
+RectCorner.lowerLeftX | double | 0 | req
+RectCorner.lowerLeftY | double | 0 | req
+RectCorner.upperRightX | double | 0 | req
+RectCorner.upperRightY | double | 0 | req
+RectRound.width | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+RectRound.height | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+RectRound.radius | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+RectRound.upperRight | boolean | false
+RectRound.upperLeft | boolean | false
+RectRound.lowerLeft | boolean | false
+RectRound.lowerRight | boolean | false
+Role.id | string | "" | req
+Role.roleFunction | roleFunctionType { string, ENUM VALUES: SENDER, OWNER, RECEIVER, DESIGNER, ENGINEER, BUYER, CUSTOMERSERVICE, DELIVERTO, BILLTO, OTHER } | SENDER | req
+Role.description | string | ""
+Role.publicKey | base64Binary | ""
+Role.authority | string | ""
+Set.net | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | 1
+Set.netPair | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | M
+Set.polarity | polarityType { string, ENUM VALUES: POSITIVE, NEGATIVE } | POSITIVE
+Set.padUsage | padUsageType { string, ENUM VALUES: TERMINATION, VIA, PLANE, MASK, TOOLING_HOLE, THIEVING, THERMAL_RELIEF, FIDUCIAL, NONE } | TERMINATION
+Set.testPoint | boolean | false
+Set.geometry | string | ""
+Set.plate | boolean | false
+Set.componentRef | string | ""
+Set.geometryUsage | geometryUsageType { string, ENUM VALUES: THIEVING, THERMAL_RELIEF, TEXT, TEARDROP, GRAPHIC, NONE } | THIEVING
+SlotCavity.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | D | req
+SlotCavity.platingStatus | platingStatusType { string, ENUM VALUES: PLATED, NONPLATED, VIA, VIA_CAPPED } | PLATED | req
+SlotCavity.plusTol | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+SlotCavity.minusTol | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Fill.depthRemaining | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Fill.matDes | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | Z
+SoftwarePackage.name | string | "" | req
+SoftwarePackage.vendor | string | "" | req
+SoftwarePackage.revision | string | "" | req
+SoftwarePackage.model | string | ""
+Span.fromLayer | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | <
+Span.toLayer | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | q
+Backdrill.type | backdrillListType { string, ENUM VALUES: START_LAYER, MUST_NOT_CUT_LAYER, MAX_STUB_LENGTH, OTHER } | START_LAYER | req
+Backdrill.comment | string | ""
+Dielectric.type | dielectricListType { string, ENUM VALUES: DIELECTRIC_CONSTANT, LOSS_TANGENT, GLASS_STYLE, RESIN_CONTENT, Tg_DSC, Tg_DMA, Tg_TMA, Td, SLASH_NUM_IPC4101, SLASH_NUM_IPC4103, PRODUCT_NAME, OTHER } | DIELECTRIC_CONSTANT | req
+Dielectric.comment | string | ""
+Conductor.material | conductorMaterialType { string, ENUM VALUES: COPPER, SILVER_INK, CARBON_INK, CONDUCTIVE_INK, GRAPHENE, OTHER } | COPPER
+Conductor.foilType | foilTypeType { string, ENUM VALUES: CU-E1, CU-E2, CU-E3, CU-W5, CU-W6, CU-W7, CU-W8, NI/E1, CU-E10, CU-E11, OTHER } | CU-E1
+Conductor.type | conductorListType { string, ENUM VALUES: CONDUCTIVITY, SURFACE_ROUGHNESS_UPFACING, SURFACE_ROUGHNESS_DOWNFACING, SURFACE_ROUGHNESS_TREATED, ETCH_FACTOR, FINISHED_HEIGHT, WEIGHT, OTHER } | CONDUCTIVITY
+Conductor.comment | string | ""
+Compliance.type | complianceListType { string, ENUM VALUES: ROHS, CONFLICT_MINERALS, WEEE, REACH, HALOGEN_FREE, OTHER } | ROHS | req
+Compliance.comment | string | ""
+Technology.type | technologyListType { string, ENUM VALUES: RIGID, RIGID_FLEX, FLEX, HDI, EMBEDDED_COMPONENT, OTHER } | RIGID | req
+Technology.comment | string | ""
+General.type | generalListType { string, ENUM VALUES: ELECTRICAL, THERMAL, MATERIAL, INSTRUCTION, STANDARD, CONFIGURATION, OTHER } | ELECTRICAL | req
+General.comment | string | ""
+Temperature.type | temperatureListType { string, ENUM VALUES: THERMAL_DELAMINATION, EXPANSION_Z_AXIS, EXPANSION_X_Y_AXIS, OTHER } | THERMAL_DELAMINATION | req
+Temperature.comment | string | ""
+V_Cut.type | vCutListType { string, ENUM VALUES: ANGLE, THICKNESS_REMAINING, OFFSET, OTHER } | ANGLE | req
+V_Cut.comment | string | ""
+Tool.type | toolListType { string, ENUM VALUES: CARBIDE, ROUTER, LASER, PLASMA, PUNCH, FLATNOSE, EXTENSION, V_CUTTER, SCREWDRIVER, WRENCH } | CARBIDE | req
+Tool.toolProperty | toolPropertyListType { string, ENUM VALUES: DRILL_SIZE, FINISHED_SIZE, BIT_ANGLE, TORQUE, HEX_NUT_SIZE, PHILIPS_HEAD, FLAT_HEAD, OTHER } | DRILL_SIZE | req
+Tool.comment | string | ""
+Impedance.value | double | 0 | req
+Impedance.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Impedance.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Impedance.tolPercent | boolean | false
+Impedance.comment | string | ""
+Thieving.type | thievingListType { string, ENUM VALUES: KEEP_IN, KEEP_OUT } | KEEP_IN | req
+Thieving.comment | string | ""
+EdgeChamfer.type | edgeChamferListType { string, ENUM VALUES: ANGLE, WIDTH, SIDE } | ANGLE | req
+EdgeChamfer.comment | string | ""
+EdgePlating.comment | string | ""
+SecondaryDrill.type | secondaryDrillListType { string, ENUM VALUES: MAJOR_DIAMETER, DEPTH, SIDE, ANGLE, OTHER } | MAJOR_DIAMETER | req
+SecondaryDrill.comment | string | ""
+SurfaceFinish.type | surfaceFinishType { string, ENUM VALUES: S, b1, T, X, TLU, G, GS, GWB-1-G, GWB-1-N, GWB-2-G, GWB-2-N, N, NB, OSP, HT_OSP, ENIG-N, ENIG-G, ENEPIG-N, ENEPIG-G, ENEPIG-P, DIG, IAg, ISn, C, OTHER } | S | req
+SurfaceFinish.comment | string | ""
+Flex.type | flexListType { string, ENUM VALUES: ADHESIVE_SQUEEZE_OUT, DIELECTRIC_SQUEEZE_OUT, STRESS_RELIEF_FILLET_WIDTH } | ADHESIVE_SQUEEZE_OUT | req
+Flex.comment | string | ""
+Loss.type | lossListType { string, ENUM VALUES: ATTENUATION, IMPEDANCE, INSERTION, POWER, SIGNAL, VOLTAGE } | ATTENUATION | req
+Loss.comment | string | ""
+Spacing.value | double | 0
+Spacing.unit | lengthUnitType { string, ENUM VALUES: MM, INCH, MICRON, MILS } | MM
+Spacing.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Spacing.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Spacing.tolPercent | boolean | false
+Spacing.constraintType | constraintTypeType { string, ENUM VALUES: MIN, MAX, NONE } | MIN
+Pitch.value | double | 0
+Pitch.unit | lengthUnitType { string, ENUM VALUES: MM, INCH, MICRON, MILS } | MM
+Pitch.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Pitch.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Pitch.tolPercent | boolean | false
+Pitch.constraintType | constraintTypeType { string, ENUM VALUES: MIN, MAX, NONE } | MIN
+LineWidth.value | double | 0
+LineWidth.unit | lengthUnitType { string, ENUM VALUES: MM, INCH, MICRON, MILS } | MM
+LineWidth.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+LineWidth.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+LineWidth.tolPercent | boolean | false
+LineWidth.constraintType | constraintTypeType { string, ENUM VALUES: MIN, MAX, NONE } | MIN
+CoplanarGroundSpacing.value | double | 0
+CoplanarGroundSpacing.unit | lengthUnitType { string, ENUM VALUES: MM, INCH, MICRON, MILS } | MM
+CoplanarGroundSpacing.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+CoplanarGroundSpacing.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+CoplanarGroundSpacing.tolPercent | boolean | false
+CoplanarGroundSpacing.constraintType | constraintTypeType { string, ENUM VALUES: MIN, MAX, NONE } | MIN
+Offset.value | double | 0
+Offset.unit | lengthUnitType { string, ENUM VALUES: MM, INCH, MICRON, MILS } | MM
+Offset.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Offset.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Offset.tolPercent | boolean | false
+Offset.constraintType | constraintTypeType { string, ENUM VALUES: MIN, MAX, NONE } | MIN
+RefPlane.layerOrGroupRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | p
+PairLayerRef.layerOrGroupRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | p
+BroadsideCoupled.structure | broadsideListType { string, ENUM VALUES: STRIPLINE_SYMMETRIC, STRIPLINE_ASYMMETRIC, STRIPLINE_PLANE_LESS, OTHER } | STRIPLINE_SYMMETRIC | req
+SingleEnded.structure | structureListType { string, ENUM VALUES: STRIPLINE_SYMMETRIC, STRIPLINE_ASYMMETRIC, STRIPLINE_PLANE_LESS, MICROSTRIP_EMBEDDED, MICROSTRIP_NO_MASK, MICROSTRIP_MASK_COVERED, MICROSTRIP_DUAL_MASKED_COVERED, OTHER } | STRIPLINE_SYMMETRIC | req
+CoplanarWaveguide.structure | coplanarListType { string, ENUM VALUES: COPLANAR_WAVEGUIDE_STRIPLINE, COPLANAR_WAVEGUIDE_EMBEDDED, COPLANAR_WAVEGUIDE_NO_MASK, COPLANAR_WAVEGUIDE_MASK_COVERED, COPLANAR_WAVEGUIDE_DUAL_MASKED_COVERED, OTHER } | COPLANAR_WAVEGUIDE_STRIPLINE | req
+Property.name | string | ""
+Property.value | double | 0
+Property.text | string | ""
+Property.unit | propertyUnitType { string, ENUM VALUES: MM, INCH, MICRON, MILS, OHMS, MHO/CM, SIEMENS/M, CELCIUS, FARANHEIT, PERCENT, Hz, DEGREES, RMAX, RZ, RMS, SECTION, CLASS, ITEM, GAUGE, IN-LB, IN-OZ, FT-LB, N-m, N-cm, MIN, MAX, OZ, OZ/SQ-FT, GRAMS, HENRYS, AMPS, WATTS, VOLTS, FARAD, dB, dB/INCH, dB/MM, OTHER } | MM
+Property.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Property.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Property.tolPercent | boolean | false
+Property.refUnit | propertyUnitType { string, ENUM VALUES: MM, INCH, MICRON, MILS, OHMS, MHO/CM, SIEMENS/M, CELCIUS, FARANHEIT, PERCENT, Hz, DEGREES, RMAX, RZ, RMS, SECTION, CLASS, ITEM, GAUGE, IN-LB, IN-OZ, FT-LB, N-m, N-cm, MIN, MAX, OZ, OZ/SQ-FT, GRAMS, HENRYS, AMPS, WATTS, VOLTS, FARAD, dB, dB/INCH, dB/MM, OTHER } | MM
+Property.refValue | double | 0
+Property.refText | string | ""
+Property.layerOrGroupRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | )
+Property.comment | string | ""
+Spec.name | string | "" | req
+Stackup.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | n | req
+Stackup.overallThickness | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Stackup.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Stackup.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Stackup.tolPercent | boolean | false
+Stackup.whereMeasured | whereMeasuredType { string, ENUM VALUES: LAMINATE, METAL, MASK, OTHER } | LAMINATE | req
+Stackup.matDes | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | j
+Stackup.stackupStatus | stackupStatusType { string, ENUM VALUES: SPECIFIED, PROPOSED, APPROVED } | SPECIFIED | req
+Stackup.comment | string | ""
+StackupGroup.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | t | req
+StackupGroup.thickness | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+StackupGroup.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+StackupGroup.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+StackupGroup.tolPercent | boolean | false
+StackupGroup.matDes | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | T
+StackupGroup.comment | string | ""
+StackupLayer.layerOrGroupRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | # | req
+StackupLayer.thickness | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+StackupLayer.tolPlus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+StackupLayer.tolMinus | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+StackupLayer.tolPercent | boolean | false
+StackupLayer.sequence | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+StackupLayer.matDes | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | 2
+StackupLayer.comment | string | ""
+CADDataLayerRef.layerId | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | Z | req
+SlotCavityRef.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | ) | req
+SpecRef.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | ] | req
+StackupZone.name | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | ! | req
+StackupZone.stackupRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | 6 | req
+StackupZone.comment | string | ""
+StackupZoneRef.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | M | req
+StandardPrimitiveRef.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | z | req
+Step.name | string | "" | req
+Step.type | stepType { string, ENUM VALUES: BOARD, PALLET, IC } | BOARD
+Step.stackupRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | U
+StepRef.name | string | "" | req
+StepRepeat.stepRef | string | "" | req
+StepRepeat.x | double | 0 | req
+StepRepeat.y | double | 0 | req
+StepRepeat.nx | nonNegativeInteger | 0 | req
+StepRepeat.ny | nonNegativeInteger | 0 | req
+StepRepeat.dx | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+StepRepeat.dy | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+StepRepeat.angle | angleType { decimal, RESTRICTIONS: minInclusive ="0.00", maxExclusive ="360.00", totalDigits ="3", fractionDigits ="2" } | 0.00 | req
+StepRepeat.mirror | boolean | false | req
+Datum.x | double | 0 | req
+Datum.y | double | 0 | req
+Text.textString | string | "" | req
+Text.fontSize | positiveInteger | 1 | req
+Textual.definitionSource | string | ""
+Textual.textualCharacteristicName | string | ""
+Textual.textualCharacteristicValue | string | ""
+Thermal.shape | thermalShapeType { string, ENUM VALUES: ROUND, SQUARE, HEXAGON, OCTAGON } | ROUND | req
+Thermal.outerDiameter | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Thermal.innerDiameter | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Thermal.spokeCount | spokeCountType { integer, RESTRICTIONS: maxInclusive ="4", minInclusive ="0" } | 0
+Thermal.spokeWidth | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Thermal.spokeStartAngle | angleType { decimal, RESTRICTIONS: minInclusive ="0.00", maxExclusive ="360.00", totalDigits ="3", fractionDigits ="2" } | 0.00 | req
+Triangle.base | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Triangle.height | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0 | req
+Tuning.value | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | Z | req
+Tuning.comments | string | ""
+UserPrimitiveRef.id | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | q | req
+Xform.xOffset | double | 0
+Xform.yOffset | double | 0
+Xform.rotation | nonNegativeDoubleType { double, RESTRICTIONS: minInclusive ="0.0" } | 0.0
+Xform.mirror | boolean | false
+Xform.faceUp | boolean | false
+Xform.scale | scaleType { double, RESTRICTIONS: minExclusive ="0.0" } | 1.0
+ZoneLayer.layerOrGroupRef | qualifiedNameType { string, PATTERN: ([^:]+)(:[^:]+)? } | g | req

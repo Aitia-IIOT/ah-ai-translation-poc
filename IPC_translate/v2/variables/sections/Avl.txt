@@ -1,0 +1,7 @@
+IPC-2581/Avl
+IPC-2581/Avl/AvlHeader
+IPC-2581/Avl/AvlItem
+IPC-2581/Avl/AvlItem/AvlVmpn
+IPC-2581/Avl/AvlItem/AvlVmpn/AvlMpn
+IPC-2581/Avl/AvlItem/AvlVmpn/AvlVendor
+IPC-2581/Avl/AvlItem/SpecRef
