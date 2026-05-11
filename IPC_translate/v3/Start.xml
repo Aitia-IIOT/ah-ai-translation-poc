@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<IPC-2581 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="B" xmlns="http://webstds.ipc.org/2581">
+  <Content roleRef="Owner">
+    <FunctionMode mode="USERDEF" level="1" />
+    <StepRef name="PCB1" />
+    <LayerRef name="Top Layer" />
+    <BomRef name="BOM" />
+  </Content>
+  <LogisticHeader>
+    <Role id="Owner" roleFunction="ENGINEER" />
+    <Enterprise id="Enterprise" code="UNKNOWN" />
+    <Person name="Unknown" enterpriseRef="Enterprise" roleRef="Owner" />
+  </LogisticHeader>
+  <Bom name="BOM">
+    <BomHeader assembly="Assembly" revision="Revision">
+      <StepRef name="PCB1" />
+    </BomHeader>
+  </Bom>
+  <Ecad name="output PCB cad-data">
+    <CadData>
+      <Layer name="Top Layer" layerFunction="SIGNAL" side="TOP" polarity="POSITIVE" />
+      <Step name="PCB1">
+        <Datum x="0" y="0" />
+        <Profile>
+          <Polygon>
+            <PolyBegin x="25.4" y="25.4" />
+            <PolyStepSegment x="177.8" y="25.4" />
+            <PolyStepSegment x="177.8" y="127" />
+            <PolyStepSegment x="25.4" y="127" />
+            <PolyStepSegment x="25.4" y="25.4" />
+          </Polygon>
+        </Profile>
+	  </Step>
+	</CadData>
+  </Ecad>
+</IPC-2581>

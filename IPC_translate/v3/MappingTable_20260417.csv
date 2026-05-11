@@ -1,0 +1,32 @@
+EC_tag;IPC_element
+EPPL Family;IPC-2581/Bom/BomItem/Characteristics.category
+EPPL Group;IPC-2581/Bom/BomItem.category
+Quality type;IPC-2581/Bom/BomItem/Textual.textualCharacteristicValue
+Description;IPC-2581/Bom/BomItem.description
+SPN;IPC-2581/Bom/BomItem.internalPartNumber
+EIN;IPC-2581/Bom/BomItem.OEMDesignNumberRef
+Component Number;IPC-2581/Bom/BomItem/Enumerated.enumeratedCharacteristicName
+Commercial Part Number;IPC-2581/Bom/BomItem/Textual.textualCharacteristicName
+Generic Part Type;IPC-2581/Bom/BomItem/Measured.measuredCharacteristicName
+Engineering Package;Not included
+Package;Not included
+Generic specification;Not included
+Detail specification;Not included
+Moisture sensitivity level;IPC-2581/Bom/BomItem/Measured.measuredCharacteristicValue
+Comment;IPC-2581/Bom/BomItem/Textual.definitionSource
+Weight;Not included
+Manufacturer;Not included
+Link files;IPC-2581/Bom/BomItem/Measured.definitionSource
+Library Ref;IPC-2581/Bom/BomItem/Ranged.definitionSource
+Sim Model Name;Not included
+Sim File;Not included
+Sim Kind;IPC-2581/Bom/BomItem/Ranged.rangedCharacteristicName
+Sim SubKind;IPC-2581/Bom/BomItem/Enumerated.definitionSource
+Sim Netlist;IPC-2581/Bom/BomItem/Textual.textualCharacteristicValue
+Sim Spice Prefix;Not included
+Assembly qual status;Not included
+Value;IPC-2581/Bom/BomItem/Ranged.rangedCharacteristicUpperValue
+Tol;Not included
+TCR;Not included
+Footprint1;Not included
+Application;Not included
