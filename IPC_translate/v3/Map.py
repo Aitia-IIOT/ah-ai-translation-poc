@@ -11,6 +11,8 @@ from typing import Dict, Iterable, List, Optional, Tuple
 IPC2581_NS = "http://webstds.ipc.org/2581"
 XSD_NS = "http://www.w3.org/2001/XMLSchema"
 XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
+DEFAULT_MAPPING_CSV = "EC_IPC.csv"
+DEFAULT_ORIGINAL_XML = "Start.xml"
 
 
 @dataclass(frozen=True)
@@ -446,37 +448,48 @@ def _ensure_refdes_for_all_bom_items(bom: ET.Element, namespace: str) -> None:
 		_insert_element_before_first(item, refdes, _ns("Characteristics", namespace))
 
 
+def _resolve_script_sidecar(filename: str) -> Path:
+	return Path(__file__).resolve().with_name(filename)
+
+
+def _resolve_script_child(dirname: str, filename: str) -> Path:
+	return Path(__file__).resolve().parent / dirname / filename
+
+
 def main(argv: Optional[List[str]] = None) -> int:
 	parser = argparse.ArgumentParser(
 		description=(
-			"Create one IPC-2581 BomItem from input.xml using MappingTable.csv and "
-			"append it into the BOM of Original.xml."
+			"Create one IPC-2581 BomItem from an input XML in the input folder using "
+			"EC_IPC.csv and append it into the BOM of Start.xml."
 		)
 	)
-	parser.add_argument("mapping_csv", type=Path, help="MappingTable.csv (semicolon-separated)")
-	parser.add_argument("original_xml", type=Path, help="Original IPC-2581 XML")
-	parser.add_argument("input_xml", type=Path, help="Input XML (may contain spaces in tag names)")
-	parser.add_argument(
-		"output_xml",
-		type=Path,
-		nargs="?",
-		default=Path("output.xml"),
-		help="Output XML path (default: output.xml)",
-	)
+	parser.add_argument("input_xml", help="Input XML file name located in the input folder")
 	args = parser.parse_args(argv)
+	mapping_csv = _resolve_script_sidecar(DEFAULT_MAPPING_CSV)
+	original_xml = _resolve_script_sidecar(DEFAULT_ORIGINAL_XML)
+	input_xml = _resolve_script_child("input", args.input_xml)
+	output_xml = _resolve_script_child("output", args.input_xml)
 
-	mappings = _read_mapping_csv(args.mapping_csv)
-	input_values = _parse_input_values(args.input_xml)
+	if not mapping_csv.exists():
+		raise SystemExit(f"Mapping CSV not found next to script: {mapping_csv}")
+	if not original_xml.exists():
+		raise SystemExit(f"Original XML not found next to script: {original_xml}")
+	if not input_xml.exists():
+		raise SystemExit(f"Input XML not found in input folder: {input_xml}")
+	output_xml.parent.mkdir(parents=True, exist_ok=True)
+
+	mappings = _read_mapping_csv(mapping_csv)
+	input_values = _parse_input_values(input_xml)
 
 	# Prefer namespace from original document when building elements
-	original_tree = ET.parse(args.original_xml)
+	original_tree = ET.parse(original_xml)
 	original_root = original_tree.getroot()
 	namespace = IPC2581_NS
 	if original_root.tag.startswith("{") and "}" in original_root.tag:
 		namespace = original_root.tag.split("}", 1)[0][1:]
 
 	bom_item = _build_bom_item(input_values=input_values, mappings=mappings, namespace=namespace)
-	out_tree = _append_bom_item(args.original_xml, bom_item)
+	out_tree = _append_bom_item(original_xml, bom_item)
 
 	# Register namespaces for cleaner output
 	ET.register_namespace("", namespace)
@@ -484,7 +497,7 @@ def main(argv: Optional[List[str]] = None) -> int:
 	ET.register_namespace("xsi", XSI_NS)
 
 	_indent(out_tree.getroot())
-	out_tree.write(args.output_xml, encoding="utf-8", xml_declaration=True)
+	out_tree.write(output_xml, encoding="utf-8", xml_declaration=True)
 
 	return 0
 
